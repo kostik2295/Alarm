@@ -1,0 +1,1436 @@
+-- Merging decision tree log ---
+manifest
+ADDED from C:\Users\user\Desktop\Simple-Clock-master\app\src\main\AndroidManifest.xml:2:1-451:12
+INJECTED from C:\Users\user\Desktop\Simple-Clock-master\app\src\main\AndroidManifest.xml:2:1-451:12
+INJECTED from C:\Users\user\Desktop\Simple-Clock-master\app\src\main\AndroidManifest.xml:2:1-451:12
+INJECTED from C:\Users\user\Desktop\Simple-Clock-master\app\src\main\AndroidManifest.xml:2:1-451:12
+MERGED from [com.github.SimpleMobileTools:Simple-Commons:c573613da9] C:\Users\user\.gradle\caches\transforms-3\9594abdccf5c9c8a9d59603384a22d0e\transformed\jetified-Simple-Commons-c573613da9\AndroidManifest.xml:2:1-69:12
+MERGED from [androidx.databinding:viewbinding:8.1.1] C:\Users\user\.gradle\caches\transforms-3\085ce9d49a8a860f18cd43c7c19357b7\transformed\jetified-viewbinding-8.1.1\AndroidManifest.xml:2:1-7:12
+MERGED from [com.github.tibbi:RecyclerView-FastScroller:5a95285b1f] C:\Users\user\.gradle\caches\transforms-3\85c43a8a15c623273856b51e49bafccf\transformed\jetified-RecyclerView-FastScroller-5a95285b1f\AndroidManifest.xml:2:1-9:12
+MERGED from [androidx.work:work-runtime-ktx:2.8.1] C:\Users\user\.gradle\caches\transforms-3\5b3f7b856c4a1329daa41f645e7a03d7\transformed\work-runtime-ktx-2.8.1\AndroidManifest.xml:17:1-22:12
+MERGED from [androidx.work:work-runtime:2.8.1] C:\Users\user\.gradle\caches\transforms-3\2ff5ec0de81aa6a3deeed85f13b63d53\transformed\work-runtime-2.8.1\AndroidManifest.xml:17:1-145:12
+MERGED from [androidx.room:room-runtime:2.6.0-beta01] C:\Users\user\.gradle\caches\transforms-3\19de6a03d7f617251448bcc2443d3caa\transformed\room-runtime-2.6.0-beta01\AndroidManifest.xml:17:1-31:12
+MERGED from [androidx.room:room-ktx:2.6.0-beta01] C:\Users\user\.gradle\caches\transforms-3\902241e4f6bb8ad6f9d600baa411f630\transformed\jetified-room-ktx-2.6.0-beta01\AndroidManifest.xml:17:1-22:12
+MERGED from [com.google.android.material:material:1.9.0] C:\Users\user\.gradle\caches\transforms-3\394af42d6a79f0067f279fd405b87b35\transformed\material-1.9.0\AndroidManifest.xml:17:1-26:12
+MERGED from [androidx.constraintlayout:constraintlayout:2.1.4] C:\Users\user\.gradle\caches\transforms-3\ce2830618c40ceea66e2d1bb4220875e\transformed\constraintlayout-2.1.4\AndroidManifest.xml:2:1-11:12
+MERGED from [com.facebook.stetho:stetho:1.6.0] C:\Users\user\.gradle\caches\transforms-3\9095cf9ce5b1587b0197efd35455f86b\transformed\jetified-stetho-1.6.0\AndroidManifest.xml:2:1-13:12
+MERGED from [io.github.ShawnLin013:number-picker:2.4.13] C:\Users\user\.gradle\caches\transforms-3\e9239eb8c7e33e88c2db754ce1029a93\transformed\jetified-number-picker-2.4.13\AndroidManifest.xml:2:1-9:12
+MERGED from [androidx.preference:preference-ktx:1.2.0] C:\Users\user\.gradle\caches\transforms-3\7de4764ed746d6b491b9b9af623565e9\transformed\jetified-preference-ktx-1.2.0\AndroidManifest.xml:17:1-24:12
+MERGED from [androidx.preference:preference:1.2.0] C:\Users\user\.gradle\caches\transforms-3\f7456f50033961ef08ac45b898dc2142\transformed\preference-1.2.0\AndroidManifest.xml:17:1-24:12
+MERGED from [androidx.biometric:biometric-ktx:1.2.0-alpha05] C:\Users\user\.gradle\caches\transforms-3\d09672386014ad45c8434b9ac0f28494\transformed\jetified-biometric-ktx-1.2.0-alpha05\AndroidManifest.xml:2:1-7:12
+MERGED from [androidx.biometric:biometric:1.2.0-alpha05] C:\Users\user\.gradle\caches\transforms-3\4b9e10b2595e250ffab60b2c1243d1c4\transformed\biometric-1.2.0-alpha05\AndroidManifest.xml:17:1-27:12
+MERGED from [com.github.tibbi.reprint:tests:2cb206415d] C:\Users\user\.gradle\caches\transforms-3\485679d7579762e8c71620b0175d1039\transformed\jetified-tests-2cb206415d\AndroidManifest.xml:2:1-7:12
+MERGED from [com.github.tibbi.reprint:rxjava:2cb206415d] C:\Users\user\.gradle\caches\transforms-3\7062ae4a67b35c4a4f5576be763d4f95\transformed\jetified-rxjava-2cb206415d\AndroidManifest.xml:2:1-7:12
+MERGED from [com.github.tibbi.reprint:rxjava2:2cb206415d] C:\Users\user\.gradle\caches\transforms-3\3d5a2fc2d2dc15821c1f286befccbac3\transformed\jetified-rxjava2-2cb206415d\AndroidManifest.xml:2:1-7:12
+MERGED from [com.github.tibbi.reprint:core:2cb206415d] C:\Users\user\.gradle\caches\transforms-3\365834694965c954f2d77d26a65d6499\transformed\jetified-core-2cb206415d\AndroidManifest.xml:2:1-9:12
+MERGED from [com.github.aritraroy.patternLockView:patternlockview-reactive:a90b0d4bf0] C:\Users\user\.gradle\caches\transforms-3\7b8aef2f0401bbd96a5241ecc437c7e1\transformed\jetified-patternlockview-reactive-a90b0d4bf0\AndroidManifest.xml:2:1-12:12
+MERGED from [com.github.aritraroy.patternLockView:patternlockview:a90b0d4bf0] C:\Users\user\.gradle\caches\transforms-3\b55b96b491346ec2e56c9b8e22890450\transformed\jetified-patternlockview-a90b0d4bf0\AndroidManifest.xml:2:1-12:12
+MERGED from [androidx.appcompat:appcompat-resources:1.6.1] C:\Users\user\.gradle\caches\transforms-3\2ab2a7434e14e059e6f4b35455e458c5\transformed\jetified-appcompat-resources-1.6.1\AndroidManifest.xml:17:1-22:12
+MERGED from [androidx.appcompat:appcompat:1.6.1] C:\Users\user\.gradle\caches\transforms-3\0d59fb2f5f46dbcd9cedb157e91b4e39\transformed\appcompat-1.6.1\AndroidManifest.xml:17:1-22:12
+MERGED from [androidx.fragment:fragment-ktx:1.3.6] C:\Users\user\.gradle\caches\transforms-3\0250f66751ed59496f12e50ee928aae1\transformed\jetified-fragment-ktx-1.3.6\AndroidManifest.xml:17:1-24:12
+MERGED from [androidx.compose.material3:material3-android:1.2.0-alpha07] C:\Users\user\.gradle\caches\transforms-3\ec379c63fb710503e503866ad5244bd9\transformed\jetified-material3-release\AndroidManifest.xml:17:1-22:12
+MERGED from [androidx.compose.foundation:foundation-layout-android:1.6.0-alpha05] C:\Users\user\.gradle\caches\transforms-3\704820b53d88872168f569715cd1c97e\transformed\jetified-foundation-layout-release\AndroidManifest.xml:2:1-7:12
+MERGED from [androidx.compose.material:material-icons-core-android:1.6.0-alpha05] C:\Users\user\.gradle\caches\transforms-3\da357f971e292159c200fbd96b35d279\transformed\jetified-material-icons-core-release\AndroidManifest.xml:2:1-7:12
+MERGED from [androidx.compose.material:material-icons-extended-android:1.6.0-alpha05] C:\Users\user\.gradle\caches\transforms-3\8f1ecc367c18c067266c0d3969bce6c2\transformed\jetified-material-icons-extended-release\AndroidManifest.xml:2:1-7:12
+MERGED from [androidx.compose.material:material-ripple-android:1.6.0-alpha05] C:\Users\user\.gradle\caches\transforms-3\4b8866846cba3fe2248ddfa7a9eb285a\transformed\jetified-material-ripple-release\AndroidManifest.xml:2:1-7:12
+MERGED from [androidx.compose.foundation:foundation-android:1.6.0-alpha05] C:\Users\user\.gradle\caches\transforms-3\b9efce69c24eb2ff66d629ae929c80b2\transformed\jetified-foundation-release\AndroidManifest.xml:2:1-7:12
+MERGED from [androidx.compose.animation:animation-core-android:1.6.0-alpha05] C:\Users\user\.gradle\caches\transforms-3\668af0a3a741b01836b0cf2ceb8ddb8f\transformed\jetified-animation-core-release\AndroidManifest.xml:2:1-7:12
+MERGED from [androidx.compose.animation:animation-android:1.6.0-alpha05] C:\Users\user\.gradle\caches\transforms-3\8dfd2d40c5b8f2e7c4229436f12d966e\transformed\jetified-animation-release\AndroidManifest.xml:2:1-7:12
+MERGED from [androidx.compose.ui:ui-unit-android:1.6.0-alpha05] C:\Users\user\.gradle\caches\transforms-3\6995d1adb49bdee6b1c2696787c8651c\transformed\jetified-ui-unit-release\AndroidManifest.xml:2:1-7:12
+MERGED from [androidx.compose.ui:ui-graphics-android:1.6.0-alpha05] C:\Users\user\.gradle\caches\transforms-3\f166618948c3a8ecb9194934f10e7671\transformed\jetified-ui-graphics-release\AndroidManifest.xml:2:1-7:12
+MERGED from [androidx.compose.ui:ui-text-android:1.6.0-alpha05] C:\Users\user\.gradle\caches\transforms-3\5f366b3d83be657fe475a1ae111f24bf\transformed\jetified-ui-text-release\AndroidManifest.xml:2:1-7:12
+MERGED from [androidx.compose.ui:ui-util-android:1.6.0-alpha05] C:\Users\user\.gradle\caches\transforms-3\dbdd8e0951eec67345dae355d5a8849a\transformed\jetified-ui-util-release\AndroidManifest.xml:2:1-7:12
+MERGED from [androidx.compose.ui:ui-geometry-android:1.6.0-alpha05] C:\Users\user\.gradle\caches\transforms-3\82d4a3d70ae3547607b60741ec54ffec\transformed\jetified-ui-geometry-release\AndroidManifest.xml:2:1-7:12
+MERGED from [androidx.compose.ui:ui-tooling-preview-android:1.6.0-alpha05] C:\Users\user\.gradle\caches\transforms-3\ec312a5454f40e0893ed843c6b759041\transformed\jetified-ui-tooling-preview-release\AndroidManifest.xml:17:1-22:12
+MERGED from [androidx.compose.ui:ui-android:1.6.0-alpha05] C:\Users\user\.gradle\caches\transforms-3\dc994103c571be7b104cfa1533ccfb24\transformed\jetified-ui-release\AndroidManifest.xml:2:1-7:12
+MERGED from [com.github.bumptech.glide:glide:4.16.0] C:\Users\user\.gradle\caches\transforms-3\c0066bff65599d5a0f337311a4a57e6a\transformed\jetified-glide-4.16.0\AndroidManifest.xml:2:1-9:12
+MERGED from [androidx.viewpager2:viewpager2:1.0.0] C:\Users\user\.gradle\caches\transforms-3\20600652ccbf95dd39d8bc651cc0f666\transformed\jetified-viewpager2-1.0.0\AndroidManifest.xml:17:1-24:12
+MERGED from [androidx.fragment:fragment:1.3.6] C:\Users\user\.gradle\caches\transforms-3\d06f2d08839594017cd23508631da553\transformed\fragment-1.3.6\AndroidManifest.xml:17:1-24:12
+MERGED from [androidx.activity:activity:1.8.0-beta01] C:\Users\user\.gradle\caches\transforms-3\19e5b0ab98ebb7d82a6cd1f8c32d35eb\transformed\jetified-activity-1.8.0-beta01\AndroidManifest.xml:17:1-22:12
+MERGED from [androidx.activity:activity-ktx:1.8.0-beta01] C:\Users\user\.gradle\caches\transforms-3\4fd6111e9f654864a1fa137f857108b4\transformed\jetified-activity-ktx-1.8.0-beta01\AndroidManifest.xml:2:1-7:12
+MERGED from [androidx.activity:activity-compose:1.8.0-beta01] C:\Users\user\.gradle\caches\transforms-3\576fac50b72a60b0995537432718336d\transformed\jetified-activity-compose-1.8.0-beta01\AndroidManifest.xml:2:1-7:12
+MERGED from [androidx.lifecycle:lifecycle-livedata-core:2.7.0-alpha02] C:\Users\user\.gradle\caches\transforms-3\aa1a45318ceb95f541396605a022d8dc\transformed\lifecycle-livedata-core-2.7.0-alpha02\AndroidManifest.xml:17:1-22:12
+MERGED from [androidx.savedstate:savedstate-ktx:1.2.1] C:\Users\user\.gradle\caches\transforms-3\8738b8e52015537e0e377f3c08fdadbe\transformed\jetified-savedstate-ktx-1.2.1\AndroidManifest.xml:17:1-22:12
+MERGED from [androidx.savedstate:savedstate:1.2.1] C:\Users\user\.gradle\caches\transforms-3\e15584aa54a4e41074ed86f288980ee4\transformed\jetified-savedstate-1.2.1\AndroidManifest.xml:17:1-22:12
+MERGED from [androidx.lifecycle:lifecycle-service:2.7.0-alpha02] C:\Users\user\.gradle\caches\transforms-3\4c7fbf162b6a201c4cfb4a8587c7747e\transformed\jetified-lifecycle-service-2.7.0-alpha02\AndroidManifest.xml:2:1-7:12
+MERGED from [androidx.dynamicanimation:dynamicanimation:1.0.0] C:\Users\user\.gradle\caches\transforms-3\5c21ce6544e6c5fcb2f80812a6556952\transformed\dynamicanimation-1.0.0\AndroidManifest.xml:17:1-22:12
+MERGED from [androidx.legacy:legacy-support-core-utils:1.0.0] C:\Users\user\.gradle\caches\transforms-3\bdddc12c2d64bcbe221b7235ef33e359\transformed\legacy-support-core-utils-1.0.0\AndroidManifest.xml:17:1-22:12
+MERGED from [androidx.loader:loader:1.0.0] C:\Users\user\.gradle\caches\transforms-3\03f7feb8e7fb3613b4e87c8e822504e9\transformed\loader-1.0.0\AndroidManifest.xml:17:1-22:12
+MERGED from [androidx.lifecycle:lifecycle-livedata:2.7.0-alpha02] C:\Users\user\.gradle\caches\transforms-3\289116f2d0c7fd810c362f17a478d1ee\transformed\lifecycle-livedata-2.7.0-alpha02\AndroidManifest.xml:17:1-22:12
+MERGED from [androidx.lifecycle:lifecycle-livedata-core-ktx:2.7.0-alpha02] C:\Users\user\.gradle\caches\transforms-3\7ae64dd0a1a8a62fa7753e9f7b886164\transformed\jetified-lifecycle-livedata-core-ktx-2.7.0-alpha02\AndroidManifest.xml:2:1-7:12
+MERGED from [androidx.lifecycle:lifecycle-viewmodel-savedstate:2.7.0-alpha02] C:\Users\user\.gradle\caches\transforms-3\967b482a2cf01304edcb72022fcecd84\transformed\jetified-lifecycle-viewmodel-savedstate-2.7.0-alpha02\AndroidManifest.xml:17:1-22:12
+MERGED from [androidx.lifecycle:lifecycle-viewmodel:2.7.0-alpha02] C:\Users\user\.gradle\caches\transforms-3\2a637170ad9bfaf572d1c931b68ed960\transformed\lifecycle-viewmodel-2.7.0-alpha02\AndroidManifest.xml:17:1-22:12
+MERGED from [androidx.emoji2:emoji2-views-helper:1.3.0] C:\Users\user\.gradle\caches\transforms-3\790927e9ff0f8ee725c3c33856d15c46\transformed\jetified-emoji2-views-helper-1.3.0\AndroidManifest.xml:2:1-7:12
+MERGED from [androidx.emoji2:emoji2:1.3.0] C:\Users\user\.gradle\caches\transforms-3\995a6c7d2b8e2d21ee653adcb488a695\transformed\jetified-emoji2-1.3.0\AndroidManifest.xml:17:1-35:12
+MERGED from [androidx.lifecycle:lifecycle-process:2.7.0-alpha02] C:\Users\user\.gradle\caches\transforms-3\6f4542da6288a7f8eb43f2c27b8490d7\transformed\jetified-lifecycle-process-2.7.0-alpha02\AndroidManifest.xml:17:1-35:12
+MERGED from [androidx.swiperefreshlayout:swiperefreshlayout:1.1.0] C:\Users\user\.gradle\caches\transforms-3\4bc835cd4aec80b9ca9cdf982e4ecfb6\transformed\swiperefreshlayout-1.1.0\AndroidManifest.xml:17:1-24:12
+MERGED from [androidx.customview:customview-poolingcontainer:1.0.0] C:\Users\user\.gradle\caches\transforms-3\f4983dd484bc2417d27b69c4349f72e7\transformed\jetified-customview-poolingcontainer-1.0.0\AndroidManifest.xml:17:1-23:12
+MERGED from [androidx.core:core-ktx:1.12.0] C:\Users\user\.gradle\caches\transforms-3\69e1fb0d6ced9b7efb6cfe150a1c57db\transformed\jetified-core-ktx-1.12.0\AndroidManifest.xml:2:1-7:12
+MERGED from [androidx.recyclerview:recyclerview:1.2.0-alpha06] C:\Users\user\.gradle\caches\transforms-3\4690c6993d9645e66e0fd512172e6be1\transformed\recyclerview-1.2.0-alpha06\AndroidManifest.xml:17:1-24:12
+MERGED from [androidx.drawerlayout:drawerlayout:1.1.1] C:\Users\user\.gradle\caches\transforms-3\bdefb91223feb98f648dde235e177857\transformed\drawerlayout-1.1.1\AndroidManifest.xml:17:1-24:12
+MERGED from [androidx.coordinatorlayout:coordinatorlayout:1.1.0] C:\Users\user\.gradle\caches\transforms-3\70b6eb571734c7e14f1c8d35d45f2a1a\transformed\coordinatorlayout-1.1.0\AndroidManifest.xml:17:1-24:12
+MERGED from [androidx.vectordrawable:vectordrawable-animated:1.1.0] C:\Users\user\.gradle\caches\transforms-3\f8d59890d423db0c5003efd21cc37248\transformed\vectordrawable-animated-1.1.0\AndroidManifest.xml:17:1-24:12
+MERGED from [androidx.vectordrawable:vectordrawable:1.1.0] C:\Users\user\.gradle\caches\transforms-3\49993c5d2653ca070a431273399e3cce\transformed\vectordrawable-1.1.0\AndroidManifest.xml:17:1-24:12
+MERGED from [androidx.slidingpanelayout:slidingpanelayout:1.2.0] C:\Users\user\.gradle\caches\transforms-3\57e47426d50128f78e1133907b3faeae\transformed\slidingpanelayout-1.2.0\AndroidManifest.xml:17:1-24:12
+MERGED from [androidx.autofill:autofill:1.0.0] C:\Users\user\.gradle\caches\transforms-3\686d0da8ce392aaddf3b82bac26e30cf\transformed\jetified-autofill-1.0.0\AndroidManifest.xml:17:1-24:12
+MERGED from [androidx.viewpager:viewpager:1.0.0] C:\Users\user\.gradle\caches\transforms-3\9f1bd6b54f476a259cce6fba49ceaacd\transformed\viewpager-1.0.0\AndroidManifest.xml:17:1-22:12
+MERGED from [androidx.customview:customview:1.1.0] C:\Users\user\.gradle\caches\transforms-3\51ccac4df27a3b64b53407be247b043d\transformed\customview-1.1.0\AndroidManifest.xml:17:1-24:12
+MERGED from [androidx.transition:transition:1.4.1] C:\Users\user\.gradle\caches\transforms-3\bb4ebcca4126f204eb2ea776fc69e8dc\transformed\transition-1.4.1\AndroidManifest.xml:17:1-24:12
+MERGED from [androidx.window:window:1.0.0] C:\Users\user\.gradle\caches\transforms-3\c8ecd07bdd2f6f71584c5e59fbbd2e73\transformed\jetified-window-1.0.0\AndroidManifest.xml:17:1-33:12
+MERGED from [androidx.core:core:1.12.0] C:\Users\user\.gradle\caches\transforms-3\891dbd363961478e669147ab4b59463d\transformed\core-1.12.0\AndroidManifest.xml:17:1-30:12
+MERGED from [androidx.lifecycle:lifecycle-runtime:2.7.0-alpha02] C:\Users\user\.gradle\caches\transforms-3\c8db6e998f9a0fcac4ceac9d8d2547f6\transformed\lifecycle-runtime-2.7.0-alpha02\AndroidManifest.xml:2:1-7:12
+MERGED from [androidx.lifecycle:lifecycle-viewmodel-compose:2.7.0-alpha02] C:\Users\user\.gradle\caches\transforms-3\940cfba61ec47628b05f0f8407608e56\transformed\jetified-lifecycle-viewmodel-compose-2.7.0-alpha02\AndroidManifest.xml:2:1-7:12
+MERGED from [androidx.lifecycle:lifecycle-runtime-compose:2.7.0-alpha02] C:\Users\user\.gradle\caches\transforms-3\461ea2ed354b66dd704ca3ef259d3555\transformed\jetified-lifecycle-runtime-compose-2.7.0-alpha02\AndroidManifest.xml:2:1-7:12
+MERGED from [androidx.lifecycle:lifecycle-viewmodel-ktx:2.7.0-alpha02] C:\Users\user\.gradle\caches\transforms-3\67316cf2534ac10bbe610a3651ebb53d\transformed\jetified-lifecycle-viewmodel-ktx-2.7.0-alpha02\AndroidManifest.xml:2:1-7:12
+MERGED from [androidx.lifecycle:lifecycle-runtime-ktx:2.7.0-alpha02] C:\Users\user\.gradle\caches\transforms-3\0a6a72f0ff09a5df6c4922b969c1473d\transformed\jetified-lifecycle-runtime-ktx-2.7.0-alpha02\AndroidManifest.xml:17:1-22:12
+MERGED from [androidx.compose.runtime:runtime-saveable-android:1.6.0-alpha05] C:\Users\user\.gradle\caches\transforms-3\6cdbcd6b1ef2a70009f89e6521e3b8da\transformed\jetified-runtime-saveable-release\AndroidManifest.xml:2:1-7:12
+MERGED from [androidx.compose.runtime:runtime-android:1.6.0-alpha05] C:\Users\user\.gradle\caches\transforms-3\9cedd61662afc37953258ffd6a46676f\transformed\jetified-runtime-release\AndroidManifest.xml:2:1-7:12
+MERGED from [me.grantland:autofittextview:0.2.1] C:\Users\user\.gradle\caches\transforms-3\1422a7490e89657c5ec7d206440ebab0\transformed\jetified-autofittextview-0.2.1\AndroidManifest.xml:2:1-11:12
+MERGED from [org.greenrobot:eventbus:3.3.1] C:\Users\user\.gradle\caches\transforms-3\928e0d698a1967ff02eace9fc7d9221f\transformed\jetified-eventbus-3.3.1\AndroidManifest.xml:2:1-9:12
+MERGED from [androidx.documentfile:documentfile:1.0.1] C:\Users\user\.gradle\caches\transforms-3\0e92fd6ad9f7b9346d45343d5a7a1ce4\transformed\documentfile-1.0.1\AndroidManifest.xml:17:1-22:12
+MERGED from [androidx.exifinterface:exifinterface:1.3.6] C:\Users\user\.gradle\caches\transforms-3\cafddb8f4c2b444f3b2f1618edd2cea4\transformed\exifinterface-1.3.6\AndroidManifest.xml:17:1-24:12
+MERGED from [androidx.arch.core:core-runtime:2.2.0] C:\Users\user\.gradle\caches\transforms-3\77ad4e5b459598e8c11d326e6949ef1e\transformed\core-runtime-2.2.0\AndroidManifest.xml:17:1-22:12
+MERGED from [androidx.sqlite:sqlite-framework:2.4.0-beta01] C:\Users\user\.gradle\caches\transforms-3\5e391150fdb7f0a9a87402697aa627d7\transformed\sqlite-framework-2.4.0-beta01\AndroidManifest.xml:17:1-22:12
+MERGED from [androidx.sqlite:sqlite:2.4.0-beta01] C:\Users\user\.gradle\caches\transforms-3\197d7cb8bc8d7cd816be0944983c765d\transformed\sqlite-2.4.0-beta01\AndroidManifest.xml:17:1-22:12
+MERGED from [androidx.interpolator:interpolator:1.0.0] C:\Users\user\.gradle\caches\transforms-3\0ca791136b9356992d64666a483d12a3\transformed\interpolator-1.0.0\AndroidManifest.xml:17:1-22:12
+MERGED from [androidx.cursoradapter:cursoradapter:1.0.0] C:\Users\user\.gradle\caches\transforms-3\4e52d09cc9ef1fb4109914138f7a7011\transformed\cursoradapter-1.0.0\AndroidManifest.xml:17:1-22:12
+MERGED from [androidx.cardview:cardview:1.0.0] C:\Users\user\.gradle\caches\transforms-3\63db285777b38495ca1a9f856381ac44\transformed\cardview-1.0.0\AndroidManifest.xml:17:1-22:12
+MERGED from [com.github.bumptech.glide:gifdecoder:4.16.0] C:\Users\user\.gradle\caches\transforms-3\3d5464cb937d8054219f644214690155\transformed\jetified-gifdecoder-4.16.0\AndroidManifest.xml:2:1-9:12
+MERGED from [androidx.profileinstaller:profileinstaller:1.3.0] C:\Users\user\.gradle\caches\transforms-3\54db9d2491e5624f74c5070bb32cbb85\transformed\jetified-profileinstaller-1.3.0\AndroidManifest.xml:17:1-55:12
+MERGED from [androidx.startup:startup-runtime:1.1.1] C:\Users\user\.gradle\caches\transforms-3\13051f4035098308c34b6a0246341cc0\transformed\jetified-startup-runtime-1.1.1\AndroidManifest.xml:17:1-33:12
+MERGED from [androidx.tracing:tracing:1.0.0] C:\Users\user\.gradle\caches\transforms-3\547422d50ab71ec8bb8dcf020e6ac0f8\transformed\jetified-tracing-1.0.0\AndroidManifest.xml:17:1-24:12
+MERGED from [androidx.versionedparcelable:versionedparcelable:1.1.1] C:\Users\user\.gradle\caches\transforms-3\c07830ec1317eaabafb64bb0631c87c5\transformed\versionedparcelable-1.1.1\AndroidManifest.xml:17:1-27:12
+MERGED from [androidx.localbroadcastmanager:localbroadcastmanager:1.0.0] C:\Users\user\.gradle\caches\transforms-3\d68b9b41e497ecc35d04ac69f20e22b6\transformed\localbroadcastmanager-1.0.0\AndroidManifest.xml:17:1-22:12
+MERGED from [androidx.print:print:1.0.0] C:\Users\user\.gradle\caches\transforms-3\80bab4023dd6d06ac830806177339330\transformed\print-1.0.0\AndroidManifest.xml:17:1-22:12
+MERGED from [androidx.annotation:annotation-experimental:1.3.0] C:\Users\user\.gradle\caches\transforms-3\54fdd2238a4a33fa30e31f0ce6004894\transformed\jetified-annotation-experimental-1.3.0\AndroidManifest.xml:17:1-22:12
+MERGED from [com.github.duolingo:rtl-viewpager:940f12724f] C:\Users\user\.gradle\caches\transforms-3\f68f0183e05059d582281070c09fefe0\transformed\jetified-rtl-viewpager-940f12724f\AndroidManifest.xml:17:1-24:12
+MERGED from [io.reactivex.rxjava2:rxandroid:2.0.0] C:\Users\user\.gradle\caches\transforms-3\4cdaa340aad2c0c535f416012b4f2d21\transformed\jetified-rxandroid-2.0.0\AndroidManifest.xml:15:1-21:12
+	package
+		INJECTED from C:\Users\user\Desktop\Simple-Clock-master\app\src\main\AndroidManifest.xml
+	android:versionName
+		INJECTED from C:\Users\user\Desktop\Simple-Clock-master\app\src\main\AndroidManifest.xml
+	xmlns:tools
+		ADDED from C:\Users\user\Desktop\Simple-Clock-master\app\src\main\AndroidManifest.xml:3:5-51
+	android:versionCode
+		INJECTED from C:\Users\user\Desktop\Simple-Clock-master\app\src\main\AndroidManifest.xml
+	xmlns:android
+		ADDED from C:\Users\user\Desktop\Simple-Clock-master\app\src\main\AndroidManifest.xml:2:11-69
+uses-permission#com.android.alarm.permission.SET_ALARM
+ADDED from C:\Users\user\Desktop\Simple-Clock-master\app\src\main\AndroidManifest.xml:5:5-78
+	android:name
+		ADDED from C:\Users\user\Desktop\Simple-Clock-master\app\src\main\AndroidManifest.xml:5:22-75
+uses-permission#android.permission.VIBRATE
+ADDED from C:\Users\user\Desktop\Simple-Clock-master\app\src\main\AndroidManifest.xml:6:5-66
+	android:name
+		ADDED from C:\Users\user\Desktop\Simple-Clock-master\app\src\main\AndroidManifest.xml:6:22-63
+uses-permission#android.permission.RECEIVE_BOOT_COMPLETED
+ADDED from C:\Users\user\Desktop\Simple-Clock-master\app\src\main\AndroidManifest.xml:7:5-81
+MERGED from [androidx.work:work-runtime:2.8.1] C:\Users\user\.gradle\caches\transforms-3\2ff5ec0de81aa6a3deeed85f13b63d53\transformed\work-runtime-2.8.1\AndroidManifest.xml:25:5-81
+MERGED from [androidx.work:work-runtime:2.8.1] C:\Users\user\.gradle\caches\transforms-3\2ff5ec0de81aa6a3deeed85f13b63d53\transformed\work-runtime-2.8.1\AndroidManifest.xml:25:5-81
+	android:name
+		ADDED from C:\Users\user\Desktop\Simple-Clock-master\app\src\main\AndroidManifest.xml:7:22-78
+uses-permission#android.permission.USE_FULL_SCREEN_INTENT
+ADDED from C:\Users\user\Desktop\Simple-Clock-master\app\src\main\AndroidManifest.xml:8:5-81
+	android:name
+		ADDED from C:\Users\user\Desktop\Simple-Clock-master\app\src\main\AndroidManifest.xml:8:22-78
+uses-permission#android.permission.SCHEDULE_EXACT_ALARM
+ADDED from C:\Users\user\Desktop\Simple-Clock-master\app\src\main\AndroidManifest.xml:9:5-11:38
+	android:maxSdkVersion
+		ADDED from C:\Users\user\Desktop\Simple-Clock-master\app\src\main\AndroidManifest.xml:11:9-35
+	android:name
+		ADDED from C:\Users\user\Desktop\Simple-Clock-master\app\src\main\AndroidManifest.xml:10:9-63
+uses-permission#android.permission.USE_EXACT_ALARM
+ADDED from C:\Users\user\Desktop\Simple-Clock-master\app\src\main\AndroidManifest.xml:12:5-74
+	android:name
+		ADDED from C:\Users\user\Desktop\Simple-Clock-master\app\src\main\AndroidManifest.xml:12:22-71
+uses-permission#android.permission.FOREGROUND_SERVICE
+ADDED from C:\Users\user\Desktop\Simple-Clock-master\app\src\main\AndroidManifest.xml:13:5-77
+MERGED from [androidx.work:work-runtime:2.8.1] C:\Users\user\.gradle\caches\transforms-3\2ff5ec0de81aa6a3deeed85f13b63d53\transformed\work-runtime-2.8.1\AndroidManifest.xml:26:5-77
+MERGED from [androidx.work:work-runtime:2.8.1] C:\Users\user\.gradle\caches\transforms-3\2ff5ec0de81aa6a3deeed85f13b63d53\transformed\work-runtime-2.8.1\AndroidManifest.xml:26:5-77
+	android:name
+		ADDED from C:\Users\user\Desktop\Simple-Clock-master\app\src\main\AndroidManifest.xml:13:22-74
+uses-permission#android.permission.FOREGROUND_SERVICE_SPECIAL_USE
+ADDED from C:\Users\user\Desktop\Simple-Clock-master\app\src\main\AndroidManifest.xml:14:5-89
+	android:name
+		ADDED from C:\Users\user\Desktop\Simple-Clock-master\app\src\main\AndroidManifest.xml:14:22-86
+uses-permission#android.permission.SYSTEM_ALERT_WINDOW
+ADDED from C:\Users\user\Desktop\Simple-Clock-master\app\src\main\AndroidManifest.xml:15:5-78
+	android:name
+		ADDED from C:\Users\user\Desktop\Simple-Clock-master\app\src\main\AndroidManifest.xml:15:22-75
+uses-permission#android.permission.WAKE_LOCK
+ADDED from C:\Users\user\Desktop\Simple-Clock-master\app\src\main\AndroidManifest.xml:16:5-68
+MERGED from [androidx.work:work-runtime:2.8.1] C:\Users\user\.gradle\caches\transforms-3\2ff5ec0de81aa6a3deeed85f13b63d53\transformed\work-runtime-2.8.1\AndroidManifest.xml:23:5-68
+MERGED from [androidx.work:work-runtime:2.8.1] C:\Users\user\.gradle\caches\transforms-3\2ff5ec0de81aa6a3deeed85f13b63d53\transformed\work-runtime-2.8.1\AndroidManifest.xml:23:5-68
+	android:name
+		ADDED from C:\Users\user\Desktop\Simple-Clock-master\app\src\main\AndroidManifest.xml:16:22-65
+uses-permission#android.permission.POST_NOTIFICATIONS
+ADDED from C:\Users\user\Desktop\Simple-Clock-master\app\src\main\AndroidManifest.xml:17:5-77
+	android:name
+		ADDED from C:\Users\user\Desktop\Simple-Clock-master\app\src\main\AndroidManifest.xml:17:22-74
+uses-permission#android.permission.ACCESS_NETWORK_STATE
+ADDED from C:\Users\user\Desktop\Simple-Clock-master\app\src\main\AndroidManifest.xml:18:5-20:31
+REJECTED from [androidx.work:work-runtime:2.8.1] C:\Users\user\.gradle\caches\transforms-3\2ff5ec0de81aa6a3deeed85f13b63d53\transformed\work-runtime-2.8.1\AndroidManifest.xml:24:5-79
+	tools:node
+		ADDED from C:\Users\user\Desktop\Simple-Clock-master\app\src\main\AndroidManifest.xml:20:9-28
+	android:name
+		ADDED from C:\Users\user\Desktop\Simple-Clock-master\app\src\main\AndroidManifest.xml:19:9-63
+uses-permission#android.permission.USE_FINGERPRINT
+ADDED from C:\Users\user\Desktop\Simple-Clock-master\app\src\main\AndroidManifest.xml:21:5-23:31
+REJECTED from [androidx.biometric:biometric:1.2.0-alpha05] C:\Users\user\.gradle\caches\transforms-3\4b9e10b2595e250ffab60b2c1243d1c4\transformed\biometric-1.2.0-alpha05\AndroidManifest.xml:25:5-74
+REJECTED from [com.github.tibbi.reprint:core:2cb206415d] C:\Users\user\.gradle\caches\transforms-3\365834694965c954f2d77d26a65d6499\transformed\jetified-core-2cb206415d\AndroidManifest.xml:7:5-74
+	tools:node
+		ADDED from C:\Users\user\Desktop\Simple-Clock-master\app\src\main\AndroidManifest.xml:23:9-28
+	android:name
+		ADDED from C:\Users\user\Desktop\Simple-Clock-master\app\src\main\AndroidManifest.xml:22:9-58
+uses-permission#android.permission.INTERNET
+ADDED from C:\Users\user\Desktop\Simple-Clock-master\app\src\main\AndroidManifest.xml:24:5-67
+	android:name
+		ADDED from C:\Users\user\Desktop\Simple-Clock-master\app\src\main\AndroidManifest.xml:24:22-64
+application
+ADDED from C:\Users\user\Desktop\Simple-Clock-master\app\src\main\AndroidManifest.xml:26:5-449:19
+INJECTED from C:\Users\user\Desktop\Simple-Clock-master\app\src\main\AndroidManifest.xml:26:5-449:19
+MERGED from [com.github.SimpleMobileTools:Simple-Commons:c573613da9] C:\Users\user\.gradle\caches\transforms-3\9594abdccf5c9c8a9d59603384a22d0e\transformed\jetified-Simple-Commons-c573613da9\AndroidManifest.xml:32:5-67:19
+MERGED from [com.github.SimpleMobileTools:Simple-Commons:c573613da9] C:\Users\user\.gradle\caches\transforms-3\9594abdccf5c9c8a9d59603384a22d0e\transformed\jetified-Simple-Commons-c573613da9\AndroidManifest.xml:32:5-67:19
+MERGED from [androidx.work:work-runtime:2.8.1] C:\Users\user\.gradle\caches\transforms-3\2ff5ec0de81aa6a3deeed85f13b63d53\transformed\work-runtime-2.8.1\AndroidManifest.xml:28:5-143:19
+MERGED from [androidx.work:work-runtime:2.8.1] C:\Users\user\.gradle\caches\transforms-3\2ff5ec0de81aa6a3deeed85f13b63d53\transformed\work-runtime-2.8.1\AndroidManifest.xml:28:5-143:19
+MERGED from [androidx.room:room-runtime:2.6.0-beta01] C:\Users\user\.gradle\caches\transforms-3\19de6a03d7f617251448bcc2443d3caa\transformed\room-runtime-2.6.0-beta01\AndroidManifest.xml:23:5-29:19
+MERGED from [androidx.room:room-runtime:2.6.0-beta01] C:\Users\user\.gradle\caches\transforms-3\19de6a03d7f617251448bcc2443d3caa\transformed\room-runtime-2.6.0-beta01\AndroidManifest.xml:23:5-29:19
+MERGED from [com.google.android.material:material:1.9.0] C:\Users\user\.gradle\caches\transforms-3\394af42d6a79f0067f279fd405b87b35\transformed\material-1.9.0\AndroidManifest.xml:24:5-20
+MERGED from [com.google.android.material:material:1.9.0] C:\Users\user\.gradle\caches\transforms-3\394af42d6a79f0067f279fd405b87b35\transformed\material-1.9.0\AndroidManifest.xml:24:5-20
+MERGED from [androidx.constraintlayout:constraintlayout:2.1.4] C:\Users\user\.gradle\caches\transforms-3\ce2830618c40ceea66e2d1bb4220875e\transformed\constraintlayout-2.1.4\AndroidManifest.xml:9:5-20
+MERGED from [androidx.constraintlayout:constraintlayout:2.1.4] C:\Users\user\.gradle\caches\transforms-3\ce2830618c40ceea66e2d1bb4220875e\transformed\constraintlayout-2.1.4\AndroidManifest.xml:9:5-20
+MERGED from [com.facebook.stetho:stetho:1.6.0] C:\Users\user\.gradle\caches\transforms-3\9095cf9ce5b1587b0197efd35455f86b\transformed\jetified-stetho-1.6.0\AndroidManifest.xml:11:5-20
+MERGED from [com.facebook.stetho:stetho:1.6.0] C:\Users\user\.gradle\caches\transforms-3\9095cf9ce5b1587b0197efd35455f86b\transformed\jetified-stetho-1.6.0\AndroidManifest.xml:11:5-20
+MERGED from [androidx.emoji2:emoji2:1.3.0] C:\Users\user\.gradle\caches\transforms-3\995a6c7d2b8e2d21ee653adcb488a695\transformed\jetified-emoji2-1.3.0\AndroidManifest.xml:23:5-33:19
+MERGED from [androidx.emoji2:emoji2:1.3.0] C:\Users\user\.gradle\caches\transforms-3\995a6c7d2b8e2d21ee653adcb488a695\transformed\jetified-emoji2-1.3.0\AndroidManifest.xml:23:5-33:19
+MERGED from [androidx.lifecycle:lifecycle-process:2.7.0-alpha02] C:\Users\user\.gradle\caches\transforms-3\6f4542da6288a7f8eb43f2c27b8490d7\transformed\jetified-lifecycle-process-2.7.0-alpha02\AndroidManifest.xml:23:5-33:19
+MERGED from [androidx.lifecycle:lifecycle-process:2.7.0-alpha02] C:\Users\user\.gradle\caches\transforms-3\6f4542da6288a7f8eb43f2c27b8490d7\transformed\jetified-lifecycle-process-2.7.0-alpha02\AndroidManifest.xml:23:5-33:19
+MERGED from [androidx.window:window:1.0.0] C:\Users\user\.gradle\caches\transforms-3\c8ecd07bdd2f6f71584c5e59fbbd2e73\transformed\jetified-window-1.0.0\AndroidManifest.xml:24:5-31:19
+MERGED from [androidx.window:window:1.0.0] C:\Users\user\.gradle\caches\transforms-3\c8ecd07bdd2f6f71584c5e59fbbd2e73\transformed\jetified-window-1.0.0\AndroidManifest.xml:24:5-31:19
+MERGED from [androidx.core:core:1.12.0] C:\Users\user\.gradle\caches\transforms-3\891dbd363961478e669147ab4b59463d\transformed\core-1.12.0\AndroidManifest.xml:28:5-89
+MERGED from [androidx.core:core:1.12.0] C:\Users\user\.gradle\caches\transforms-3\891dbd363961478e669147ab4b59463d\transformed\core-1.12.0\AndroidManifest.xml:28:5-89
+MERGED from [androidx.profileinstaller:profileinstaller:1.3.0] C:\Users\user\.gradle\caches\transforms-3\54db9d2491e5624f74c5070bb32cbb85\transformed\jetified-profileinstaller-1.3.0\AndroidManifest.xml:23:5-53:19
+MERGED from [androidx.profileinstaller:profileinstaller:1.3.0] C:\Users\user\.gradle\caches\transforms-3\54db9d2491e5624f74c5070bb32cbb85\transformed\jetified-profileinstaller-1.3.0\AndroidManifest.xml:23:5-53:19
+MERGED from [androidx.startup:startup-runtime:1.1.1] C:\Users\user\.gradle\caches\transforms-3\13051f4035098308c34b6a0246341cc0\transformed\jetified-startup-runtime-1.1.1\AndroidManifest.xml:25:5-31:19
+MERGED from [androidx.startup:startup-runtime:1.1.1] C:\Users\user\.gradle\caches\transforms-3\13051f4035098308c34b6a0246341cc0\transformed\jetified-startup-runtime-1.1.1\AndroidManifest.xml:25:5-31:19
+MERGED from [androidx.versionedparcelable:versionedparcelable:1.1.1] C:\Users\user\.gradle\caches\transforms-3\c07830ec1317eaabafb64bb0631c87c5\transformed\versionedparcelable-1.1.1\AndroidManifest.xml:24:5-25:19
+MERGED from [androidx.versionedparcelable:versionedparcelable:1.1.1] C:\Users\user\.gradle\caches\transforms-3\c07830ec1317eaabafb64bb0631c87c5\transformed\versionedparcelable-1.1.1\AndroidManifest.xml:24:5-25:19
+	android:extractNativeLibs
+		INJECTED from C:\Users\user\Desktop\Simple-Clock-master\app\src\main\AndroidManifest.xml
+	android:localeConfig
+		ADDED from C:\Users\user\Desktop\Simple-Clock-master\app\src\main\AndroidManifest.xml:32:9-50
+	android:appComponentFactory
+		ADDED from [androidx.core:core:1.12.0] C:\Users\user\.gradle\caches\transforms-3\891dbd363961478e669147ab4b59463d\transformed\core-1.12.0\AndroidManifest.xml:28:18-86
+	android:supportsRtl
+		ADDED from [com.github.SimpleMobileTools:Simple-Commons:c573613da9] C:\Users\user\.gradle\caches\transforms-3\9594abdccf5c9c8a9d59603384a22d0e\transformed\jetified-Simple-Commons-c573613da9\AndroidManifest.xml:32:18-44
+	android:label
+		ADDED from C:\Users\user\Desktop\Simple-Clock-master\app\src\main\AndroidManifest.xml:31:9-50
+	android:appCategory
+		ADDED from C:\Users\user\Desktop\Simple-Clock-master\app\src\main\AndroidManifest.xml:29:9-43
+	android:roundIcon
+		ADDED from C:\Users\user\Desktop\Simple-Clock-master\app\src\main\AndroidManifest.xml:33:9-48
+	android:icon
+		ADDED from C:\Users\user\Desktop\Simple-Clock-master\app\src\main\AndroidManifest.xml:30:9-43
+	android:allowBackup
+		ADDED from C:\Users\user\Desktop\Simple-Clock-master\app\src\main\AndroidManifest.xml:28:9-35
+	android:theme
+		ADDED from C:\Users\user\Desktop\Simple-Clock-master\app\src\main\AndroidManifest.xml:34:9-40
+	android:name
+		ADDED from C:\Users\user\Desktop\Simple-Clock-master\app\src\main\AndroidManifest.xml:27:9-28
+activity#com.simplemobiletools.clock.activities.WebActivity
+ADDED from C:\Users\user\Desktop\Simple-Clock-master\app\src\main\AndroidManifest.xml:35:9-37:40
+	android:exported
+		ADDED from C:\Users\user\Desktop\Simple-Clock-master\app\src\main\AndroidManifest.xml:37:13-37
+	android:name
+		ADDED from C:\Users\user\Desktop\Simple-Clock-master\app\src\main\AndroidManifest.xml:36:13-51
+activity#com.simplemobiletools.clock.activities.SplashActivity
+ADDED from C:\Users\user\Desktop\Simple-Clock-master\app\src\main\AndroidManifest.xml:38:9-60:20
+	android:launchMode
+		ADDED from C:\Users\user\Desktop\Simple-Clock-master\app\src\main\AndroidManifest.xml:41:13-44
+	android:exported
+		ADDED from C:\Users\user\Desktop\Simple-Clock-master\app\src\main\AndroidManifest.xml:40:13-36
+	android:theme
+		ADDED from C:\Users\user\Desktop\Simple-Clock-master\app\src\main\AndroidManifest.xml:42:13-47
+	android:name
+		ADDED from C:\Users\user\Desktop\Simple-Clock-master\app\src\main\AndroidManifest.xml:39:13-54
+intent-filter#action:name:android.intent.action.SET_ALARM+action:name:android.intent.action.SET_TIMER+action:name:android.intent.action.SHOW_ALARMS+action:name:android.intent.action.SHOW_TIMERS+action:name:com.simplemobiletools.clock.TOGGLE_STOPWATCH+category:name:android.intent.category.DEFAULT
+ADDED from C:\Users\user\Desktop\Simple-Clock-master\app\src\main\AndroidManifest.xml:43:13-51:29
+action#com.simplemobiletools.clock.TOGGLE_STOPWATCH
+ADDED from C:\Users\user\Desktop\Simple-Clock-master\app\src\main\AndroidManifest.xml:44:17-87
+	android:name
+		ADDED from C:\Users\user\Desktop\Simple-Clock-master\app\src\main\AndroidManifest.xml:44:25-84
+action#android.intent.action.SHOW_ALARMS
+ADDED from C:\Users\user\Desktop\Simple-Clock-master\app\src\main\AndroidManifest.xml:45:17-76
+	android:name
+		ADDED from C:\Users\user\Desktop\Simple-Clock-master\app\src\main\AndroidManifest.xml:45:25-73
+action#android.intent.action.SHOW_TIMERS
+ADDED from C:\Users\user\Desktop\Simple-Clock-master\app\src\main\AndroidManifest.xml:46:17-76
+	android:name
+		ADDED from C:\Users\user\Desktop\Simple-Clock-master\app\src\main\AndroidManifest.xml:46:25-73
+action#android.intent.action.SET_ALARM
+ADDED from C:\Users\user\Desktop\Simple-Clock-master\app\src\main\AndroidManifest.xml:47:17-74
+	android:name
+		ADDED from C:\Users\user\Desktop\Simple-Clock-master\app\src\main\AndroidManifest.xml:47:25-71
+action#android.intent.action.SET_TIMER
+ADDED from C:\Users\user\Desktop\Simple-Clock-master\app\src\main\AndroidManifest.xml:48:17-74
+	android:name
+		ADDED from C:\Users\user\Desktop\Simple-Clock-master\app\src\main\AndroidManifest.xml:48:25-71
+category#android.intent.category.DEFAULT
+ADDED from C:\Users\user\Desktop\Simple-Clock-master\app\src\main\AndroidManifest.xml:50:17-76
+	android:name
+		ADDED from C:\Users\user\Desktop\Simple-Clock-master\app\src\main\AndroidManifest.xml:50:27-73
+intent-filter#action:name:android.intent.action.DISMISS_ALARM+action:name:android.intent.action.DISMISS_TIMER+category:name:android.intent.category.DEFAULT+data:scheme:id
+ADDED from C:\Users\user\Desktop\Simple-Clock-master\app\src\main\AndroidManifest.xml:52:13-59:29
+action#android.intent.action.DISMISS_ALARM
+ADDED from C:\Users\user\Desktop\Simple-Clock-master\app\src\main\AndroidManifest.xml:53:17-78
+	android:name
+		ADDED from C:\Users\user\Desktop\Simple-Clock-master\app\src\main\AndroidManifest.xml:53:25-75
+action#android.intent.action.DISMISS_TIMER
+ADDED from C:\Users\user\Desktop\Simple-Clock-master\app\src\main\AndroidManifest.xml:54:17-78
+	android:name
+		ADDED from C:\Users\user\Desktop\Simple-Clock-master\app\src\main\AndroidManifest.xml:54:25-75
+data
+ADDED from C:\Users\user\Desktop\Simple-Clock-master\app\src\main\AndroidManifest.xml:56:17-45
+	android:scheme
+		ADDED from C:\Users\user\Desktop\Simple-Clock-master\app\src\main\AndroidManifest.xml:56:23-42
+activity-alias#com.simplemobiletools.clock.activities.SplashActivity.Grey_black
+ADDED from C:\Users\user\Desktop\Simple-Clock-master\app\src\main\AndroidManifest.xml:62:9-74:26
+	android:enabled
+		ADDED from C:\Users\user\Desktop\Simple-Clock-master\app\src\main\AndroidManifest.xml:64:13-36
+	android:exported
+		ADDED from C:\Users\user\Desktop\Simple-Clock-master\app\src\main\AndroidManifest.xml:65:13-36
+	android:targetActivity
+		ADDED from C:\Users\user\Desktop\Simple-Clock-master\app\src\main\AndroidManifest.xml:68:13-64
+	android:roundIcon
+		ADDED from C:\Users\user\Desktop\Simple-Clock-master\app\src\main\AndroidManifest.xml:67:13-63
+	android:icon
+		ADDED from C:\Users\user\Desktop\Simple-Clock-master\app\src\main\AndroidManifest.xml:66:13-58
+	android:name
+		ADDED from C:\Users\user\Desktop\Simple-Clock-master\app\src\main\AndroidManifest.xml:63:13-65
+intent-filter#action:name:android.intent.action.MAIN+category:name:android.intent.category.LAUNCHER
+ADDED from C:\Users\user\Desktop\Simple-Clock-master\app\src\main\AndroidManifest.xml:69:13-73:29
+action#android.intent.action.MAIN
+ADDED from C:\Users\user\Desktop\Simple-Clock-master\app\src\main\AndroidManifest.xml:70:17-69
+	android:name
+		ADDED from C:\Users\user\Desktop\Simple-Clock-master\app\src\main\AndroidManifest.xml:70:25-66
+category#android.intent.category.LAUNCHER
+ADDED from C:\Users\user\Desktop\Simple-Clock-master\app\src\main\AndroidManifest.xml:72:17-77
+	android:name
+		ADDED from C:\Users\user\Desktop\Simple-Clock-master\app\src\main\AndroidManifest.xml:72:27-74
+activity-alias#com.simplemobiletools.clock.activities.SplashActivity.Blue_grey
+ADDED from C:\Users\user\Desktop\Simple-Clock-master\app\src\main\AndroidManifest.xml:75:9-87:26
+	android:enabled
+		ADDED from C:\Users\user\Desktop\Simple-Clock-master\app\src\main\AndroidManifest.xml:77:13-36
+	android:exported
+		ADDED from C:\Users\user\Desktop\Simple-Clock-master\app\src\main\AndroidManifest.xml:78:13-36
+	android:targetActivity
+		ADDED from C:\Users\user\Desktop\Simple-Clock-master\app\src\main\AndroidManifest.xml:81:13-64
+	android:roundIcon
+		ADDED from C:\Users\user\Desktop\Simple-Clock-master\app\src\main\AndroidManifest.xml:80:13-62
+	android:icon
+		ADDED from C:\Users\user\Desktop\Simple-Clock-master\app\src\main\AndroidManifest.xml:79:13-57
+	android:name
+		ADDED from C:\Users\user\Desktop\Simple-Clock-master\app\src\main\AndroidManifest.xml:76:13-64
+activity-alias#com.simplemobiletools.clock.activities.SplashActivity.Brown
+ADDED from C:\Users\user\Desktop\Simple-Clock-master\app\src\main\AndroidManifest.xml:88:9-100:26
+	android:enabled
+		ADDED from C:\Users\user\Desktop\Simple-Clock-master\app\src\main\AndroidManifest.xml:90:13-36
+	android:exported
+		ADDED from C:\Users\user\Desktop\Simple-Clock-master\app\src\main\AndroidManifest.xml:91:13-36
+	android:targetActivity
+		ADDED from C:\Users\user\Desktop\Simple-Clock-master\app\src\main\AndroidManifest.xml:94:13-64
+	android:roundIcon
+		ADDED from C:\Users\user\Desktop\Simple-Clock-master\app\src\main\AndroidManifest.xml:93:13-58
+	android:icon
+		ADDED from C:\Users\user\Desktop\Simple-Clock-master\app\src\main\AndroidManifest.xml:92:13-53
+	android:name
+		ADDED from C:\Users\user\Desktop\Simple-Clock-master\app\src\main\AndroidManifest.xml:89:13-60
+activity-alias#com.simplemobiletools.clock.activities.SplashActivity.Deep_orange
+ADDED from C:\Users\user\Desktop\Simple-Clock-master\app\src\main\AndroidManifest.xml:101:9-113:26
+	android:enabled
+		ADDED from C:\Users\user\Desktop\Simple-Clock-master\app\src\main\AndroidManifest.xml:103:13-36
+	android:exported
+		ADDED from C:\Users\user\Desktop\Simple-Clock-master\app\src\main\AndroidManifest.xml:104:13-36
+	android:targetActivity
+		ADDED from C:\Users\user\Desktop\Simple-Clock-master\app\src\main\AndroidManifest.xml:107:13-64
+	android:roundIcon
+		ADDED from C:\Users\user\Desktop\Simple-Clock-master\app\src\main\AndroidManifest.xml:106:13-64
+	android:icon
+		ADDED from C:\Users\user\Desktop\Simple-Clock-master\app\src\main\AndroidManifest.xml:105:13-59
+	android:name
+		ADDED from C:\Users\user\Desktop\Simple-Clock-master\app\src\main\AndroidManifest.xml:102:13-66
+activity-alias#com.simplemobiletools.clock.activities.SplashActivity.Orange
+ADDED from C:\Users\user\Desktop\Simple-Clock-master\app\src\main\AndroidManifest.xml:114:9-126:26
+	android:enabled
+		ADDED from C:\Users\user\Desktop\Simple-Clock-master\app\src\main\AndroidManifest.xml:116:13-35
+	android:exported
+		ADDED from C:\Users\user\Desktop\Simple-Clock-master\app\src\main\AndroidManifest.xml:117:13-36
+	android:targetActivity
+		ADDED from C:\Users\user\Desktop\Simple-Clock-master\app\src\main\AndroidManifest.xml:120:13-64
+	android:roundIcon
+		ADDED from C:\Users\user\Desktop\Simple-Clock-master\app\src\main\AndroidManifest.xml:119:13-52
+	android:icon
+		ADDED from C:\Users\user\Desktop\Simple-Clock-master\app\src\main\AndroidManifest.xml:118:13-47
+	android:name
+		ADDED from C:\Users\user\Desktop\Simple-Clock-master\app\src\main\AndroidManifest.xml:115:13-61
+activity-alias#com.simplemobiletools.clock.activities.SplashActivity.Amber
+ADDED from C:\Users\user\Desktop\Simple-Clock-master\app\src\main\AndroidManifest.xml:127:9-139:26
+	android:enabled
+		ADDED from C:\Users\user\Desktop\Simple-Clock-master\app\src\main\AndroidManifest.xml:129:13-36
+	android:exported
+		ADDED from C:\Users\user\Desktop\Simple-Clock-master\app\src\main\AndroidManifest.xml:130:13-36
+	android:targetActivity
+		ADDED from C:\Users\user\Desktop\Simple-Clock-master\app\src\main\AndroidManifest.xml:133:13-64
+	android:roundIcon
+		ADDED from C:\Users\user\Desktop\Simple-Clock-master\app\src\main\AndroidManifest.xml:132:13-58
+	android:icon
+		ADDED from C:\Users\user\Desktop\Simple-Clock-master\app\src\main\AndroidManifest.xml:131:13-53
+	android:name
+		ADDED from C:\Users\user\Desktop\Simple-Clock-master\app\src\main\AndroidManifest.xml:128:13-60
+activity-alias#com.simplemobiletools.clock.activities.SplashActivity.Yellow
+ADDED from C:\Users\user\Desktop\Simple-Clock-master\app\src\main\AndroidManifest.xml:140:9-152:26
+	android:enabled
+		ADDED from C:\Users\user\Desktop\Simple-Clock-master\app\src\main\AndroidManifest.xml:142:13-36
+	android:exported
+		ADDED from C:\Users\user\Desktop\Simple-Clock-master\app\src\main\AndroidManifest.xml:143:13-36
+	android:targetActivity
+		ADDED from C:\Users\user\Desktop\Simple-Clock-master\app\src\main\AndroidManifest.xml:146:13-64
+	android:roundIcon
+		ADDED from C:\Users\user\Desktop\Simple-Clock-master\app\src\main\AndroidManifest.xml:145:13-59
+	android:icon
+		ADDED from C:\Users\user\Desktop\Simple-Clock-master\app\src\main\AndroidManifest.xml:144:13-54
+	android:name
+		ADDED from C:\Users\user\Desktop\Simple-Clock-master\app\src\main\AndroidManifest.xml:141:13-61
+activity-alias#com.simplemobiletools.clock.activities.SplashActivity.Lime
+ADDED from C:\Users\user\Desktop\Simple-Clock-master\app\src\main\AndroidManifest.xml:153:9-165:26
+	android:enabled
+		ADDED from C:\Users\user\Desktop\Simple-Clock-master\app\src\main\AndroidManifest.xml:155:13-36
+	android:exported
+		ADDED from C:\Users\user\Desktop\Simple-Clock-master\app\src\main\AndroidManifest.xml:156:13-36
+	android:targetActivity
+		ADDED from C:\Users\user\Desktop\Simple-Clock-master\app\src\main\AndroidManifest.xml:159:13-64
+	android:roundIcon
+		ADDED from C:\Users\user\Desktop\Simple-Clock-master\app\src\main\AndroidManifest.xml:158:13-57
+	android:icon
+		ADDED from C:\Users\user\Desktop\Simple-Clock-master\app\src\main\AndroidManifest.xml:157:13-52
+	android:name
+		ADDED from C:\Users\user\Desktop\Simple-Clock-master\app\src\main\AndroidManifest.xml:154:13-59
+activity-alias#com.simplemobiletools.clock.activities.SplashActivity.Light_green
+ADDED from C:\Users\user\Desktop\Simple-Clock-master\app\src\main\AndroidManifest.xml:166:9-178:26
+	android:enabled
+		ADDED from C:\Users\user\Desktop\Simple-Clock-master\app\src\main\AndroidManifest.xml:168:13-36
+	android:exported
+		ADDED from C:\Users\user\Desktop\Simple-Clock-master\app\src\main\AndroidManifest.xml:169:13-36
+	android:targetActivity
+		ADDED from C:\Users\user\Desktop\Simple-Clock-master\app\src\main\AndroidManifest.xml:172:13-64
+	android:roundIcon
+		ADDED from C:\Users\user\Desktop\Simple-Clock-master\app\src\main\AndroidManifest.xml:171:13-64
+	android:icon
+		ADDED from C:\Users\user\Desktop\Simple-Clock-master\app\src\main\AndroidManifest.xml:170:13-59
+	android:name
+		ADDED from C:\Users\user\Desktop\Simple-Clock-master\app\src\main\AndroidManifest.xml:167:13-66
+activity-alias#com.simplemobiletools.clock.activities.SplashActivity.Green
+ADDED from C:\Users\user\Desktop\Simple-Clock-master\app\src\main\AndroidManifest.xml:179:9-191:26
+	android:enabled
+		ADDED from C:\Users\user\Desktop\Simple-Clock-master\app\src\main\AndroidManifest.xml:181:13-36
+	android:exported
+		ADDED from C:\Users\user\Desktop\Simple-Clock-master\app\src\main\AndroidManifest.xml:182:13-36
+	android:targetActivity
+		ADDED from C:\Users\user\Desktop\Simple-Clock-master\app\src\main\AndroidManifest.xml:185:13-64
+	android:roundIcon
+		ADDED from C:\Users\user\Desktop\Simple-Clock-master\app\src\main\AndroidManifest.xml:184:13-58
+	android:icon
+		ADDED from C:\Users\user\Desktop\Simple-Clock-master\app\src\main\AndroidManifest.xml:183:13-53
+	android:name
+		ADDED from C:\Users\user\Desktop\Simple-Clock-master\app\src\main\AndroidManifest.xml:180:13-60
+activity-alias#com.simplemobiletools.clock.activities.SplashActivity.Teal
+ADDED from C:\Users\user\Desktop\Simple-Clock-master\app\src\main\AndroidManifest.xml:192:9-204:26
+	android:enabled
+		ADDED from C:\Users\user\Desktop\Simple-Clock-master\app\src\main\AndroidManifest.xml:194:13-36
+	android:exported
+		ADDED from C:\Users\user\Desktop\Simple-Clock-master\app\src\main\AndroidManifest.xml:195:13-36
+	android:targetActivity
+		ADDED from C:\Users\user\Desktop\Simple-Clock-master\app\src\main\AndroidManifest.xml:198:13-64
+	android:roundIcon
+		ADDED from C:\Users\user\Desktop\Simple-Clock-master\app\src\main\AndroidManifest.xml:197:13-57
+	android:icon
+		ADDED from C:\Users\user\Desktop\Simple-Clock-master\app\src\main\AndroidManifest.xml:196:13-52
+	android:name
+		ADDED from C:\Users\user\Desktop\Simple-Clock-master\app\src\main\AndroidManifest.xml:193:13-59
+activity-alias#com.simplemobiletools.clock.activities.SplashActivity.Cyan
+ADDED from C:\Users\user\Desktop\Simple-Clock-master\app\src\main\AndroidManifest.xml:205:9-217:26
+	android:enabled
+		ADDED from C:\Users\user\Desktop\Simple-Clock-master\app\src\main\AndroidManifest.xml:207:13-36
+	android:exported
+		ADDED from C:\Users\user\Desktop\Simple-Clock-master\app\src\main\AndroidManifest.xml:208:13-36
+	android:targetActivity
+		ADDED from C:\Users\user\Desktop\Simple-Clock-master\app\src\main\AndroidManifest.xml:211:13-64
+	android:roundIcon
+		ADDED from C:\Users\user\Desktop\Simple-Clock-master\app\src\main\AndroidManifest.xml:210:13-57
+	android:icon
+		ADDED from C:\Users\user\Desktop\Simple-Clock-master\app\src\main\AndroidManifest.xml:209:13-52
+	android:name
+		ADDED from C:\Users\user\Desktop\Simple-Clock-master\app\src\main\AndroidManifest.xml:206:13-59
+activity-alias#com.simplemobiletools.clock.activities.SplashActivity.Light_blue
+ADDED from C:\Users\user\Desktop\Simple-Clock-master\app\src\main\AndroidManifest.xml:218:9-230:26
+	android:enabled
+		ADDED from C:\Users\user\Desktop\Simple-Clock-master\app\src\main\AndroidManifest.xml:220:13-36
+	android:exported
+		ADDED from C:\Users\user\Desktop\Simple-Clock-master\app\src\main\AndroidManifest.xml:221:13-36
+	android:targetActivity
+		ADDED from C:\Users\user\Desktop\Simple-Clock-master\app\src\main\AndroidManifest.xml:224:13-64
+	android:roundIcon
+		ADDED from C:\Users\user\Desktop\Simple-Clock-master\app\src\main\AndroidManifest.xml:223:13-63
+	android:icon
+		ADDED from C:\Users\user\Desktop\Simple-Clock-master\app\src\main\AndroidManifest.xml:222:13-58
+	android:name
+		ADDED from C:\Users\user\Desktop\Simple-Clock-master\app\src\main\AndroidManifest.xml:219:13-65
+activity-alias#com.simplemobiletools.clock.activities.SplashActivity.Blue
+ADDED from C:\Users\user\Desktop\Simple-Clock-master\app\src\main\AndroidManifest.xml:231:9-243:26
+	android:enabled
+		ADDED from C:\Users\user\Desktop\Simple-Clock-master\app\src\main\AndroidManifest.xml:233:13-36
+	android:exported
+		ADDED from C:\Users\user\Desktop\Simple-Clock-master\app\src\main\AndroidManifest.xml:234:13-36
+	android:targetActivity
+		ADDED from C:\Users\user\Desktop\Simple-Clock-master\app\src\main\AndroidManifest.xml:237:13-64
+	android:roundIcon
+		ADDED from C:\Users\user\Desktop\Simple-Clock-master\app\src\main\AndroidManifest.xml:236:13-57
+	android:icon
+		ADDED from C:\Users\user\Desktop\Simple-Clock-master\app\src\main\AndroidManifest.xml:235:13-52
+	android:name
+		ADDED from C:\Users\user\Desktop\Simple-Clock-master\app\src\main\AndroidManifest.xml:232:13-59
+activity-alias#com.simplemobiletools.clock.activities.SplashActivity.Indigo
+ADDED from C:\Users\user\Desktop\Simple-Clock-master\app\src\main\AndroidManifest.xml:244:9-256:26
+	android:enabled
+		ADDED from C:\Users\user\Desktop\Simple-Clock-master\app\src\main\AndroidManifest.xml:246:13-36
+	android:exported
+		ADDED from C:\Users\user\Desktop\Simple-Clock-master\app\src\main\AndroidManifest.xml:247:13-36
+	android:targetActivity
+		ADDED from C:\Users\user\Desktop\Simple-Clock-master\app\src\main\AndroidManifest.xml:250:13-64
+	android:roundIcon
+		ADDED from C:\Users\user\Desktop\Simple-Clock-master\app\src\main\AndroidManifest.xml:249:13-59
+	android:icon
+		ADDED from C:\Users\user\Desktop\Simple-Clock-master\app\src\main\AndroidManifest.xml:248:13-54
+	android:name
+		ADDED from C:\Users\user\Desktop\Simple-Clock-master\app\src\main\AndroidManifest.xml:245:13-61
+activity-alias#com.simplemobiletools.clock.activities.SplashActivity.Deep_purple
+ADDED from C:\Users\user\Desktop\Simple-Clock-master\app\src\main\AndroidManifest.xml:257:9-269:26
+	android:enabled
+		ADDED from C:\Users\user\Desktop\Simple-Clock-master\app\src\main\AndroidManifest.xml:259:13-36
+	android:exported
+		ADDED from C:\Users\user\Desktop\Simple-Clock-master\app\src\main\AndroidManifest.xml:260:13-36
+	android:targetActivity
+		ADDED from C:\Users\user\Desktop\Simple-Clock-master\app\src\main\AndroidManifest.xml:263:13-64
+	android:roundIcon
+		ADDED from C:\Users\user\Desktop\Simple-Clock-master\app\src\main\AndroidManifest.xml:262:13-64
+	android:icon
+		ADDED from C:\Users\user\Desktop\Simple-Clock-master\app\src\main\AndroidManifest.xml:261:13-59
+	android:name
+		ADDED from C:\Users\user\Desktop\Simple-Clock-master\app\src\main\AndroidManifest.xml:258:13-66
+activity-alias#com.simplemobiletools.clock.activities.SplashActivity.Purple
+ADDED from C:\Users\user\Desktop\Simple-Clock-master\app\src\main\AndroidManifest.xml:270:9-282:26
+	android:enabled
+		ADDED from C:\Users\user\Desktop\Simple-Clock-master\app\src\main\AndroidManifest.xml:272:13-36
+	android:exported
+		ADDED from C:\Users\user\Desktop\Simple-Clock-master\app\src\main\AndroidManifest.xml:273:13-36
+	android:targetActivity
+		ADDED from C:\Users\user\Desktop\Simple-Clock-master\app\src\main\AndroidManifest.xml:276:13-64
+	android:roundIcon
+		ADDED from C:\Users\user\Desktop\Simple-Clock-master\app\src\main\AndroidManifest.xml:275:13-59
+	android:icon
+		ADDED from C:\Users\user\Desktop\Simple-Clock-master\app\src\main\AndroidManifest.xml:274:13-54
+	android:name
+		ADDED from C:\Users\user\Desktop\Simple-Clock-master\app\src\main\AndroidManifest.xml:271:13-61
+activity-alias#com.simplemobiletools.clock.activities.SplashActivity.Pink
+ADDED from C:\Users\user\Desktop\Simple-Clock-master\app\src\main\AndroidManifest.xml:283:9-295:26
+	android:enabled
+		ADDED from C:\Users\user\Desktop\Simple-Clock-master\app\src\main\AndroidManifest.xml:285:13-36
+	android:exported
+		ADDED from C:\Users\user\Desktop\Simple-Clock-master\app\src\main\AndroidManifest.xml:286:13-36
+	android:targetActivity
+		ADDED from C:\Users\user\Desktop\Simple-Clock-master\app\src\main\AndroidManifest.xml:289:13-64
+	android:roundIcon
+		ADDED from C:\Users\user\Desktop\Simple-Clock-master\app\src\main\AndroidManifest.xml:288:13-57
+	android:icon
+		ADDED from C:\Users\user\Desktop\Simple-Clock-master\app\src\main\AndroidManifest.xml:287:13-52
+	android:name
+		ADDED from C:\Users\user\Desktop\Simple-Clock-master\app\src\main\AndroidManifest.xml:284:13-59
+activity-alias#com.simplemobiletools.clock.activities.SplashActivity.Red
+ADDED from C:\Users\user\Desktop\Simple-Clock-master\app\src\main\AndroidManifest.xml:296:9-308:26
+	android:enabled
+		ADDED from C:\Users\user\Desktop\Simple-Clock-master\app\src\main\AndroidManifest.xml:298:13-36
+	android:exported
+		ADDED from C:\Users\user\Desktop\Simple-Clock-master\app\src\main\AndroidManifest.xml:299:13-36
+	android:targetActivity
+		ADDED from C:\Users\user\Desktop\Simple-Clock-master\app\src\main\AndroidManifest.xml:302:13-64
+	android:roundIcon
+		ADDED from C:\Users\user\Desktop\Simple-Clock-master\app\src\main\AndroidManifest.xml:301:13-56
+	android:icon
+		ADDED from C:\Users\user\Desktop\Simple-Clock-master\app\src\main\AndroidManifest.xml:300:13-51
+	android:name
+		ADDED from C:\Users\user\Desktop\Simple-Clock-master\app\src\main\AndroidManifest.xml:297:13-58
+activity#com.simplemobiletools.clock.activities.IntentHandlerActivity
+ADDED from C:\Users\user\Desktop\Simple-Clock-master\app\src\main\AndroidManifest.xml:310:9-315:55
+	android:launchMode
+		ADDED from C:\Users\user\Desktop\Simple-Clock-master\app\src\main\AndroidManifest.xml:314:13-44
+	android:windowSoftInputMode
+		ADDED from C:\Users\user\Desktop\Simple-Clock-master\app\src\main\AndroidManifest.xml:315:13-52
+	android:exported
+		ADDED from C:\Users\user\Desktop\Simple-Clock-master\app\src\main\AndroidManifest.xml:313:13-37
+	android:configChanges
+		ADDED from C:\Users\user\Desktop\Simple-Clock-master\app\src\main\AndroidManifest.xml:312:13-48
+	android:name
+		ADDED from C:\Users\user\Desktop\Simple-Clock-master\app\src\main\AndroidManifest.xml:311:13-61
+activity#com.simplemobiletools.clock.activities.MainActivity
+ADDED from C:\Users\user\Desktop\Simple-Clock-master\app\src\main\AndroidManifest.xml:316:9-321:55
+	android:launchMode
+		ADDED from C:\Users\user\Desktop\Simple-Clock-master\app\src\main\AndroidManifest.xml:320:13-44
+	android:windowSoftInputMode
+		ADDED from C:\Users\user\Desktop\Simple-Clock-master\app\src\main\AndroidManifest.xml:321:13-52
+	android:exported
+		ADDED from C:\Users\user\Desktop\Simple-Clock-master\app\src\main\AndroidManifest.xml:319:13-37
+	android:configChanges
+		ADDED from C:\Users\user\Desktop\Simple-Clock-master\app\src\main\AndroidManifest.xml:318:13-48
+	android:name
+		ADDED from C:\Users\user\Desktop\Simple-Clock-master\app\src\main\AndroidManifest.xml:317:13-52
+activity#com.simplemobiletools.clock.activities.ReminderActivity
+ADDED from C:\Users\user\Desktop\Simple-Clock-master\app\src\main\AndroidManifest.xml:322:9-335:20
+	android:excludeFromRecents
+		ADDED from C:\Users\user\Desktop\Simple-Clock-master\app\src\main\AndroidManifest.xml:325:13-46
+	android:launchMode
+		ADDED from C:\Users\user\Desktop\Simple-Clock-master\app\src\main\AndroidManifest.xml:327:13-44
+	android:exported
+		ADDED from C:\Users\user\Desktop\Simple-Clock-master\app\src\main\AndroidManifest.xml:326:13-37
+	android:showOnLockScreen
+		ADDED from C:\Users\user\Desktop\Simple-Clock-master\app\src\main\AndroidManifest.xml:328:13-44
+	android:configChanges
+		ADDED from C:\Users\user\Desktop\Simple-Clock-master\app\src\main\AndroidManifest.xml:324:13-72
+	android:taskAffinity
+		ADDED from C:\Users\user\Desktop\Simple-Clock-master\app\src\main\AndroidManifest.xml:329:13-53
+	android:name
+		ADDED from C:\Users\user\Desktop\Simple-Clock-master\app\src\main\AndroidManifest.xml:323:13-56
+intent-filter#action:name:android.intent.action.SNOOZE_ALARM+category:name:android.intent.category.DEFAULT
+ADDED from C:\Users\user\Desktop\Simple-Clock-master\app\src\main\AndroidManifest.xml:330:13-334:29
+action#android.intent.action.SNOOZE_ALARM
+ADDED from C:\Users\user\Desktop\Simple-Clock-master\app\src\main\AndroidManifest.xml:331:17-77
+	android:name
+		ADDED from C:\Users\user\Desktop\Simple-Clock-master\app\src\main\AndroidManifest.xml:331:25-74
+activity#com.simplemobiletools.clock.activities.SettingsActivity
+ADDED from C:\Users\user\Desktop\Simple-Clock-master\app\src\main\AndroidManifest.xml:336:9-347:20
+	android:parentActivityName
+		ADDED from C:\Users\user\Desktop\Simple-Clock-master\app\src\main\AndroidManifest.xml:341:13-66
+	android:label
+		ADDED from C:\Users\user\Desktop\Simple-Clock-master\app\src\main\AndroidManifest.xml:340:13-45
+	android:exported
+		ADDED from C:\Users\user\Desktop\Simple-Clock-master\app\src\main\AndroidManifest.xml:339:13-36
+	android:configChanges
+		ADDED from C:\Users\user\Desktop\Simple-Clock-master\app\src\main\AndroidManifest.xml:338:13-48
+	android:name
+		ADDED from C:\Users\user\Desktop\Simple-Clock-master\app\src\main\AndroidManifest.xml:337:13-56
+intent-filter#action:name:android.intent.action.APPLICATION_PREFERENCES+category:name:android.intent.category.DEFAULT
+ADDED from C:\Users\user\Desktop\Simple-Clock-master\app\src\main\AndroidManifest.xml:342:13-346:29
+action#android.intent.action.APPLICATION_PREFERENCES
+ADDED from C:\Users\user\Desktop\Simple-Clock-master\app\src\main\AndroidManifest.xml:343:17-88
+	android:name
+		ADDED from C:\Users\user\Desktop\Simple-Clock-master\app\src\main\AndroidManifest.xml:343:25-85
+activity#com.simplemobiletools.commons.activities.AboutActivity
+ADDED from C:\Users\user\Desktop\Simple-Clock-master\app\src\main\AndroidManifest.xml:348:9-353:69
+	android:parentActivityName
+		ADDED from C:\Users\user\Desktop\Simple-Clock-master\app\src\main\AndroidManifest.xml:353:13-66
+	android:label
+		ADDED from C:\Users\user\Desktop\Simple-Clock-master\app\src\main\AndroidManifest.xml:352:13-42
+	android:exported
+		ADDED from C:\Users\user\Desktop\Simple-Clock-master\app\src\main\AndroidManifest.xml:351:13-37
+	android:configChanges
+		ADDED from C:\Users\user\Desktop\Simple-Clock-master\app\src\main\AndroidManifest.xml:350:13-48
+	android:name
+		ADDED from C:\Users\user\Desktop\Simple-Clock-master\app\src\main\AndroidManifest.xml:349:13-82
+activity#com.simplemobiletools.commons.activities.CustomizationActivity
+ADDED from C:\Users\user\Desktop\Simple-Clock-master\app\src\main\AndroidManifest.xml:354:9-359:73
+	android:parentActivityName
+		ADDED from C:\Users\user\Desktop\Simple-Clock-master\app\src\main\AndroidManifest.xml:359:13-70
+	android:label
+		ADDED from C:\Users\user\Desktop\Simple-Clock-master\app\src\main\AndroidManifest.xml:358:13-53
+	android:exported
+		ADDED from C:\Users\user\Desktop\Simple-Clock-master\app\src\main\AndroidManifest.xml:357:13-37
+	android:configChanges
+		ADDED from C:\Users\user\Desktop\Simple-Clock-master\app\src\main\AndroidManifest.xml:356:13-48
+	android:name
+		ADDED from C:\Users\user\Desktop\Simple-Clock-master\app\src\main\AndroidManifest.xml:355:13-90
+activity#com.simplemobiletools.clock.activities.SnoozeReminderActivity
+ADDED from C:\Users\user\Desktop\Simple-Clock-master\app\src\main\AndroidManifest.xml:360:9-364:56
+	android:exported
+		ADDED from C:\Users\user\Desktop\Simple-Clock-master\app\src\main\AndroidManifest.xml:363:13-37
+	android:configChanges
+		ADDED from C:\Users\user\Desktop\Simple-Clock-master\app\src\main\AndroidManifest.xml:362:13-48
+	android:theme
+		ADDED from C:\Users\user\Desktop\Simple-Clock-master\app\src\main\AndroidManifest.xml:364:13-53
+	android:name
+		ADDED from C:\Users\user\Desktop\Simple-Clock-master\app\src\main\AndroidManifest.xml:361:13-62
+activity#com.simplemobiletools.clock.activities.WidgetDigitalConfigureActivity
+ADDED from C:\Users\user\Desktop\Simple-Clock-master\app\src\main\AndroidManifest.xml:365:9-373:20
+	android:screenOrientation
+		ADDED from C:\Users\user\Desktop\Simple-Clock-master\app\src\main\AndroidManifest.xml:368:13-49
+	android:exported
+		ADDED from C:\Users\user\Desktop\Simple-Clock-master\app\src\main\AndroidManifest.xml:367:13-36
+	android:theme
+		ADDED from C:\Users\user\Desktop\Simple-Clock-master\app\src\main\AndroidManifest.xml:369:13-55
+	android:name
+		ADDED from C:\Users\user\Desktop\Simple-Clock-master\app\src\main\AndroidManifest.xml:366:13-70
+intent-filter#action:name:android.appwidget.action.APPWIDGET_CONFIGURE
+ADDED from C:\Users\user\Desktop\Simple-Clock-master\app\src\main\AndroidManifest.xml:370:13-372:29
+action#android.appwidget.action.APPWIDGET_CONFIGURE
+ADDED from C:\Users\user\Desktop\Simple-Clock-master\app\src\main\AndroidManifest.xml:371:17-87
+	android:name
+		ADDED from C:\Users\user\Desktop\Simple-Clock-master\app\src\main\AndroidManifest.xml:371:25-84
+activity#com.simplemobiletools.clock.activities.WidgetAnalogueConfigureActivity
+ADDED from C:\Users\user\Desktop\Simple-Clock-master\app\src\main\AndroidManifest.xml:374:9-382:20
+	android:screenOrientation
+		ADDED from C:\Users\user\Desktop\Simple-Clock-master\app\src\main\AndroidManifest.xml:377:13-49
+	android:exported
+		ADDED from C:\Users\user\Desktop\Simple-Clock-master\app\src\main\AndroidManifest.xml:376:13-36
+	android:theme
+		ADDED from C:\Users\user\Desktop\Simple-Clock-master\app\src\main\AndroidManifest.xml:378:13-55
+	android:name
+		ADDED from C:\Users\user\Desktop\Simple-Clock-master\app\src\main\AndroidManifest.xml:375:13-71
+service#com.simplemobiletools.clock.services.SnoozeService
+ADDED from C:\Users\user\Desktop\Simple-Clock-master\app\src\main\AndroidManifest.xml:384:9-59
+	android:name
+		ADDED from C:\Users\user\Desktop\Simple-Clock-master\app\src\main\AndroidManifest.xml:384:18-56
+service#com.simplemobiletools.clock.services.TimerService
+ADDED from C:\Users\user\Desktop\Simple-Clock-master\app\src\main\AndroidManifest.xml:385:9-391:19
+	android:foregroundServiceType
+		ADDED from C:\Users\user\Desktop\Simple-Clock-master\app\src\main\AndroidManifest.xml:387:13-55
+	android:name
+		ADDED from C:\Users\user\Desktop\Simple-Clock-master\app\src\main\AndroidManifest.xml:386:13-50
+property
+ADDED from C:\Users\user\Desktop\Simple-Clock-master\app\src\main\AndroidManifest.xml:388:13-390:83
+	android:value
+		ADDED from C:\Users\user\Desktop\Simple-Clock-master\app\src\main\AndroidManifest.xml:390:17-80
+	android:name
+		ADDED from C:\Users\user\Desktop\Simple-Clock-master\app\src\main\AndroidManifest.xml:389:17-76
+service#com.simplemobiletools.clock.services.StopwatchService
+ADDED from C:\Users\user\Desktop\Simple-Clock-master\app\src\main\AndroidManifest.xml:392:9-398:19
+	android:foregroundServiceType
+		ADDED from C:\Users\user\Desktop\Simple-Clock-master\app\src\main\AndroidManifest.xml:394:13-55
+	android:name
+		ADDED from C:\Users\user\Desktop\Simple-Clock-master\app\src\main\AndroidManifest.xml:393:13-54
+receiver#com.simplemobiletools.clock.receivers.AlarmReceiver
+ADDED from C:\Users\user\Desktop\Simple-Clock-master\app\src\main\AndroidManifest.xml:400:9-61
+	android:name
+		ADDED from C:\Users\user\Desktop\Simple-Clock-master\app\src\main\AndroidManifest.xml:400:19-58
+receiver#com.simplemobiletools.clock.receivers.HideTimerReceiver
+ADDED from C:\Users\user\Desktop\Simple-Clock-master\app\src\main\AndroidManifest.xml:401:9-65
+	android:name
+		ADDED from C:\Users\user\Desktop\Simple-Clock-master\app\src\main\AndroidManifest.xml:401:19-62
+receiver#com.simplemobiletools.clock.receivers.HideAlarmReceiver
+ADDED from C:\Users\user\Desktop\Simple-Clock-master\app\src\main\AndroidManifest.xml:402:9-65
+	android:name
+		ADDED from C:\Users\user\Desktop\Simple-Clock-master\app\src\main\AndroidManifest.xml:402:19-62
+receiver#com.simplemobiletools.clock.receivers.DismissAlarmReceiver
+ADDED from C:\Users\user\Desktop\Simple-Clock-master\app\src\main\AndroidManifest.xml:403:9-68
+	android:name
+		ADDED from C:\Users\user\Desktop\Simple-Clock-master\app\src\main\AndroidManifest.xml:403:19-65
+receiver#com.simplemobiletools.clock.receivers.EarlyAlarmDismissalReceiver
+ADDED from C:\Users\user\Desktop\Simple-Clock-master\app\src\main\AndroidManifest.xml:404:9-75
+	android:name
+		ADDED from C:\Users\user\Desktop\Simple-Clock-master\app\src\main\AndroidManifest.xml:404:19-72
+receiver#com.simplemobiletools.clock.receivers.BootCompletedReceiver
+ADDED from C:\Users\user\Desktop\Simple-Clock-master\app\src\main\AndroidManifest.xml:405:9-413:20
+	android:exported
+		ADDED from C:\Users\user\Desktop\Simple-Clock-master\app\src\main\AndroidManifest.xml:407:13-36
+	android:name
+		ADDED from C:\Users\user\Desktop\Simple-Clock-master\app\src\main\AndroidManifest.xml:406:13-60
+intent-filter#action:name:android.intent.action.BOOT_COMPLETED+action:name:android.intent.action.QUICKBOOT_POWERON+action:name:com.htc.intent.action.QUICKBOOT_POWERON
+ADDED from C:\Users\user\Desktop\Simple-Clock-master\app\src\main\AndroidManifest.xml:408:13-412:29
+action#android.intent.action.BOOT_COMPLETED
+ADDED from C:\Users\user\Desktop\Simple-Clock-master\app\src\main\AndroidManifest.xml:409:17-79
+	android:name
+		ADDED from C:\Users\user\Desktop\Simple-Clock-master\app\src\main\AndroidManifest.xml:409:25-76
+action#android.intent.action.QUICKBOOT_POWERON
+ADDED from C:\Users\user\Desktop\Simple-Clock-master\app\src\main\AndroidManifest.xml:410:17-82
+	android:name
+		ADDED from C:\Users\user\Desktop\Simple-Clock-master\app\src\main\AndroidManifest.xml:410:25-79
+action#com.htc.intent.action.QUICKBOOT_POWERON
+ADDED from C:\Users\user\Desktop\Simple-Clock-master\app\src\main\AndroidManifest.xml:411:17-82
+	android:name
+		ADDED from C:\Users\user\Desktop\Simple-Clock-master\app\src\main\AndroidManifest.xml:411:25-79
+receiver#com.simplemobiletools.clock.helpers.MyDigitalTimeWidgetProvider
+ADDED from C:\Users\user\Desktop\Simple-Clock-master\app\src\main\AndroidManifest.xml:414:9-426:20
+	android:label
+		ADDED from C:\Users\user\Desktop\Simple-Clock-master\app\src\main\AndroidManifest.xml:417:13-50
+	android:exported
+		ADDED from C:\Users\user\Desktop\Simple-Clock-master\app\src\main\AndroidManifest.xml:416:13-36
+	android:name
+		ADDED from C:\Users\user\Desktop\Simple-Clock-master\app\src\main\AndroidManifest.xml:415:13-64
+intent-filter#action:name:android.appwidget.action.APPWIDGET_ENABLED+action:name:android.appwidget.action.APPWIDGET_UPDATE
+ADDED from C:\Users\user\Desktop\Simple-Clock-master\app\src\main\AndroidManifest.xml:418:13-421:29
+action#android.appwidget.action.APPWIDGET_UPDATE
+ADDED from C:\Users\user\Desktop\Simple-Clock-master\app\src\main\AndroidManifest.xml:419:17-84
+	android:name
+		ADDED from C:\Users\user\Desktop\Simple-Clock-master\app\src\main\AndroidManifest.xml:419:25-81
+action#android.appwidget.action.APPWIDGET_ENABLED
+ADDED from C:\Users\user\Desktop\Simple-Clock-master\app\src\main\AndroidManifest.xml:420:17-85
+	android:name
+		ADDED from C:\Users\user\Desktop\Simple-Clock-master\app\src\main\AndroidManifest.xml:420:25-82
+meta-data#android.appwidget.provider
+ADDED from C:\Users\user\Desktop\Simple-Clock-master\app\src\main\AndroidManifest.xml:423:13-425:69
+	android:resource
+		ADDED from C:\Users\user\Desktop\Simple-Clock-master\app\src\main\AndroidManifest.xml:425:17-66
+	android:name
+		ADDED from C:\Users\user\Desktop\Simple-Clock-master\app\src\main\AndroidManifest.xml:424:17-58
+receiver#com.simplemobiletools.clock.helpers.MyAnalogueTimeWidgetProvider
+ADDED from C:\Users\user\Desktop\Simple-Clock-master\app\src\main\AndroidManifest.xml:427:9-439:20
+	android:label
+		ADDED from C:\Users\user\Desktop\Simple-Clock-master\app\src\main\AndroidManifest.xml:430:13-51
+	android:exported
+		ADDED from C:\Users\user\Desktop\Simple-Clock-master\app\src\main\AndroidManifest.xml:429:13-36
+	android:name
+		ADDED from C:\Users\user\Desktop\Simple-Clock-master\app\src\main\AndroidManifest.xml:428:13-65
+receiver#com.simplemobiletools.clock.receivers.UpdateWidgetReceiver
+ADDED from C:\Users\user\Desktop\Simple-Clock-master\app\src\main\AndroidManifest.xml:440:9-448:20
+	android:exported
+		ADDED from C:\Users\user\Desktop\Simple-Clock-master\app\src\main\AndroidManifest.xml:442:13-36
+	android:name
+		ADDED from C:\Users\user\Desktop\Simple-Clock-master\app\src\main\AndroidManifest.xml:441:13-59
+intent-filter#action:name:android.app.action.NEXT_ALARM_CLOCK_CHANGED+action:name:android.intent.action.TIMEZONE_CHANGED+action:name:android.intent.action.TIME_SET
+ADDED from C:\Users\user\Desktop\Simple-Clock-master\app\src\main\AndroidManifest.xml:443:13-447:29
+action#android.intent.action.TIME_SET
+ADDED from C:\Users\user\Desktop\Simple-Clock-master\app\src\main\AndroidManifest.xml:444:17-73
+	android:name
+		ADDED from C:\Users\user\Desktop\Simple-Clock-master\app\src\main\AndroidManifest.xml:444:25-70
+action#android.intent.action.TIMEZONE_CHANGED
+ADDED from C:\Users\user\Desktop\Simple-Clock-master\app\src\main\AndroidManifest.xml:445:17-81
+	android:name
+		ADDED from C:\Users\user\Desktop\Simple-Clock-master\app\src\main\AndroidManifest.xml:445:25-78
+action#android.app.action.NEXT_ALARM_CLOCK_CHANGED
+ADDED from C:\Users\user\Desktop\Simple-Clock-master\app\src\main\AndroidManifest.xml:446:17-86
+	android:name
+		ADDED from C:\Users\user\Desktop\Simple-Clock-master\app\src\main\AndroidManifest.xml:446:25-83
+uses-sdk
+INJECTED from C:\Users\user\Desktop\Simple-Clock-master\app\src\main\AndroidManifest.xml reason: use-sdk injection requested
+INJECTED from C:\Users\user\Desktop\Simple-Clock-master\app\src\main\AndroidManifest.xml
+INJECTED from C:\Users\user\Desktop\Simple-Clock-master\app\src\main\AndroidManifest.xml
+MERGED from [com.github.SimpleMobileTools:Simple-Commons:c573613da9] C:\Users\user\.gradle\caches\transforms-3\9594abdccf5c9c8a9d59603384a22d0e\transformed\jetified-Simple-Commons-c573613da9\AndroidManifest.xml:6:5-44
+MERGED from [com.github.SimpleMobileTools:Simple-Commons:c573613da9] C:\Users\user\.gradle\caches\transforms-3\9594abdccf5c9c8a9d59603384a22d0e\transformed\jetified-Simple-Commons-c573613da9\AndroidManifest.xml:6:5-44
+MERGED from [androidx.databinding:viewbinding:8.1.1] C:\Users\user\.gradle\caches\transforms-3\085ce9d49a8a860f18cd43c7c19357b7\transformed\jetified-viewbinding-8.1.1\AndroidManifest.xml:5:5-44
+MERGED from [androidx.databinding:viewbinding:8.1.1] C:\Users\user\.gradle\caches\transforms-3\085ce9d49a8a860f18cd43c7c19357b7\transformed\jetified-viewbinding-8.1.1\AndroidManifest.xml:5:5-44
+MERGED from [com.github.tibbi:RecyclerView-FastScroller:5a95285b1f] C:\Users\user\.gradle\caches\transforms-3\85c43a8a15c623273856b51e49bafccf\transformed\jetified-RecyclerView-FastScroller-5a95285b1f\AndroidManifest.xml:5:5-7:41
+MERGED from [com.github.tibbi:RecyclerView-FastScroller:5a95285b1f] C:\Users\user\.gradle\caches\transforms-3\85c43a8a15c623273856b51e49bafccf\transformed\jetified-RecyclerView-FastScroller-5a95285b1f\AndroidManifest.xml:5:5-7:41
+MERGED from [androidx.work:work-runtime-ktx:2.8.1] C:\Users\user\.gradle\caches\transforms-3\5b3f7b856c4a1329daa41f645e7a03d7\transformed\work-runtime-ktx-2.8.1\AndroidManifest.xml:20:5-44
+MERGED from [androidx.work:work-runtime-ktx:2.8.1] C:\Users\user\.gradle\caches\transforms-3\5b3f7b856c4a1329daa41f645e7a03d7\transformed\work-runtime-ktx-2.8.1\AndroidManifest.xml:20:5-44
+MERGED from [androidx.work:work-runtime:2.8.1] C:\Users\user\.gradle\caches\transforms-3\2ff5ec0de81aa6a3deeed85f13b63d53\transformed\work-runtime-2.8.1\AndroidManifest.xml:21:5-44
+MERGED from [androidx.work:work-runtime:2.8.1] C:\Users\user\.gradle\caches\transforms-3\2ff5ec0de81aa6a3deeed85f13b63d53\transformed\work-runtime-2.8.1\AndroidManifest.xml:21:5-44
+MERGED from [androidx.room:room-runtime:2.6.0-beta01] C:\Users\user\.gradle\caches\transforms-3\19de6a03d7f617251448bcc2443d3caa\transformed\room-runtime-2.6.0-beta01\AndroidManifest.xml:21:5-44
+MERGED from [androidx.room:room-runtime:2.6.0-beta01] C:\Users\user\.gradle\caches\transforms-3\19de6a03d7f617251448bcc2443d3caa\transformed\room-runtime-2.6.0-beta01\AndroidManifest.xml:21:5-44
+MERGED from [androidx.room:room-ktx:2.6.0-beta01] C:\Users\user\.gradle\caches\transforms-3\902241e4f6bb8ad6f9d600baa411f630\transformed\jetified-room-ktx-2.6.0-beta01\AndroidManifest.xml:20:5-44
+MERGED from [androidx.room:room-ktx:2.6.0-beta01] C:\Users\user\.gradle\caches\transforms-3\902241e4f6bb8ad6f9d600baa411f630\transformed\jetified-room-ktx-2.6.0-beta01\AndroidManifest.xml:20:5-44
+MERGED from [com.google.android.material:material:1.9.0] C:\Users\user\.gradle\caches\transforms-3\394af42d6a79f0067f279fd405b87b35\transformed\material-1.9.0\AndroidManifest.xml:20:5-22:41
+MERGED from [com.google.android.material:material:1.9.0] C:\Users\user\.gradle\caches\transforms-3\394af42d6a79f0067f279fd405b87b35\transformed\material-1.9.0\AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.constraintlayout:constraintlayout:2.1.4] C:\Users\user\.gradle\caches\transforms-3\ce2830618c40ceea66e2d1bb4220875e\transformed\constraintlayout-2.1.4\AndroidManifest.xml:5:5-7:41
+MERGED from [androidx.constraintlayout:constraintlayout:2.1.4] C:\Users\user\.gradle\caches\transforms-3\ce2830618c40ceea66e2d1bb4220875e\transformed\constraintlayout-2.1.4\AndroidManifest.xml:5:5-7:41
+MERGED from [com.facebook.stetho:stetho:1.6.0] C:\Users\user\.gradle\caches\transforms-3\9095cf9ce5b1587b0197efd35455f86b\transformed\jetified-stetho-1.6.0\AndroidManifest.xml:7:5-9:41
+MERGED from [com.facebook.stetho:stetho:1.6.0] C:\Users\user\.gradle\caches\transforms-3\9095cf9ce5b1587b0197efd35455f86b\transformed\jetified-stetho-1.6.0\AndroidManifest.xml:7:5-9:41
+MERGED from [io.github.ShawnLin013:number-picker:2.4.13] C:\Users\user\.gradle\caches\transforms-3\e9239eb8c7e33e88c2db754ce1029a93\transformed\jetified-number-picker-2.4.13\AndroidManifest.xml:5:5-7:41
+MERGED from [io.github.ShawnLin013:number-picker:2.4.13] C:\Users\user\.gradle\caches\transforms-3\e9239eb8c7e33e88c2db754ce1029a93\transformed\jetified-number-picker-2.4.13\AndroidManifest.xml:5:5-7:41
+MERGED from [androidx.preference:preference-ktx:1.2.0] C:\Users\user\.gradle\caches\transforms-3\7de4764ed746d6b491b9b9af623565e9\transformed\jetified-preference-ktx-1.2.0\AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.preference:preference-ktx:1.2.0] C:\Users\user\.gradle\caches\transforms-3\7de4764ed746d6b491b9b9af623565e9\transformed\jetified-preference-ktx-1.2.0\AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.preference:preference:1.2.0] C:\Users\user\.gradle\caches\transforms-3\f7456f50033961ef08ac45b898dc2142\transformed\preference-1.2.0\AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.preference:preference:1.2.0] C:\Users\user\.gradle\caches\transforms-3\f7456f50033961ef08ac45b898dc2142\transformed\preference-1.2.0\AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.biometric:biometric-ktx:1.2.0-alpha05] C:\Users\user\.gradle\caches\transforms-3\d09672386014ad45c8434b9ac0f28494\transformed\jetified-biometric-ktx-1.2.0-alpha05\AndroidManifest.xml:5:5-44
+MERGED from [androidx.biometric:biometric-ktx:1.2.0-alpha05] C:\Users\user\.gradle\caches\transforms-3\d09672386014ad45c8434b9ac0f28494\transformed\jetified-biometric-ktx-1.2.0-alpha05\AndroidManifest.xml:5:5-44
+MERGED from [androidx.biometric:biometric:1.2.0-alpha05] C:\Users\user\.gradle\caches\transforms-3\4b9e10b2595e250ffab60b2c1243d1c4\transformed\biometric-1.2.0-alpha05\AndroidManifest.xml:20:5-44
+MERGED from [androidx.biometric:biometric:1.2.0-alpha05] C:\Users\user\.gradle\caches\transforms-3\4b9e10b2595e250ffab60b2c1243d1c4\transformed\biometric-1.2.0-alpha05\AndroidManifest.xml:20:5-44
+MERGED from [com.github.tibbi.reprint:tests:2cb206415d] C:\Users\user\.gradle\caches\transforms-3\485679d7579762e8c71620b0175d1039\transformed\jetified-tests-2cb206415d\AndroidManifest.xml:5:5-44
+MERGED from [com.github.tibbi.reprint:tests:2cb206415d] C:\Users\user\.gradle\caches\transforms-3\485679d7579762e8c71620b0175d1039\transformed\jetified-tests-2cb206415d\AndroidManifest.xml:5:5-44
+MERGED from [com.github.tibbi.reprint:rxjava:2cb206415d] C:\Users\user\.gradle\caches\transforms-3\7062ae4a67b35c4a4f5576be763d4f95\transformed\jetified-rxjava-2cb206415d\AndroidManifest.xml:5:5-44
+MERGED from [com.github.tibbi.reprint:rxjava:2cb206415d] C:\Users\user\.gradle\caches\transforms-3\7062ae4a67b35c4a4f5576be763d4f95\transformed\jetified-rxjava-2cb206415d\AndroidManifest.xml:5:5-44
+MERGED from [com.github.tibbi.reprint:rxjava2:2cb206415d] C:\Users\user\.gradle\caches\transforms-3\3d5a2fc2d2dc15821c1f286befccbac3\transformed\jetified-rxjava2-2cb206415d\AndroidManifest.xml:5:5-44
+MERGED from [com.github.tibbi.reprint:rxjava2:2cb206415d] C:\Users\user\.gradle\caches\transforms-3\3d5a2fc2d2dc15821c1f286befccbac3\transformed\jetified-rxjava2-2cb206415d\AndroidManifest.xml:5:5-44
+MERGED from [com.github.tibbi.reprint:core:2cb206415d] C:\Users\user\.gradle\caches\transforms-3\365834694965c954f2d77d26a65d6499\transformed\jetified-core-2cb206415d\AndroidManifest.xml:5:5-44
+MERGED from [com.github.tibbi.reprint:core:2cb206415d] C:\Users\user\.gradle\caches\transforms-3\365834694965c954f2d77d26a65d6499\transformed\jetified-core-2cb206415d\AndroidManifest.xml:5:5-44
+MERGED from [com.github.aritraroy.patternLockView:patternlockview-reactive:a90b0d4bf0] C:\Users\user\.gradle\caches\transforms-3\7b8aef2f0401bbd96a5241ecc437c7e1\transformed\jetified-patternlockview-reactive-a90b0d4bf0\AndroidManifest.xml:8:5-10:41
+MERGED from [com.github.aritraroy.patternLockView:patternlockview-reactive:a90b0d4bf0] C:\Users\user\.gradle\caches\transforms-3\7b8aef2f0401bbd96a5241ecc437c7e1\transformed\jetified-patternlockview-reactive-a90b0d4bf0\AndroidManifest.xml:8:5-10:41
+MERGED from [com.github.aritraroy.patternLockView:patternlockview:a90b0d4bf0] C:\Users\user\.gradle\caches\transforms-3\b55b96b491346ec2e56c9b8e22890450\transformed\jetified-patternlockview-a90b0d4bf0\AndroidManifest.xml:8:5-10:41
+MERGED from [com.github.aritraroy.patternLockView:patternlockview:a90b0d4bf0] C:\Users\user\.gradle\caches\transforms-3\b55b96b491346ec2e56c9b8e22890450\transformed\jetified-patternlockview-a90b0d4bf0\AndroidManifest.xml:8:5-10:41
+MERGED from [androidx.appcompat:appcompat-resources:1.6.1] C:\Users\user\.gradle\caches\transforms-3\2ab2a7434e14e059e6f4b35455e458c5\transformed\jetified-appcompat-resources-1.6.1\AndroidManifest.xml:20:5-44
+MERGED from [androidx.appcompat:appcompat-resources:1.6.1] C:\Users\user\.gradle\caches\transforms-3\2ab2a7434e14e059e6f4b35455e458c5\transformed\jetified-appcompat-resources-1.6.1\AndroidManifest.xml:20:5-44
+MERGED from [androidx.appcompat:appcompat:1.6.1] C:\Users\user\.gradle\caches\transforms-3\0d59fb2f5f46dbcd9cedb157e91b4e39\transformed\appcompat-1.6.1\AndroidManifest.xml:20:5-44
+MERGED from [androidx.appcompat:appcompat:1.6.1] C:\Users\user\.gradle\caches\transforms-3\0d59fb2f5f46dbcd9cedb157e91b4e39\transformed\appcompat-1.6.1\AndroidManifest.xml:20:5-44
+MERGED from [androidx.fragment:fragment-ktx:1.3.6] C:\Users\user\.gradle\caches\transforms-3\0250f66751ed59496f12e50ee928aae1\transformed\jetified-fragment-ktx-1.3.6\AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.fragment:fragment-ktx:1.3.6] C:\Users\user\.gradle\caches\transforms-3\0250f66751ed59496f12e50ee928aae1\transformed\jetified-fragment-ktx-1.3.6\AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.compose.material3:material3-android:1.2.0-alpha07] C:\Users\user\.gradle\caches\transforms-3\ec379c63fb710503e503866ad5244bd9\transformed\jetified-material3-release\AndroidManifest.xml:20:5-44
+MERGED from [androidx.compose.material3:material3-android:1.2.0-alpha07] C:\Users\user\.gradle\caches\transforms-3\ec379c63fb710503e503866ad5244bd9\transformed\jetified-material3-release\AndroidManifest.xml:20:5-44
+MERGED from [androidx.compose.foundation:foundation-layout-android:1.6.0-alpha05] C:\Users\user\.gradle\caches\transforms-3\704820b53d88872168f569715cd1c97e\transformed\jetified-foundation-layout-release\AndroidManifest.xml:5:5-44
+MERGED from [androidx.compose.foundation:foundation-layout-android:1.6.0-alpha05] C:\Users\user\.gradle\caches\transforms-3\704820b53d88872168f569715cd1c97e\transformed\jetified-foundation-layout-release\AndroidManifest.xml:5:5-44
+MERGED from [androidx.compose.material:material-icons-core-android:1.6.0-alpha05] C:\Users\user\.gradle\caches\transforms-3\da357f971e292159c200fbd96b35d279\transformed\jetified-material-icons-core-release\AndroidManifest.xml:5:5-44
+MERGED from [androidx.compose.material:material-icons-core-android:1.6.0-alpha05] C:\Users\user\.gradle\caches\transforms-3\da357f971e292159c200fbd96b35d279\transformed\jetified-material-icons-core-release\AndroidManifest.xml:5:5-44
+MERGED from [androidx.compose.material:material-icons-extended-android:1.6.0-alpha05] C:\Users\user\.gradle\caches\transforms-3\8f1ecc367c18c067266c0d3969bce6c2\transformed\jetified-material-icons-extended-release\AndroidManifest.xml:5:5-44
+MERGED from [androidx.compose.material:material-icons-extended-android:1.6.0-alpha05] C:\Users\user\.gradle\caches\transforms-3\8f1ecc367c18c067266c0d3969bce6c2\transformed\jetified-material-icons-extended-release\AndroidManifest.xml:5:5-44
+MERGED from [androidx.compose.material:material-ripple-android:1.6.0-alpha05] C:\Users\user\.gradle\caches\transforms-3\4b8866846cba3fe2248ddfa7a9eb285a\transformed\jetified-material-ripple-release\AndroidManifest.xml:5:5-44
+MERGED from [androidx.compose.material:material-ripple-android:1.6.0-alpha05] C:\Users\user\.gradle\caches\transforms-3\4b8866846cba3fe2248ddfa7a9eb285a\transformed\jetified-material-ripple-release\AndroidManifest.xml:5:5-44
+MERGED from [androidx.compose.foundation:foundation-android:1.6.0-alpha05] C:\Users\user\.gradle\caches\transforms-3\b9efce69c24eb2ff66d629ae929c80b2\transformed\jetified-foundation-release\AndroidManifest.xml:5:5-44
+MERGED from [androidx.compose.foundation:foundation-android:1.6.0-alpha05] C:\Users\user\.gradle\caches\transforms-3\b9efce69c24eb2ff66d629ae929c80b2\transformed\jetified-foundation-release\AndroidManifest.xml:5:5-44
+MERGED from [androidx.compose.animation:animation-core-android:1.6.0-alpha05] C:\Users\user\.gradle\caches\transforms-3\668af0a3a741b01836b0cf2ceb8ddb8f\transformed\jetified-animation-core-release\AndroidManifest.xml:5:5-44
+MERGED from [androidx.compose.animation:animation-core-android:1.6.0-alpha05] C:\Users\user\.gradle\caches\transforms-3\668af0a3a741b01836b0cf2ceb8ddb8f\transformed\jetified-animation-core-release\AndroidManifest.xml:5:5-44
+MERGED from [androidx.compose.animation:animation-android:1.6.0-alpha05] C:\Users\user\.gradle\caches\transforms-3\8dfd2d40c5b8f2e7c4229436f12d966e\transformed\jetified-animation-release\AndroidManifest.xml:5:5-44
+MERGED from [androidx.compose.animation:animation-android:1.6.0-alpha05] C:\Users\user\.gradle\caches\transforms-3\8dfd2d40c5b8f2e7c4229436f12d966e\transformed\jetified-animation-release\AndroidManifest.xml:5:5-44
+MERGED from [androidx.compose.ui:ui-unit-android:1.6.0-alpha05] C:\Users\user\.gradle\caches\transforms-3\6995d1adb49bdee6b1c2696787c8651c\transformed\jetified-ui-unit-release\AndroidManifest.xml:5:5-44
+MERGED from [androidx.compose.ui:ui-unit-android:1.6.0-alpha05] C:\Users\user\.gradle\caches\transforms-3\6995d1adb49bdee6b1c2696787c8651c\transformed\jetified-ui-unit-release\AndroidManifest.xml:5:5-44
+MERGED from [androidx.compose.ui:ui-graphics-android:1.6.0-alpha05] C:\Users\user\.gradle\caches\transforms-3\f166618948c3a8ecb9194934f10e7671\transformed\jetified-ui-graphics-release\AndroidManifest.xml:5:5-44
+MERGED from [androidx.compose.ui:ui-graphics-android:1.6.0-alpha05] C:\Users\user\.gradle\caches\transforms-3\f166618948c3a8ecb9194934f10e7671\transformed\jetified-ui-graphics-release\AndroidManifest.xml:5:5-44
+MERGED from [androidx.compose.ui:ui-text-android:1.6.0-alpha05] C:\Users\user\.gradle\caches\transforms-3\5f366b3d83be657fe475a1ae111f24bf\transformed\jetified-ui-text-release\AndroidManifest.xml:5:5-44
+MERGED from [androidx.compose.ui:ui-text-android:1.6.0-alpha05] C:\Users\user\.gradle\caches\transforms-3\5f366b3d83be657fe475a1ae111f24bf\transformed\jetified-ui-text-release\AndroidManifest.xml:5:5-44
+MERGED from [androidx.compose.ui:ui-util-android:1.6.0-alpha05] C:\Users\user\.gradle\caches\transforms-3\dbdd8e0951eec67345dae355d5a8849a\transformed\jetified-ui-util-release\AndroidManifest.xml:5:5-44
+MERGED from [androidx.compose.ui:ui-util-android:1.6.0-alpha05] C:\Users\user\.gradle\caches\transforms-3\dbdd8e0951eec67345dae355d5a8849a\transformed\jetified-ui-util-release\AndroidManifest.xml:5:5-44
+MERGED from [androidx.compose.ui:ui-geometry-android:1.6.0-alpha05] C:\Users\user\.gradle\caches\transforms-3\82d4a3d70ae3547607b60741ec54ffec\transformed\jetified-ui-geometry-release\AndroidManifest.xml:5:5-44
+MERGED from [androidx.compose.ui:ui-geometry-android:1.6.0-alpha05] C:\Users\user\.gradle\caches\transforms-3\82d4a3d70ae3547607b60741ec54ffec\transformed\jetified-ui-geometry-release\AndroidManifest.xml:5:5-44
+MERGED from [androidx.compose.ui:ui-tooling-preview-android:1.6.0-alpha05] C:\Users\user\.gradle\caches\transforms-3\ec312a5454f40e0893ed843c6b759041\transformed\jetified-ui-tooling-preview-release\AndroidManifest.xml:20:5-44
+MERGED from [androidx.compose.ui:ui-tooling-preview-android:1.6.0-alpha05] C:\Users\user\.gradle\caches\transforms-3\ec312a5454f40e0893ed843c6b759041\transformed\jetified-ui-tooling-preview-release\AndroidManifest.xml:20:5-44
+MERGED from [androidx.compose.ui:ui-android:1.6.0-alpha05] C:\Users\user\.gradle\caches\transforms-3\dc994103c571be7b104cfa1533ccfb24\transformed\jetified-ui-release\AndroidManifest.xml:5:5-44
+MERGED from [androidx.compose.ui:ui-android:1.6.0-alpha05] C:\Users\user\.gradle\caches\transforms-3\dc994103c571be7b104cfa1533ccfb24\transformed\jetified-ui-release\AndroidManifest.xml:5:5-44
+MERGED from [com.github.bumptech.glide:glide:4.16.0] C:\Users\user\.gradle\caches\transforms-3\c0066bff65599d5a0f337311a4a57e6a\transformed\jetified-glide-4.16.0\AndroidManifest.xml:5:5-7:41
+MERGED from [com.github.bumptech.glide:glide:4.16.0] C:\Users\user\.gradle\caches\transforms-3\c0066bff65599d5a0f337311a4a57e6a\transformed\jetified-glide-4.16.0\AndroidManifest.xml:5:5-7:41
+MERGED from [androidx.viewpager2:viewpager2:1.0.0] C:\Users\user\.gradle\caches\transforms-3\20600652ccbf95dd39d8bc651cc0f666\transformed\jetified-viewpager2-1.0.0\AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.viewpager2:viewpager2:1.0.0] C:\Users\user\.gradle\caches\transforms-3\20600652ccbf95dd39d8bc651cc0f666\transformed\jetified-viewpager2-1.0.0\AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.fragment:fragment:1.3.6] C:\Users\user\.gradle\caches\transforms-3\d06f2d08839594017cd23508631da553\transformed\fragment-1.3.6\AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.fragment:fragment:1.3.6] C:\Users\user\.gradle\caches\transforms-3\d06f2d08839594017cd23508631da553\transformed\fragment-1.3.6\AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.activity:activity:1.8.0-beta01] C:\Users\user\.gradle\caches\transforms-3\19e5b0ab98ebb7d82a6cd1f8c32d35eb\transformed\jetified-activity-1.8.0-beta01\AndroidManifest.xml:20:5-44
+MERGED from [androidx.activity:activity:1.8.0-beta01] C:\Users\user\.gradle\caches\transforms-3\19e5b0ab98ebb7d82a6cd1f8c32d35eb\transformed\jetified-activity-1.8.0-beta01\AndroidManifest.xml:20:5-44
+MERGED from [androidx.activity:activity-ktx:1.8.0-beta01] C:\Users\user\.gradle\caches\transforms-3\4fd6111e9f654864a1fa137f857108b4\transformed\jetified-activity-ktx-1.8.0-beta01\AndroidManifest.xml:5:5-44
+MERGED from [androidx.activity:activity-ktx:1.8.0-beta01] C:\Users\user\.gradle\caches\transforms-3\4fd6111e9f654864a1fa137f857108b4\transformed\jetified-activity-ktx-1.8.0-beta01\AndroidManifest.xml:5:5-44
+MERGED from [androidx.activity:activity-compose:1.8.0-beta01] C:\Users\user\.gradle\caches\transforms-3\576fac50b72a60b0995537432718336d\transformed\jetified-activity-compose-1.8.0-beta01\AndroidManifest.xml:5:5-44
+MERGED from [androidx.activity:activity-compose:1.8.0-beta01] C:\Users\user\.gradle\caches\transforms-3\576fac50b72a60b0995537432718336d\transformed\jetified-activity-compose-1.8.0-beta01\AndroidManifest.xml:5:5-44
+MERGED from [androidx.lifecycle:lifecycle-livedata-core:2.7.0-alpha02] C:\Users\user\.gradle\caches\transforms-3\aa1a45318ceb95f541396605a022d8dc\transformed\lifecycle-livedata-core-2.7.0-alpha02\AndroidManifest.xml:20:5-44
+MERGED from [androidx.lifecycle:lifecycle-livedata-core:2.7.0-alpha02] C:\Users\user\.gradle\caches\transforms-3\aa1a45318ceb95f541396605a022d8dc\transformed\lifecycle-livedata-core-2.7.0-alpha02\AndroidManifest.xml:20:5-44
+MERGED from [androidx.savedstate:savedstate-ktx:1.2.1] C:\Users\user\.gradle\caches\transforms-3\8738b8e52015537e0e377f3c08fdadbe\transformed\jetified-savedstate-ktx-1.2.1\AndroidManifest.xml:20:5-44
+MERGED from [androidx.savedstate:savedstate-ktx:1.2.1] C:\Users\user\.gradle\caches\transforms-3\8738b8e52015537e0e377f3c08fdadbe\transformed\jetified-savedstate-ktx-1.2.1\AndroidManifest.xml:20:5-44
+MERGED from [androidx.savedstate:savedstate:1.2.1] C:\Users\user\.gradle\caches\transforms-3\e15584aa54a4e41074ed86f288980ee4\transformed\jetified-savedstate-1.2.1\AndroidManifest.xml:20:5-44
+MERGED from [androidx.savedstate:savedstate:1.2.1] C:\Users\user\.gradle\caches\transforms-3\e15584aa54a4e41074ed86f288980ee4\transformed\jetified-savedstate-1.2.1\AndroidManifest.xml:20:5-44
+MERGED from [androidx.lifecycle:lifecycle-service:2.7.0-alpha02] C:\Users\user\.gradle\caches\transforms-3\4c7fbf162b6a201c4cfb4a8587c7747e\transformed\jetified-lifecycle-service-2.7.0-alpha02\AndroidManifest.xml:5:5-44
+MERGED from [androidx.lifecycle:lifecycle-service:2.7.0-alpha02] C:\Users\user\.gradle\caches\transforms-3\4c7fbf162b6a201c4cfb4a8587c7747e\transformed\jetified-lifecycle-service-2.7.0-alpha02\AndroidManifest.xml:5:5-44
+MERGED from [androidx.dynamicanimation:dynamicanimation:1.0.0] C:\Users\user\.gradle\caches\transforms-3\5c21ce6544e6c5fcb2f80812a6556952\transformed\dynamicanimation-1.0.0\AndroidManifest.xml:20:5-44
+MERGED from [androidx.dynamicanimation:dynamicanimation:1.0.0] C:\Users\user\.gradle\caches\transforms-3\5c21ce6544e6c5fcb2f80812a6556952\transformed\dynamicanimation-1.0.0\AndroidManifest.xml:20:5-44
+MERGED from [androidx.legacy:legacy-support-core-utils:1.0.0] C:\Users\user\.gradle\caches\transforms-3\bdddc12c2d64bcbe221b7235ef33e359\transformed\legacy-support-core-utils-1.0.0\AndroidManifest.xml:20:5-44
+MERGED from [androidx.legacy:legacy-support-core-utils:1.0.0] C:\Users\user\.gradle\caches\transforms-3\bdddc12c2d64bcbe221b7235ef33e359\transformed\legacy-support-core-utils-1.0.0\AndroidManifest.xml:20:5-44
+MERGED from [androidx.loader:loader:1.0.0] C:\Users\user\.gradle\caches\transforms-3\03f7feb8e7fb3613b4e87c8e822504e9\transformed\loader-1.0.0\AndroidManifest.xml:20:5-44
+MERGED from [androidx.loader:loader:1.0.0] C:\Users\user\.gradle\caches\transforms-3\03f7feb8e7fb3613b4e87c8e822504e9\transformed\loader-1.0.0\AndroidManifest.xml:20:5-44
+MERGED from [androidx.lifecycle:lifecycle-livedata:2.7.0-alpha02] C:\Users\user\.gradle\caches\transforms-3\289116f2d0c7fd810c362f17a478d1ee\transformed\lifecycle-livedata-2.7.0-alpha02\AndroidManifest.xml:20:5-44
+MERGED from [androidx.lifecycle:lifecycle-livedata:2.7.0-alpha02] C:\Users\user\.gradle\caches\transforms-3\289116f2d0c7fd810c362f17a478d1ee\transformed\lifecycle-livedata-2.7.0-alpha02\AndroidManifest.xml:20:5-44
+MERGED from [androidx.lifecycle:lifecycle-livedata-core-ktx:2.7.0-alpha02] C:\Users\user\.gradle\caches\transforms-3\7ae64dd0a1a8a62fa7753e9f7b886164\transformed\jetified-lifecycle-livedata-core-ktx-2.7.0-alpha02\AndroidManifest.xml:5:5-44
+MERGED from [androidx.lifecycle:lifecycle-livedata-core-ktx:2.7.0-alpha02] C:\Users\user\.gradle\caches\transforms-3\7ae64dd0a1a8a62fa7753e9f7b886164\transformed\jetified-lifecycle-livedata-core-ktx-2.7.0-alpha02\AndroidManifest.xml:5:5-44
+MERGED from [androidx.lifecycle:lifecycle-viewmodel-savedstate:2.7.0-alpha02] C:\Users\user\.gradle\caches\transforms-3\967b482a2cf01304edcb72022fcecd84\transformed\jetified-lifecycle-viewmodel-savedstate-2.7.0-alpha02\AndroidManifest.xml:20:5-44
+MERGED from [androidx.lifecycle:lifecycle-viewmodel-savedstate:2.7.0-alpha02] C:\Users\user\.gradle\caches\transforms-3\967b482a2cf01304edcb72022fcecd84\transformed\jetified-lifecycle-viewmodel-savedstate-2.7.0-alpha02\AndroidManifest.xml:20:5-44
+MERGED from [androidx.lifecycle:lifecycle-viewmodel:2.7.0-alpha02] C:\Users\user\.gradle\caches\transforms-3\2a637170ad9bfaf572d1c931b68ed960\transformed\lifecycle-viewmodel-2.7.0-alpha02\AndroidManifest.xml:20:5-44
+MERGED from [androidx.lifecycle:lifecycle-viewmodel:2.7.0-alpha02] C:\Users\user\.gradle\caches\transforms-3\2a637170ad9bfaf572d1c931b68ed960\transformed\lifecycle-viewmodel-2.7.0-alpha02\AndroidManifest.xml:20:5-44
+MERGED from [androidx.emoji2:emoji2-views-helper:1.3.0] C:\Users\user\.gradle\caches\transforms-3\790927e9ff0f8ee725c3c33856d15c46\transformed\jetified-emoji2-views-helper-1.3.0\AndroidManifest.xml:5:5-44
+MERGED from [androidx.emoji2:emoji2-views-helper:1.3.0] C:\Users\user\.gradle\caches\transforms-3\790927e9ff0f8ee725c3c33856d15c46\transformed\jetified-emoji2-views-helper-1.3.0\AndroidManifest.xml:5:5-44
+MERGED from [androidx.emoji2:emoji2:1.3.0] C:\Users\user\.gradle\caches\transforms-3\995a6c7d2b8e2d21ee653adcb488a695\transformed\jetified-emoji2-1.3.0\AndroidManifest.xml:21:5-44
+MERGED from [androidx.emoji2:emoji2:1.3.0] C:\Users\user\.gradle\caches\transforms-3\995a6c7d2b8e2d21ee653adcb488a695\transformed\jetified-emoji2-1.3.0\AndroidManifest.xml:21:5-44
+MERGED from [androidx.lifecycle:lifecycle-process:2.7.0-alpha02] C:\Users\user\.gradle\caches\transforms-3\6f4542da6288a7f8eb43f2c27b8490d7\transformed\jetified-lifecycle-process-2.7.0-alpha02\AndroidManifest.xml:21:5-44
+MERGED from [androidx.lifecycle:lifecycle-process:2.7.0-alpha02] C:\Users\user\.gradle\caches\transforms-3\6f4542da6288a7f8eb43f2c27b8490d7\transformed\jetified-lifecycle-process-2.7.0-alpha02\AndroidManifest.xml:21:5-44
+MERGED from [androidx.swiperefreshlayout:swiperefreshlayout:1.1.0] C:\Users\user\.gradle\caches\transforms-3\4bc835cd4aec80b9ca9cdf982e4ecfb6\transformed\swiperefreshlayout-1.1.0\AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.swiperefreshlayout:swiperefreshlayout:1.1.0] C:\Users\user\.gradle\caches\transforms-3\4bc835cd4aec80b9ca9cdf982e4ecfb6\transformed\swiperefreshlayout-1.1.0\AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.customview:customview-poolingcontainer:1.0.0] C:\Users\user\.gradle\caches\transforms-3\f4983dd484bc2417d27b69c4349f72e7\transformed\jetified-customview-poolingcontainer-1.0.0\AndroidManifest.xml:20:5-21:38
+MERGED from [androidx.customview:customview-poolingcontainer:1.0.0] C:\Users\user\.gradle\caches\transforms-3\f4983dd484bc2417d27b69c4349f72e7\transformed\jetified-customview-poolingcontainer-1.0.0\AndroidManifest.xml:20:5-21:38
+MERGED from [androidx.core:core-ktx:1.12.0] C:\Users\user\.gradle\caches\transforms-3\69e1fb0d6ced9b7efb6cfe150a1c57db\transformed\jetified-core-ktx-1.12.0\AndroidManifest.xml:5:5-44
+MERGED from [androidx.core:core-ktx:1.12.0] C:\Users\user\.gradle\caches\transforms-3\69e1fb0d6ced9b7efb6cfe150a1c57db\transformed\jetified-core-ktx-1.12.0\AndroidManifest.xml:5:5-44
+MERGED from [androidx.recyclerview:recyclerview:1.2.0-alpha06] C:\Users\user\.gradle\caches\transforms-3\4690c6993d9645e66e0fd512172e6be1\transformed\recyclerview-1.2.0-alpha06\AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.recyclerview:recyclerview:1.2.0-alpha06] C:\Users\user\.gradle\caches\transforms-3\4690c6993d9645e66e0fd512172e6be1\transformed\recyclerview-1.2.0-alpha06\AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.drawerlayout:drawerlayout:1.1.1] C:\Users\user\.gradle\caches\transforms-3\bdefb91223feb98f648dde235e177857\transformed\drawerlayout-1.1.1\AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.drawerlayout:drawerlayout:1.1.1] C:\Users\user\.gradle\caches\transforms-3\bdefb91223feb98f648dde235e177857\transformed\drawerlayout-1.1.1\AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.coordinatorlayout:coordinatorlayout:1.1.0] C:\Users\user\.gradle\caches\transforms-3\70b6eb571734c7e14f1c8d35d45f2a1a\transformed\coordinatorlayout-1.1.0\AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.coordinatorlayout:coordinatorlayout:1.1.0] C:\Users\user\.gradle\caches\transforms-3\70b6eb571734c7e14f1c8d35d45f2a1a\transformed\coordinatorlayout-1.1.0\AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.vectordrawable:vectordrawable-animated:1.1.0] C:\Users\user\.gradle\caches\transforms-3\f8d59890d423db0c5003efd21cc37248\transformed\vectordrawable-animated-1.1.0\AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.vectordrawable:vectordrawable-animated:1.1.0] C:\Users\user\.gradle\caches\transforms-3\f8d59890d423db0c5003efd21cc37248\transformed\vectordrawable-animated-1.1.0\AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.vectordrawable:vectordrawable:1.1.0] C:\Users\user\.gradle\caches\transforms-3\49993c5d2653ca070a431273399e3cce\transformed\vectordrawable-1.1.0\AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.vectordrawable:vectordrawable:1.1.0] C:\Users\user\.gradle\caches\transforms-3\49993c5d2653ca070a431273399e3cce\transformed\vectordrawable-1.1.0\AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.slidingpanelayout:slidingpanelayout:1.2.0] C:\Users\user\.gradle\caches\transforms-3\57e47426d50128f78e1133907b3faeae\transformed\slidingpanelayout-1.2.0\AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.slidingpanelayout:slidingpanelayout:1.2.0] C:\Users\user\.gradle\caches\transforms-3\57e47426d50128f78e1133907b3faeae\transformed\slidingpanelayout-1.2.0\AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.autofill:autofill:1.0.0] C:\Users\user\.gradle\caches\transforms-3\686d0da8ce392aaddf3b82bac26e30cf\transformed\jetified-autofill-1.0.0\AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.autofill:autofill:1.0.0] C:\Users\user\.gradle\caches\transforms-3\686d0da8ce392aaddf3b82bac26e30cf\transformed\jetified-autofill-1.0.0\AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.viewpager:viewpager:1.0.0] C:\Users\user\.gradle\caches\transforms-3\9f1bd6b54f476a259cce6fba49ceaacd\transformed\viewpager-1.0.0\AndroidManifest.xml:20:5-44
+MERGED from [androidx.viewpager:viewpager:1.0.0] C:\Users\user\.gradle\caches\transforms-3\9f1bd6b54f476a259cce6fba49ceaacd\transformed\viewpager-1.0.0\AndroidManifest.xml:20:5-44
+MERGED from [androidx.customview:customview:1.1.0] C:\Users\user\.gradle\caches\transforms-3\51ccac4df27a3b64b53407be247b043d\transformed\customview-1.1.0\AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.customview:customview:1.1.0] C:\Users\user\.gradle\caches\transforms-3\51ccac4df27a3b64b53407be247b043d\transformed\customview-1.1.0\AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.transition:transition:1.4.1] C:\Users\user\.gradle\caches\transforms-3\bb4ebcca4126f204eb2ea776fc69e8dc\transformed\transition-1.4.1\AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.transition:transition:1.4.1] C:\Users\user\.gradle\caches\transforms-3\bb4ebcca4126f204eb2ea776fc69e8dc\transformed\transition-1.4.1\AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.window:window:1.0.0] C:\Users\user\.gradle\caches\transforms-3\c8ecd07bdd2f6f71584c5e59fbbd2e73\transformed\jetified-window-1.0.0\AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.window:window:1.0.0] C:\Users\user\.gradle\caches\transforms-3\c8ecd07bdd2f6f71584c5e59fbbd2e73\transformed\jetified-window-1.0.0\AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.core:core:1.12.0] C:\Users\user\.gradle\caches\transforms-3\891dbd363961478e669147ab4b59463d\transformed\core-1.12.0\AndroidManifest.xml:20:5-44
+MERGED from [androidx.core:core:1.12.0] C:\Users\user\.gradle\caches\transforms-3\891dbd363961478e669147ab4b59463d\transformed\core-1.12.0\AndroidManifest.xml:20:5-44
+MERGED from [androidx.lifecycle:lifecycle-runtime:2.7.0-alpha02] C:\Users\user\.gradle\caches\transforms-3\c8db6e998f9a0fcac4ceac9d8d2547f6\transformed\lifecycle-runtime-2.7.0-alpha02\AndroidManifest.xml:5:5-44
+MERGED from [androidx.lifecycle:lifecycle-runtime:2.7.0-alpha02] C:\Users\user\.gradle\caches\transforms-3\c8db6e998f9a0fcac4ceac9d8d2547f6\transformed\lifecycle-runtime-2.7.0-alpha02\AndroidManifest.xml:5:5-44
+MERGED from [androidx.lifecycle:lifecycle-viewmodel-compose:2.7.0-alpha02] C:\Users\user\.gradle\caches\transforms-3\940cfba61ec47628b05f0f8407608e56\transformed\jetified-lifecycle-viewmodel-compose-2.7.0-alpha02\AndroidManifest.xml:5:5-44
+MERGED from [androidx.lifecycle:lifecycle-viewmodel-compose:2.7.0-alpha02] C:\Users\user\.gradle\caches\transforms-3\940cfba61ec47628b05f0f8407608e56\transformed\jetified-lifecycle-viewmodel-compose-2.7.0-alpha02\AndroidManifest.xml:5:5-44
+MERGED from [androidx.lifecycle:lifecycle-runtime-compose:2.7.0-alpha02] C:\Users\user\.gradle\caches\transforms-3\461ea2ed354b66dd704ca3ef259d3555\transformed\jetified-lifecycle-runtime-compose-2.7.0-alpha02\AndroidManifest.xml:5:5-44
+MERGED from [androidx.lifecycle:lifecycle-runtime-compose:2.7.0-alpha02] C:\Users\user\.gradle\caches\transforms-3\461ea2ed354b66dd704ca3ef259d3555\transformed\jetified-lifecycle-runtime-compose-2.7.0-alpha02\AndroidManifest.xml:5:5-44
+MERGED from [androidx.lifecycle:lifecycle-viewmodel-ktx:2.7.0-alpha02] C:\Users\user\.gradle\caches\transforms-3\67316cf2534ac10bbe610a3651ebb53d\transformed\jetified-lifecycle-viewmodel-ktx-2.7.0-alpha02\AndroidManifest.xml:5:5-44
+MERGED from [androidx.lifecycle:lifecycle-viewmodel-ktx:2.7.0-alpha02] C:\Users\user\.gradle\caches\transforms-3\67316cf2534ac10bbe610a3651ebb53d\transformed\jetified-lifecycle-viewmodel-ktx-2.7.0-alpha02\AndroidManifest.xml:5:5-44
+MERGED from [androidx.lifecycle:lifecycle-runtime-ktx:2.7.0-alpha02] C:\Users\user\.gradle\caches\transforms-3\0a6a72f0ff09a5df6c4922b969c1473d\transformed\jetified-lifecycle-runtime-ktx-2.7.0-alpha02\AndroidManifest.xml:20:5-44
+MERGED from [androidx.lifecycle:lifecycle-runtime-ktx:2.7.0-alpha02] C:\Users\user\.gradle\caches\transforms-3\0a6a72f0ff09a5df6c4922b969c1473d\transformed\jetified-lifecycle-runtime-ktx-2.7.0-alpha02\AndroidManifest.xml:20:5-44
+MERGED from [androidx.compose.runtime:runtime-saveable-android:1.6.0-alpha05] C:\Users\user\.gradle\caches\transforms-3\6cdbcd6b1ef2a70009f89e6521e3b8da\transformed\jetified-runtime-saveable-release\AndroidManifest.xml:5:5-44
+MERGED from [androidx.compose.runtime:runtime-saveable-android:1.6.0-alpha05] C:\Users\user\.gradle\caches\transforms-3\6cdbcd6b1ef2a70009f89e6521e3b8da\transformed\jetified-runtime-saveable-release\AndroidManifest.xml:5:5-44
+MERGED from [androidx.compose.runtime:runtime-android:1.6.0-alpha05] C:\Users\user\.gradle\caches\transforms-3\9cedd61662afc37953258ffd6a46676f\transformed\jetified-runtime-release\AndroidManifest.xml:5:5-44
+MERGED from [androidx.compose.runtime:runtime-android:1.6.0-alpha05] C:\Users\user\.gradle\caches\transforms-3\9cedd61662afc37953258ffd6a46676f\transformed\jetified-runtime-release\AndroidManifest.xml:5:5-44
+MERGED from [me.grantland:autofittextview:0.2.1] C:\Users\user\.gradle\caches\transforms-3\1422a7490e89657c5ec7d206440ebab0\transformed\jetified-autofittextview-0.2.1\AndroidManifest.xml:7:5-9:41
+MERGED from [me.grantland:autofittextview:0.2.1] C:\Users\user\.gradle\caches\transforms-3\1422a7490e89657c5ec7d206440ebab0\transformed\jetified-autofittextview-0.2.1\AndroidManifest.xml:7:5-9:41
+MERGED from [org.greenrobot:eventbus:3.3.1] C:\Users\user\.gradle\caches\transforms-3\928e0d698a1967ff02eace9fc7d9221f\transformed\jetified-eventbus-3.3.1\AndroidManifest.xml:5:5-7:41
+MERGED from [org.greenrobot:eventbus:3.3.1] C:\Users\user\.gradle\caches\transforms-3\928e0d698a1967ff02eace9fc7d9221f\transformed\jetified-eventbus-3.3.1\AndroidManifest.xml:5:5-7:41
+MERGED from [androidx.documentfile:documentfile:1.0.1] C:\Users\user\.gradle\caches\transforms-3\0e92fd6ad9f7b9346d45343d5a7a1ce4\transformed\documentfile-1.0.1\AndroidManifest.xml:20:5-44
+MERGED from [androidx.documentfile:documentfile:1.0.1] C:\Users\user\.gradle\caches\transforms-3\0e92fd6ad9f7b9346d45343d5a7a1ce4\transformed\documentfile-1.0.1\AndroidManifest.xml:20:5-44
+MERGED from [androidx.exifinterface:exifinterface:1.3.6] C:\Users\user\.gradle\caches\transforms-3\cafddb8f4c2b444f3b2f1618edd2cea4\transformed\exifinterface-1.3.6\AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.exifinterface:exifinterface:1.3.6] C:\Users\user\.gradle\caches\transforms-3\cafddb8f4c2b444f3b2f1618edd2cea4\transformed\exifinterface-1.3.6\AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.arch.core:core-runtime:2.2.0] C:\Users\user\.gradle\caches\transforms-3\77ad4e5b459598e8c11d326e6949ef1e\transformed\core-runtime-2.2.0\AndroidManifest.xml:20:5-44
+MERGED from [androidx.arch.core:core-runtime:2.2.0] C:\Users\user\.gradle\caches\transforms-3\77ad4e5b459598e8c11d326e6949ef1e\transformed\core-runtime-2.2.0\AndroidManifest.xml:20:5-44
+MERGED from [androidx.sqlite:sqlite-framework:2.4.0-beta01] C:\Users\user\.gradle\caches\transforms-3\5e391150fdb7f0a9a87402697aa627d7\transformed\sqlite-framework-2.4.0-beta01\AndroidManifest.xml:20:5-44
+MERGED from [androidx.sqlite:sqlite-framework:2.4.0-beta01] C:\Users\user\.gradle\caches\transforms-3\5e391150fdb7f0a9a87402697aa627d7\transformed\sqlite-framework-2.4.0-beta01\AndroidManifest.xml:20:5-44
+MERGED from [androidx.sqlite:sqlite:2.4.0-beta01] C:\Users\user\.gradle\caches\transforms-3\197d7cb8bc8d7cd816be0944983c765d\transformed\sqlite-2.4.0-beta01\AndroidManifest.xml:20:5-44
+MERGED from [androidx.sqlite:sqlite:2.4.0-beta01] C:\Users\user\.gradle\caches\transforms-3\197d7cb8bc8d7cd816be0944983c765d\transformed\sqlite-2.4.0-beta01\AndroidManifest.xml:20:5-44
+MERGED from [androidx.interpolator:interpolator:1.0.0] C:\Users\user\.gradle\caches\transforms-3\0ca791136b9356992d64666a483d12a3\transformed\interpolator-1.0.0\AndroidManifest.xml:20:5-44
+MERGED from [androidx.interpolator:interpolator:1.0.0] C:\Users\user\.gradle\caches\transforms-3\0ca791136b9356992d64666a483d12a3\transformed\interpolator-1.0.0\AndroidManifest.xml:20:5-44
+MERGED from [androidx.cursoradapter:cursoradapter:1.0.0] C:\Users\user\.gradle\caches\transforms-3\4e52d09cc9ef1fb4109914138f7a7011\transformed\cursoradapter-1.0.0\AndroidManifest.xml:20:5-44
+MERGED from [androidx.cursoradapter:cursoradapter:1.0.0] C:\Users\user\.gradle\caches\transforms-3\4e52d09cc9ef1fb4109914138f7a7011\transformed\cursoradapter-1.0.0\AndroidManifest.xml:20:5-44
+MERGED from [androidx.cardview:cardview:1.0.0] C:\Users\user\.gradle\caches\transforms-3\63db285777b38495ca1a9f856381ac44\transformed\cardview-1.0.0\AndroidManifest.xml:20:5-44
+MERGED from [androidx.cardview:cardview:1.0.0] C:\Users\user\.gradle\caches\transforms-3\63db285777b38495ca1a9f856381ac44\transformed\cardview-1.0.0\AndroidManifest.xml:20:5-44
+MERGED from [com.github.bumptech.glide:gifdecoder:4.16.0] C:\Users\user\.gradle\caches\transforms-3\3d5464cb937d8054219f644214690155\transformed\jetified-gifdecoder-4.16.0\AndroidManifest.xml:5:5-7:41
+MERGED from [com.github.bumptech.glide:gifdecoder:4.16.0] C:\Users\user\.gradle\caches\transforms-3\3d5464cb937d8054219f644214690155\transformed\jetified-gifdecoder-4.16.0\AndroidManifest.xml:5:5-7:41
+MERGED from [androidx.profileinstaller:profileinstaller:1.3.0] C:\Users\user\.gradle\caches\transforms-3\54db9d2491e5624f74c5070bb32cbb85\transformed\jetified-profileinstaller-1.3.0\AndroidManifest.xml:21:5-44
+MERGED from [androidx.profileinstaller:profileinstaller:1.3.0] C:\Users\user\.gradle\caches\transforms-3\54db9d2491e5624f74c5070bb32cbb85\transformed\jetified-profileinstaller-1.3.0\AndroidManifest.xml:21:5-44
+MERGED from [androidx.startup:startup-runtime:1.1.1] C:\Users\user\.gradle\caches\transforms-3\13051f4035098308c34b6a0246341cc0\transformed\jetified-startup-runtime-1.1.1\AndroidManifest.xml:21:5-23:41
+MERGED from [androidx.startup:startup-runtime:1.1.1] C:\Users\user\.gradle\caches\transforms-3\13051f4035098308c34b6a0246341cc0\transformed\jetified-startup-runtime-1.1.1\AndroidManifest.xml:21:5-23:41
+MERGED from [androidx.tracing:tracing:1.0.0] C:\Users\user\.gradle\caches\transforms-3\547422d50ab71ec8bb8dcf020e6ac0f8\transformed\jetified-tracing-1.0.0\AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.tracing:tracing:1.0.0] C:\Users\user\.gradle\caches\transforms-3\547422d50ab71ec8bb8dcf020e6ac0f8\transformed\jetified-tracing-1.0.0\AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.versionedparcelable:versionedparcelable:1.1.1] C:\Users\user\.gradle\caches\transforms-3\c07830ec1317eaabafb64bb0631c87c5\transformed\versionedparcelable-1.1.1\AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.versionedparcelable:versionedparcelable:1.1.1] C:\Users\user\.gradle\caches\transforms-3\c07830ec1317eaabafb64bb0631c87c5\transformed\versionedparcelable-1.1.1\AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.localbroadcastmanager:localbroadcastmanager:1.0.0] C:\Users\user\.gradle\caches\transforms-3\d68b9b41e497ecc35d04ac69f20e22b6\transformed\localbroadcastmanager-1.0.0\AndroidManifest.xml:20:5-44
+MERGED from [androidx.localbroadcastmanager:localbroadcastmanager:1.0.0] C:\Users\user\.gradle\caches\transforms-3\d68b9b41e497ecc35d04ac69f20e22b6\transformed\localbroadcastmanager-1.0.0\AndroidManifest.xml:20:5-44
+MERGED from [androidx.print:print:1.0.0] C:\Users\user\.gradle\caches\transforms-3\80bab4023dd6d06ac830806177339330\transformed\print-1.0.0\AndroidManifest.xml:20:5-44
+MERGED from [androidx.print:print:1.0.0] C:\Users\user\.gradle\caches\transforms-3\80bab4023dd6d06ac830806177339330\transformed\print-1.0.0\AndroidManifest.xml:20:5-44
+MERGED from [androidx.annotation:annotation-experimental:1.3.0] C:\Users\user\.gradle\caches\transforms-3\54fdd2238a4a33fa30e31f0ce6004894\transformed\jetified-annotation-experimental-1.3.0\AndroidManifest.xml:20:5-44
+MERGED from [androidx.annotation:annotation-experimental:1.3.0] C:\Users\user\.gradle\caches\transforms-3\54fdd2238a4a33fa30e31f0ce6004894\transformed\jetified-annotation-experimental-1.3.0\AndroidManifest.xml:20:5-44
+MERGED from [com.github.duolingo:rtl-viewpager:940f12724f] C:\Users\user\.gradle\caches\transforms-3\f68f0183e05059d582281070c09fefe0\transformed\jetified-rtl-viewpager-940f12724f\AndroidManifest.xml:20:5-22:41
+MERGED from [com.github.duolingo:rtl-viewpager:940f12724f] C:\Users\user\.gradle\caches\transforms-3\f68f0183e05059d582281070c09fefe0\transformed\jetified-rtl-viewpager-940f12724f\AndroidManifest.xml:20:5-22:41
+MERGED from [io.reactivex.rxjava2:rxandroid:2.0.0] C:\Users\user\.gradle\caches\transforms-3\4cdaa340aad2c0c535f416012b4f2d21\transformed\jetified-rxandroid-2.0.0\AndroidManifest.xml:19:5-43
+MERGED from [io.reactivex.rxjava2:rxandroid:2.0.0] C:\Users\user\.gradle\caches\transforms-3\4cdaa340aad2c0c535f416012b4f2d21\transformed\jetified-rxandroid-2.0.0\AndroidManifest.xml:19:5-43
+	android:targetSdkVersion
+		INJECTED from C:\Users\user\Desktop\Simple-Clock-master\app\src\main\AndroidManifest.xml
+	android:minSdkVersion
+		INJECTED from C:\Users\user\Desktop\Simple-Clock-master\app\src\main\AndroidManifest.xml
+queries
+ADDED from [com.github.SimpleMobileTools:Simple-Commons:c573613da9] C:\Users\user\.gradle\caches\transforms-3\9594abdccf5c9c8a9d59603384a22d0e\transformed\jetified-Simple-Commons-c573613da9\AndroidManifest.xml:8:5-11:15
+package#com.simplemobiletools.thankyou.debug
+ADDED from [com.github.SimpleMobileTools:Simple-Commons:c573613da9] C:\Users\user\.gradle\caches\transforms-3\9594abdccf5c9c8a9d59603384a22d0e\transformed\jetified-Simple-Commons-c573613da9\AndroidManifest.xml:9:9-72
+	android:name
+		ADDED from [com.github.SimpleMobileTools:Simple-Commons:c573613da9] C:\Users\user\.gradle\caches\transforms-3\9594abdccf5c9c8a9d59603384a22d0e\transformed\jetified-Simple-Commons-c573613da9\AndroidManifest.xml:9:18-69
+package#com.simplemobiletools.thankyou
+ADDED from [com.github.SimpleMobileTools:Simple-Commons:c573613da9] C:\Users\user\.gradle\caches\transforms-3\9594abdccf5c9c8a9d59603384a22d0e\transformed\jetified-Simple-Commons-c573613da9\AndroidManifest.xml:10:9-66
+	android:name
+		ADDED from [com.github.SimpleMobileTools:Simple-Commons:c573613da9] C:\Users\user\.gradle\caches\transforms-3\9594abdccf5c9c8a9d59603384a22d0e\transformed\jetified-Simple-Commons-c573613da9\AndroidManifest.xml:10:18-63
+uses-feature#android.hardware.faketouch
+ADDED from [com.github.SimpleMobileTools:Simple-Commons:c573613da9] C:\Users\user\.gradle\caches\transforms-3\9594abdccf5c9c8a9d59603384a22d0e\transformed\jetified-Simple-Commons-c573613da9\AndroidManifest.xml:13:5-15:36
+	android:required
+		ADDED from [com.github.SimpleMobileTools:Simple-Commons:c573613da9] C:\Users\user\.gradle\caches\transforms-3\9594abdccf5c9c8a9d59603384a22d0e\transformed\jetified-Simple-Commons-c573613da9\AndroidManifest.xml:15:9-33
+	android:name
+		ADDED from [com.github.SimpleMobileTools:Simple-Commons:c573613da9] C:\Users\user\.gradle\caches\transforms-3\9594abdccf5c9c8a9d59603384a22d0e\transformed\jetified-Simple-Commons-c573613da9\AndroidManifest.xml:14:9-50
+uses-feature#android.hardware.screen.portrait
+ADDED from [com.github.SimpleMobileTools:Simple-Commons:c573613da9] C:\Users\user\.gradle\caches\transforms-3\9594abdccf5c9c8a9d59603384a22d0e\transformed\jetified-Simple-Commons-c573613da9\AndroidManifest.xml:16:5-18:36
+	android:required
+		ADDED from [com.github.SimpleMobileTools:Simple-Commons:c573613da9] C:\Users\user\.gradle\caches\transforms-3\9594abdccf5c9c8a9d59603384a22d0e\transformed\jetified-Simple-Commons-c573613da9\AndroidManifest.xml:18:9-33
+	android:name
+		ADDED from [com.github.SimpleMobileTools:Simple-Commons:c573613da9] C:\Users\user\.gradle\caches\transforms-3\9594abdccf5c9c8a9d59603384a22d0e\transformed\jetified-Simple-Commons-c573613da9\AndroidManifest.xml:17:9-56
+uses-permission#android.permission.USE_BIOMETRIC
+ADDED from [com.github.SimpleMobileTools:Simple-Commons:c573613da9] C:\Users\user\.gradle\caches\transforms-3\9594abdccf5c9c8a9d59603384a22d0e\transformed\jetified-Simple-Commons-c573613da9\AndroidManifest.xml:20:5-22:31
+REJECTED from [androidx.biometric:biometric:1.2.0-alpha05] C:\Users\user\.gradle\caches\transforms-3\4b9e10b2595e250ffab60b2c1243d1c4\transformed\biometric-1.2.0-alpha05\AndroidManifest.xml:22:5-72
+	tools:node
+		ADDED from [com.github.SimpleMobileTools:Simple-Commons:c573613da9] C:\Users\user\.gradle\caches\transforms-3\9594abdccf5c9c8a9d59603384a22d0e\transformed\jetified-Simple-Commons-c573613da9\AndroidManifest.xml:22:9-28
+	android:name
+		ADDED from [com.github.SimpleMobileTools:Simple-Commons:c573613da9] C:\Users\user\.gradle\caches\transforms-3\9594abdccf5c9c8a9d59603384a22d0e\transformed\jetified-Simple-Commons-c573613da9\AndroidManifest.xml:21:9-56
+uses-permission#${applicationId}.DYNAMIC_RECEIVER_NOT_EXPORTED_PERMISSION
+ADDED from [com.github.SimpleMobileTools:Simple-Commons:c573613da9] C:\Users\user\.gradle\caches\transforms-3\9594abdccf5c9c8a9d59603384a22d0e\transformed\jetified-Simple-Commons-c573613da9\AndroidManifest.xml:23:5-25:31
+REJECTED from [androidx.core:core:1.12.0] C:\Users\user\.gradle\caches\transforms-3\891dbd363961478e669147ab4b59463d\transformed\core-1.12.0\AndroidManifest.xml:26:5-97
+	tools:node
+		ADDED from [com.github.SimpleMobileTools:Simple-Commons:c573613da9] C:\Users\user\.gradle\caches\transforms-3\9594abdccf5c9c8a9d59603384a22d0e\transformed\jetified-Simple-Commons-c573613da9\AndroidManifest.xml:25:9-28
+	android:name
+		ADDED from [com.github.SimpleMobileTools:Simple-Commons:c573613da9] C:\Users\user\.gradle\caches\transforms-3\9594abdccf5c9c8a9d59603384a22d0e\transformed\jetified-Simple-Commons-c573613da9\AndroidManifest.xml:24:9-81
+uses-permission#com.simplemobiletools.clock.debug.DYNAMIC_RECEIVER_NOT_EXPORTED_PERMISSION
+ADDED from [com.github.SimpleMobileTools:Simple-Commons:c573613da9] C:\Users\user\.gradle\caches\transforms-3\9594abdccf5c9c8a9d59603384a22d0e\transformed\jetified-Simple-Commons-c573613da9\AndroidManifest.xml:23:5-25:31
+REJECTED from [androidx.core:core:1.12.0] C:\Users\user\.gradle\caches\transforms-3\891dbd363961478e669147ab4b59463d\transformed\core-1.12.0\AndroidManifest.xml:26:5-97
+	tools:node
+		ADDED from [com.github.SimpleMobileTools:Simple-Commons:c573613da9] C:\Users\user\.gradle\caches\transforms-3\9594abdccf5c9c8a9d59603384a22d0e\transformed\jetified-Simple-Commons-c573613da9\AndroidManifest.xml:25:9-28
+	android:name
+		ADDED from [com.github.SimpleMobileTools:Simple-Commons:c573613da9] C:\Users\user\.gradle\caches\transforms-3\9594abdccf5c9c8a9d59603384a22d0e\transformed\jetified-Simple-Commons-c573613da9\AndroidManifest.xml:24:9-81
+uses-permission#com.samsung.android.providers.context.permission.WRITE_USE_APP_FEATURE_SURVEY
+ADDED from [com.github.SimpleMobileTools:Simple-Commons:c573613da9] C:\Users\user\.gradle\caches\transforms-3\9594abdccf5c9c8a9d59603384a22d0e\transformed\jetified-Simple-Commons-c573613da9\AndroidManifest.xml:28:5-30:31
+	tools:node
+		ADDED from [com.github.SimpleMobileTools:Simple-Commons:c573613da9] C:\Users\user\.gradle\caches\transforms-3\9594abdccf5c9c8a9d59603384a22d0e\transformed\jetified-Simple-Commons-c573613da9\AndroidManifest.xml:30:9-28
+	android:name
+		ADDED from [com.github.SimpleMobileTools:Simple-Commons:c573613da9] C:\Users\user\.gradle\caches\transforms-3\9594abdccf5c9c8a9d59603384a22d0e\transformed\jetified-Simple-Commons-c573613da9\AndroidManifest.xml:29:9-101
+activity#com.simplemobiletools.commons.activities.ContributorsActivity
+ADDED from [com.github.SimpleMobileTools:Simple-Commons:c573613da9] C:\Users\user\.gradle\caches\transforms-3\9594abdccf5c9c8a9d59603384a22d0e\transformed\jetified-Simple-Commons-c573613da9\AndroidManifest.xml:33:9-38:99
+	android:parentActivityName
+		ADDED from [com.github.SimpleMobileTools:Simple-Commons:c573613da9] C:\Users\user\.gradle\caches\transforms-3\9594abdccf5c9c8a9d59603384a22d0e\transformed\jetified-Simple-Commons-c573613da9\AndroidManifest.xml:38:13-96
+	android:label
+		ADDED from [com.github.SimpleMobileTools:Simple-Commons:c573613da9] C:\Users\user\.gradle\caches\transforms-3\9594abdccf5c9c8a9d59603384a22d0e\transformed\jetified-Simple-Commons-c573613da9\AndroidManifest.xml:37:13-49
+	android:exported
+		ADDED from [com.github.SimpleMobileTools:Simple-Commons:c573613da9] C:\Users\user\.gradle\caches\transforms-3\9594abdccf5c9c8a9d59603384a22d0e\transformed\jetified-Simple-Commons-c573613da9\AndroidManifest.xml:36:13-37
+	android:configChanges
+		ADDED from [com.github.SimpleMobileTools:Simple-Commons:c573613da9] C:\Users\user\.gradle\caches\transforms-3\9594abdccf5c9c8a9d59603384a22d0e\transformed\jetified-Simple-Commons-c573613da9\AndroidManifest.xml:35:13-48
+	android:name
+		ADDED from [com.github.SimpleMobileTools:Simple-Commons:c573613da9] C:\Users\user\.gradle\caches\transforms-3\9594abdccf5c9c8a9d59603384a22d0e\transformed\jetified-Simple-Commons-c573613da9\AndroidManifest.xml:34:13-89
+activity#com.simplemobiletools.commons.activities.FAQActivity
+ADDED from [com.github.SimpleMobileTools:Simple-Commons:c573613da9] C:\Users\user\.gradle\caches\transforms-3\9594abdccf5c9c8a9d59603384a22d0e\transformed\jetified-Simple-Commons-c573613da9\AndroidManifest.xml:39:9-44:99
+	android:parentActivityName
+		ADDED from [com.github.SimpleMobileTools:Simple-Commons:c573613da9] C:\Users\user\.gradle\caches\transforms-3\9594abdccf5c9c8a9d59603384a22d0e\transformed\jetified-Simple-Commons-c573613da9\AndroidManifest.xml:44:13-96
+	android:label
+		ADDED from [com.github.SimpleMobileTools:Simple-Commons:c573613da9] C:\Users\user\.gradle\caches\transforms-3\9594abdccf5c9c8a9d59603384a22d0e\transformed\jetified-Simple-Commons-c573613da9\AndroidManifest.xml:43:13-63
+	android:exported
+		ADDED from [com.github.SimpleMobileTools:Simple-Commons:c573613da9] C:\Users\user\.gradle\caches\transforms-3\9594abdccf5c9c8a9d59603384a22d0e\transformed\jetified-Simple-Commons-c573613da9\AndroidManifest.xml:42:13-37
+	android:configChanges
+		ADDED from [com.github.SimpleMobileTools:Simple-Commons:c573613da9] C:\Users\user\.gradle\caches\transforms-3\9594abdccf5c9c8a9d59603384a22d0e\transformed\jetified-Simple-Commons-c573613da9\AndroidManifest.xml:41:13-48
+	android:name
+		ADDED from [com.github.SimpleMobileTools:Simple-Commons:c573613da9] C:\Users\user\.gradle\caches\transforms-3\9594abdccf5c9c8a9d59603384a22d0e\transformed\jetified-Simple-Commons-c573613da9\AndroidManifest.xml:40:13-80
+activity#com.simplemobiletools.commons.activities.LicenseActivity
+ADDED from [com.github.SimpleMobileTools:Simple-Commons:c573613da9] C:\Users\user\.gradle\caches\transforms-3\9594abdccf5c9c8a9d59603384a22d0e\transformed\jetified-Simple-Commons-c573613da9\AndroidManifest.xml:45:9-50:99
+	android:parentActivityName
+		ADDED from [com.github.SimpleMobileTools:Simple-Commons:c573613da9] C:\Users\user\.gradle\caches\transforms-3\9594abdccf5c9c8a9d59603384a22d0e\transformed\jetified-Simple-Commons-c573613da9\AndroidManifest.xml:50:13-96
+	android:label
+		ADDED from [com.github.SimpleMobileTools:Simple-Commons:c573613da9] C:\Users\user\.gradle\caches\transforms-3\9594abdccf5c9c8a9d59603384a22d0e\transformed\jetified-Simple-Commons-c573613da9\AndroidManifest.xml:49:13-57
+	android:exported
+		ADDED from [com.github.SimpleMobileTools:Simple-Commons:c573613da9] C:\Users\user\.gradle\caches\transforms-3\9594abdccf5c9c8a9d59603384a22d0e\transformed\jetified-Simple-Commons-c573613da9\AndroidManifest.xml:48:13-37
+	android:configChanges
+		ADDED from [com.github.SimpleMobileTools:Simple-Commons:c573613da9] C:\Users\user\.gradle\caches\transforms-3\9594abdccf5c9c8a9d59603384a22d0e\transformed\jetified-Simple-Commons-c573613da9\AndroidManifest.xml:47:13-48
+	android:name
+		ADDED from [com.github.SimpleMobileTools:Simple-Commons:c573613da9] C:\Users\user\.gradle\caches\transforms-3\9594abdccf5c9c8a9d59603384a22d0e\transformed\jetified-Simple-Commons-c573613da9\AndroidManifest.xml:46:13-84
+activity#com.simplemobiletools.commons.activities.ManageBlockedNumbersActivity
+ADDED from [com.github.SimpleMobileTools:Simple-Commons:c573613da9] C:\Users\user\.gradle\caches\transforms-3\9594abdccf5c9c8a9d59603384a22d0e\transformed\jetified-Simple-Commons-c573613da9\AndroidManifest.xml:51:9-56:62
+	android:label
+		ADDED from [com.github.SimpleMobileTools:Simple-Commons:c573613da9] C:\Users\user\.gradle\caches\transforms-3\9594abdccf5c9c8a9d59603384a22d0e\transformed\jetified-Simple-Commons-c573613da9\AndroidManifest.xml:56:13-59
+	android:exported
+		ADDED from [com.github.SimpleMobileTools:Simple-Commons:c573613da9] C:\Users\user\.gradle\caches\transforms-3\9594abdccf5c9c8a9d59603384a22d0e\transformed\jetified-Simple-Commons-c573613da9\AndroidManifest.xml:55:13-37
+	android:configChanges
+		ADDED from [com.github.SimpleMobileTools:Simple-Commons:c573613da9] C:\Users\user\.gradle\caches\transforms-3\9594abdccf5c9c8a9d59603384a22d0e\transformed\jetified-Simple-Commons-c573613da9\AndroidManifest.xml:53:13-48
+	android:enableOnBackInvokedCallback
+		ADDED from [com.github.SimpleMobileTools:Simple-Commons:c573613da9] C:\Users\user\.gradle\caches\transforms-3\9594abdccf5c9c8a9d59603384a22d0e\transformed\jetified-Simple-Commons-c573613da9\AndroidManifest.xml:54:13-55
+	android:name
+		ADDED from [com.github.SimpleMobileTools:Simple-Commons:c573613da9] C:\Users\user\.gradle\caches\transforms-3\9594abdccf5c9c8a9d59603384a22d0e\transformed\jetified-Simple-Commons-c573613da9\AndroidManifest.xml:52:13-97
+receiver#com.simplemobiletools.commons.receivers.SharedThemeReceiver
+ADDED from [com.github.SimpleMobileTools:Simple-Commons:c573613da9] C:\Users\user\.gradle\caches\transforms-3\9594abdccf5c9c8a9d59603384a22d0e\transformed\jetified-Simple-Commons-c573613da9\AndroidManifest.xml:58:9-66:20
+	android:enabled
+		ADDED from [com.github.SimpleMobileTools:Simple-Commons:c573613da9] C:\Users\user\.gradle\caches\transforms-3\9594abdccf5c9c8a9d59603384a22d0e\transformed\jetified-Simple-Commons-c573613da9\AndroidManifest.xml:60:13-35
+	android:exported
+		ADDED from [com.github.SimpleMobileTools:Simple-Commons:c573613da9] C:\Users\user\.gradle\caches\transforms-3\9594abdccf5c9c8a9d59603384a22d0e\transformed\jetified-Simple-Commons-c573613da9\AndroidManifest.xml:61:13-36
+	android:name
+		ADDED from [com.github.SimpleMobileTools:Simple-Commons:c573613da9] C:\Users\user\.gradle\caches\transforms-3\9594abdccf5c9c8a9d59603384a22d0e\transformed\jetified-Simple-Commons-c573613da9\AndroidManifest.xml:59:13-87
+intent-filter#action:name:com.simplemobiletools.commons.SHARED_THEME_ACTIVATED+action:name:com.simplemobiletools.commons.SHARED_THEME_UPDATED
+ADDED from [com.github.SimpleMobileTools:Simple-Commons:c573613da9] C:\Users\user\.gradle\caches\transforms-3\9594abdccf5c9c8a9d59603384a22d0e\transformed\jetified-Simple-Commons-c573613da9\AndroidManifest.xml:62:13-65:29
+action#com.simplemobiletools.commons.SHARED_THEME_ACTIVATED
+ADDED from [com.github.SimpleMobileTools:Simple-Commons:c573613da9] C:\Users\user\.gradle\caches\transforms-3\9594abdccf5c9c8a9d59603384a22d0e\transformed\jetified-Simple-Commons-c573613da9\AndroidManifest.xml:63:17-95
+	android:name
+		ADDED from [com.github.SimpleMobileTools:Simple-Commons:c573613da9] C:\Users\user\.gradle\caches\transforms-3\9594abdccf5c9c8a9d59603384a22d0e\transformed\jetified-Simple-Commons-c573613da9\AndroidManifest.xml:63:25-92
+action#com.simplemobiletools.commons.SHARED_THEME_UPDATED
+ADDED from [com.github.SimpleMobileTools:Simple-Commons:c573613da9] C:\Users\user\.gradle\caches\transforms-3\9594abdccf5c9c8a9d59603384a22d0e\transformed\jetified-Simple-Commons-c573613da9\AndroidManifest.xml:64:17-93
+	android:name
+		ADDED from [com.github.SimpleMobileTools:Simple-Commons:c573613da9] C:\Users\user\.gradle\caches\transforms-3\9594abdccf5c9c8a9d59603384a22d0e\transformed\jetified-Simple-Commons-c573613da9\AndroidManifest.xml:64:25-90
+provider#androidx.startup.InitializationProvider
+ADDED from [androidx.work:work-runtime:2.8.1] C:\Users\user\.gradle\caches\transforms-3\2ff5ec0de81aa6a3deeed85f13b63d53\transformed\work-runtime-2.8.1\AndroidManifest.xml:29:9-37:20
+MERGED from [androidx.emoji2:emoji2:1.3.0] C:\Users\user\.gradle\caches\transforms-3\995a6c7d2b8e2d21ee653adcb488a695\transformed\jetified-emoji2-1.3.0\AndroidManifest.xml:24:9-32:20
+MERGED from [androidx.emoji2:emoji2:1.3.0] C:\Users\user\.gradle\caches\transforms-3\995a6c7d2b8e2d21ee653adcb488a695\transformed\jetified-emoji2-1.3.0\AndroidManifest.xml:24:9-32:20
+MERGED from [androidx.lifecycle:lifecycle-process:2.7.0-alpha02] C:\Users\user\.gradle\caches\transforms-3\6f4542da6288a7f8eb43f2c27b8490d7\transformed\jetified-lifecycle-process-2.7.0-alpha02\AndroidManifest.xml:24:9-32:20
+MERGED from [androidx.lifecycle:lifecycle-process:2.7.0-alpha02] C:\Users\user\.gradle\caches\transforms-3\6f4542da6288a7f8eb43f2c27b8490d7\transformed\jetified-lifecycle-process-2.7.0-alpha02\AndroidManifest.xml:24:9-32:20
+MERGED from [androidx.profileinstaller:profileinstaller:1.3.0] C:\Users\user\.gradle\caches\transforms-3\54db9d2491e5624f74c5070bb32cbb85\transformed\jetified-profileinstaller-1.3.0\AndroidManifest.xml:24:9-32:20
+MERGED from [androidx.profileinstaller:profileinstaller:1.3.0] C:\Users\user\.gradle\caches\transforms-3\54db9d2491e5624f74c5070bb32cbb85\transformed\jetified-profileinstaller-1.3.0\AndroidManifest.xml:24:9-32:20
+MERGED from [androidx.startup:startup-runtime:1.1.1] C:\Users\user\.gradle\caches\transforms-3\13051f4035098308c34b6a0246341cc0\transformed\jetified-startup-runtime-1.1.1\AndroidManifest.xml:26:9-30:34
+MERGED from [androidx.startup:startup-runtime:1.1.1] C:\Users\user\.gradle\caches\transforms-3\13051f4035098308c34b6a0246341cc0\transformed\jetified-startup-runtime-1.1.1\AndroidManifest.xml:26:9-30:34
+	tools:node
+		ADDED from [androidx.work:work-runtime:2.8.1] C:\Users\user\.gradle\caches\transforms-3\2ff5ec0de81aa6a3deeed85f13b63d53\transformed\work-runtime-2.8.1\AndroidManifest.xml:33:13-31
+	android:authorities
+		ADDED from [androidx.work:work-runtime:2.8.1] C:\Users\user\.gradle\caches\transforms-3\2ff5ec0de81aa6a3deeed85f13b63d53\transformed\work-runtime-2.8.1\AndroidManifest.xml:31:13-68
+	android:exported
+		ADDED from [androidx.work:work-runtime:2.8.1] C:\Users\user\.gradle\caches\transforms-3\2ff5ec0de81aa6a3deeed85f13b63d53\transformed\work-runtime-2.8.1\AndroidManifest.xml:32:13-37
+	android:name
+		ADDED from [androidx.work:work-runtime:2.8.1] C:\Users\user\.gradle\caches\transforms-3\2ff5ec0de81aa6a3deeed85f13b63d53\transformed\work-runtime-2.8.1\AndroidManifest.xml:30:13-67
+meta-data#androidx.work.WorkManagerInitializer
+ADDED from [androidx.work:work-runtime:2.8.1] C:\Users\user\.gradle\caches\transforms-3\2ff5ec0de81aa6a3deeed85f13b63d53\transformed\work-runtime-2.8.1\AndroidManifest.xml:34:13-36:52
+	android:value
+		ADDED from [androidx.work:work-runtime:2.8.1] C:\Users\user\.gradle\caches\transforms-3\2ff5ec0de81aa6a3deeed85f13b63d53\transformed\work-runtime-2.8.1\AndroidManifest.xml:36:17-49
+	android:name
+		ADDED from [androidx.work:work-runtime:2.8.1] C:\Users\user\.gradle\caches\transforms-3\2ff5ec0de81aa6a3deeed85f13b63d53\transformed\work-runtime-2.8.1\AndroidManifest.xml:35:17-68
+service#androidx.work.impl.background.systemalarm.SystemAlarmService
+ADDED from [androidx.work:work-runtime:2.8.1] C:\Users\user\.gradle\caches\transforms-3\2ff5ec0de81aa6a3deeed85f13b63d53\transformed\work-runtime-2.8.1\AndroidManifest.xml:39:9-45:35
+	android:enabled
+		ADDED from [androidx.work:work-runtime:2.8.1] C:\Users\user\.gradle\caches\transforms-3\2ff5ec0de81aa6a3deeed85f13b63d53\transformed\work-runtime-2.8.1\AndroidManifest.xml:42:13-72
+	android:exported
+		ADDED from [androidx.work:work-runtime:2.8.1] C:\Users\user\.gradle\caches\transforms-3\2ff5ec0de81aa6a3deeed85f13b63d53\transformed\work-runtime-2.8.1\AndroidManifest.xml:43:13-37
+	tools:ignore
+		ADDED from [androidx.work:work-runtime:2.8.1] C:\Users\user\.gradle\caches\transforms-3\2ff5ec0de81aa6a3deeed85f13b63d53\transformed\work-runtime-2.8.1\AndroidManifest.xml:44:13-60
+	tools:targetApi
+		ADDED from [androidx.work:work-runtime:2.8.1] C:\Users\user\.gradle\caches\transforms-3\2ff5ec0de81aa6a3deeed85f13b63d53\transformed\work-runtime-2.8.1\AndroidManifest.xml:45:13-32
+	android:directBootAware
+		ADDED from [androidx.work:work-runtime:2.8.1] C:\Users\user\.gradle\caches\transforms-3\2ff5ec0de81aa6a3deeed85f13b63d53\transformed\work-runtime-2.8.1\AndroidManifest.xml:41:13-44
+	android:name
+		ADDED from [androidx.work:work-runtime:2.8.1] C:\Users\user\.gradle\caches\transforms-3\2ff5ec0de81aa6a3deeed85f13b63d53\transformed\work-runtime-2.8.1\AndroidManifest.xml:40:13-88
+service#androidx.work.impl.background.systemjob.SystemJobService
+ADDED from [androidx.work:work-runtime:2.8.1] C:\Users\user\.gradle\caches\transforms-3\2ff5ec0de81aa6a3deeed85f13b63d53\transformed\work-runtime-2.8.1\AndroidManifest.xml:46:9-52:35
+	android:enabled
+		ADDED from [androidx.work:work-runtime:2.8.1] C:\Users\user\.gradle\caches\transforms-3\2ff5ec0de81aa6a3deeed85f13b63d53\transformed\work-runtime-2.8.1\AndroidManifest.xml:49:13-70
+	android:exported
+		ADDED from [androidx.work:work-runtime:2.8.1] C:\Users\user\.gradle\caches\transforms-3\2ff5ec0de81aa6a3deeed85f13b63d53\transformed\work-runtime-2.8.1\AndroidManifest.xml:50:13-36
+	android:permission
+		ADDED from [androidx.work:work-runtime:2.8.1] C:\Users\user\.gradle\caches\transforms-3\2ff5ec0de81aa6a3deeed85f13b63d53\transformed\work-runtime-2.8.1\AndroidManifest.xml:51:13-69
+	tools:targetApi
+		ADDED from [androidx.work:work-runtime:2.8.1] C:\Users\user\.gradle\caches\transforms-3\2ff5ec0de81aa6a3deeed85f13b63d53\transformed\work-runtime-2.8.1\AndroidManifest.xml:52:13-32
+	android:directBootAware
+		ADDED from [androidx.work:work-runtime:2.8.1] C:\Users\user\.gradle\caches\transforms-3\2ff5ec0de81aa6a3deeed85f13b63d53\transformed\work-runtime-2.8.1\AndroidManifest.xml:48:13-44
+	android:name
+		ADDED from [androidx.work:work-runtime:2.8.1] C:\Users\user\.gradle\caches\transforms-3\2ff5ec0de81aa6a3deeed85f13b63d53\transformed\work-runtime-2.8.1\AndroidManifest.xml:47:13-84
+service#androidx.work.impl.foreground.SystemForegroundService
+ADDED from [androidx.work:work-runtime:2.8.1] C:\Users\user\.gradle\caches\transforms-3\2ff5ec0de81aa6a3deeed85f13b63d53\transformed\work-runtime-2.8.1\AndroidManifest.xml:53:9-59:35
+	android:enabled
+		ADDED from [androidx.work:work-runtime:2.8.1] C:\Users\user\.gradle\caches\transforms-3\2ff5ec0de81aa6a3deeed85f13b63d53\transformed\work-runtime-2.8.1\AndroidManifest.xml:56:13-77
+	android:exported
+		ADDED from [androidx.work:work-runtime:2.8.1] C:\Users\user\.gradle\caches\transforms-3\2ff5ec0de81aa6a3deeed85f13b63d53\transformed\work-runtime-2.8.1\AndroidManifest.xml:57:13-37
+	tools:ignore
+		ADDED from [androidx.work:work-runtime:2.8.1] C:\Users\user\.gradle\caches\transforms-3\2ff5ec0de81aa6a3deeed85f13b63d53\transformed\work-runtime-2.8.1\AndroidManifest.xml:58:13-60
+	tools:targetApi
+		ADDED from [androidx.work:work-runtime:2.8.1] C:\Users\user\.gradle\caches\transforms-3\2ff5ec0de81aa6a3deeed85f13b63d53\transformed\work-runtime-2.8.1\AndroidManifest.xml:59:13-32
+	android:directBootAware
+		ADDED from [androidx.work:work-runtime:2.8.1] C:\Users\user\.gradle\caches\transforms-3\2ff5ec0de81aa6a3deeed85f13b63d53\transformed\work-runtime-2.8.1\AndroidManifest.xml:55:13-44
+	android:name
+		ADDED from [androidx.work:work-runtime:2.8.1] C:\Users\user\.gradle\caches\transforms-3\2ff5ec0de81aa6a3deeed85f13b63d53\transformed\work-runtime-2.8.1\AndroidManifest.xml:54:13-81
+receiver#androidx.work.impl.utils.ForceStopRunnable$BroadcastReceiver
+ADDED from [androidx.work:work-runtime:2.8.1] C:\Users\user\.gradle\caches\transforms-3\2ff5ec0de81aa6a3deeed85f13b63d53\transformed\work-runtime-2.8.1\AndroidManifest.xml:61:9-66:35
+	android:enabled
+		ADDED from [androidx.work:work-runtime:2.8.1] C:\Users\user\.gradle\caches\transforms-3\2ff5ec0de81aa6a3deeed85f13b63d53\transformed\work-runtime-2.8.1\AndroidManifest.xml:64:13-35
+	android:exported
+		ADDED from [androidx.work:work-runtime:2.8.1] C:\Users\user\.gradle\caches\transforms-3\2ff5ec0de81aa6a3deeed85f13b63d53\transformed\work-runtime-2.8.1\AndroidManifest.xml:65:13-37
+	tools:targetApi
+		ADDED from [androidx.work:work-runtime:2.8.1] C:\Users\user\.gradle\caches\transforms-3\2ff5ec0de81aa6a3deeed85f13b63d53\transformed\work-runtime-2.8.1\AndroidManifest.xml:66:13-32
+	android:directBootAware
+		ADDED from [androidx.work:work-runtime:2.8.1] C:\Users\user\.gradle\caches\transforms-3\2ff5ec0de81aa6a3deeed85f13b63d53\transformed\work-runtime-2.8.1\AndroidManifest.xml:63:13-44
+	android:name
+		ADDED from [androidx.work:work-runtime:2.8.1] C:\Users\user\.gradle\caches\transforms-3\2ff5ec0de81aa6a3deeed85f13b63d53\transformed\work-runtime-2.8.1\AndroidManifest.xml:62:13-88
+receiver#androidx.work.impl.background.systemalarm.ConstraintProxy$BatteryChargingProxy
+ADDED from [androidx.work:work-runtime:2.8.1] C:\Users\user\.gradle\caches\transforms-3\2ff5ec0de81aa6a3deeed85f13b63d53\transformed\work-runtime-2.8.1\AndroidManifest.xml:67:9-77:20
+	android:enabled
+		ADDED from [androidx.work:work-runtime:2.8.1] C:\Users\user\.gradle\caches\transforms-3\2ff5ec0de81aa6a3deeed85f13b63d53\transformed\work-runtime-2.8.1\AndroidManifest.xml:70:13-36
+	android:exported
+		ADDED from [androidx.work:work-runtime:2.8.1] C:\Users\user\.gradle\caches\transforms-3\2ff5ec0de81aa6a3deeed85f13b63d53\transformed\work-runtime-2.8.1\AndroidManifest.xml:71:13-37
+	tools:targetApi
+		ADDED from [androidx.work:work-runtime:2.8.1] C:\Users\user\.gradle\caches\transforms-3\2ff5ec0de81aa6a3deeed85f13b63d53\transformed\work-runtime-2.8.1\AndroidManifest.xml:72:13-32
+	android:directBootAware
+		ADDED from [androidx.work:work-runtime:2.8.1] C:\Users\user\.gradle\caches\transforms-3\2ff5ec0de81aa6a3deeed85f13b63d53\transformed\work-runtime-2.8.1\AndroidManifest.xml:69:13-44
+	android:name
+		ADDED from [androidx.work:work-runtime:2.8.1] C:\Users\user\.gradle\caches\transforms-3\2ff5ec0de81aa6a3deeed85f13b63d53\transformed\work-runtime-2.8.1\AndroidManifest.xml:68:13-106
+intent-filter#action:name:android.intent.action.ACTION_POWER_CONNECTED+action:name:android.intent.action.ACTION_POWER_DISCONNECTED
+ADDED from [androidx.work:work-runtime:2.8.1] C:\Users\user\.gradle\caches\transforms-3\2ff5ec0de81aa6a3deeed85f13b63d53\transformed\work-runtime-2.8.1\AndroidManifest.xml:73:13-76:29
+action#android.intent.action.ACTION_POWER_CONNECTED
+ADDED from [androidx.work:work-runtime:2.8.1] C:\Users\user\.gradle\caches\transforms-3\2ff5ec0de81aa6a3deeed85f13b63d53\transformed\work-runtime-2.8.1\AndroidManifest.xml:74:17-87
+	android:name
+		ADDED from [androidx.work:work-runtime:2.8.1] C:\Users\user\.gradle\caches\transforms-3\2ff5ec0de81aa6a3deeed85f13b63d53\transformed\work-runtime-2.8.1\AndroidManifest.xml:74:25-84
+action#android.intent.action.ACTION_POWER_DISCONNECTED
+ADDED from [androidx.work:work-runtime:2.8.1] C:\Users\user\.gradle\caches\transforms-3\2ff5ec0de81aa6a3deeed85f13b63d53\transformed\work-runtime-2.8.1\AndroidManifest.xml:75:17-90
+	android:name
+		ADDED from [androidx.work:work-runtime:2.8.1] C:\Users\user\.gradle\caches\transforms-3\2ff5ec0de81aa6a3deeed85f13b63d53\transformed\work-runtime-2.8.1\AndroidManifest.xml:75:25-87
+receiver#androidx.work.impl.background.systemalarm.ConstraintProxy$BatteryNotLowProxy
+ADDED from [androidx.work:work-runtime:2.8.1] C:\Users\user\.gradle\caches\transforms-3\2ff5ec0de81aa6a3deeed85f13b63d53\transformed\work-runtime-2.8.1\AndroidManifest.xml:78:9-88:20
+	android:enabled
+		ADDED from [androidx.work:work-runtime:2.8.1] C:\Users\user\.gradle\caches\transforms-3\2ff5ec0de81aa6a3deeed85f13b63d53\transformed\work-runtime-2.8.1\AndroidManifest.xml:81:13-36
+	android:exported
+		ADDED from [androidx.work:work-runtime:2.8.1] C:\Users\user\.gradle\caches\transforms-3\2ff5ec0de81aa6a3deeed85f13b63d53\transformed\work-runtime-2.8.1\AndroidManifest.xml:82:13-37
+	tools:targetApi
+		ADDED from [androidx.work:work-runtime:2.8.1] C:\Users\user\.gradle\caches\transforms-3\2ff5ec0de81aa6a3deeed85f13b63d53\transformed\work-runtime-2.8.1\AndroidManifest.xml:83:13-32
+	android:directBootAware
+		ADDED from [androidx.work:work-runtime:2.8.1] C:\Users\user\.gradle\caches\transforms-3\2ff5ec0de81aa6a3deeed85f13b63d53\transformed\work-runtime-2.8.1\AndroidManifest.xml:80:13-44
+	android:name
+		ADDED from [androidx.work:work-runtime:2.8.1] C:\Users\user\.gradle\caches\transforms-3\2ff5ec0de81aa6a3deeed85f13b63d53\transformed\work-runtime-2.8.1\AndroidManifest.xml:79:13-104
+intent-filter#action:name:android.intent.action.BATTERY_LOW+action:name:android.intent.action.BATTERY_OKAY
+ADDED from [androidx.work:work-runtime:2.8.1] C:\Users\user\.gradle\caches\transforms-3\2ff5ec0de81aa6a3deeed85f13b63d53\transformed\work-runtime-2.8.1\AndroidManifest.xml:84:13-87:29
+action#android.intent.action.BATTERY_OKAY
+ADDED from [androidx.work:work-runtime:2.8.1] C:\Users\user\.gradle\caches\transforms-3\2ff5ec0de81aa6a3deeed85f13b63d53\transformed\work-runtime-2.8.1\AndroidManifest.xml:85:17-77
+	android:name
+		ADDED from [androidx.work:work-runtime:2.8.1] C:\Users\user\.gradle\caches\transforms-3\2ff5ec0de81aa6a3deeed85f13b63d53\transformed\work-runtime-2.8.1\AndroidManifest.xml:85:25-74
+action#android.intent.action.BATTERY_LOW
+ADDED from [androidx.work:work-runtime:2.8.1] C:\Users\user\.gradle\caches\transforms-3\2ff5ec0de81aa6a3deeed85f13b63d53\transformed\work-runtime-2.8.1\AndroidManifest.xml:86:17-76
+	android:name
+		ADDED from [androidx.work:work-runtime:2.8.1] C:\Users\user\.gradle\caches\transforms-3\2ff5ec0de81aa6a3deeed85f13b63d53\transformed\work-runtime-2.8.1\AndroidManifest.xml:86:25-73
+receiver#androidx.work.impl.background.systemalarm.ConstraintProxy$StorageNotLowProxy
+ADDED from [androidx.work:work-runtime:2.8.1] C:\Users\user\.gradle\caches\transforms-3\2ff5ec0de81aa6a3deeed85f13b63d53\transformed\work-runtime-2.8.1\AndroidManifest.xml:89:9-99:20
+	android:enabled
+		ADDED from [androidx.work:work-runtime:2.8.1] C:\Users\user\.gradle\caches\transforms-3\2ff5ec0de81aa6a3deeed85f13b63d53\transformed\work-runtime-2.8.1\AndroidManifest.xml:92:13-36
+	android:exported
+		ADDED from [androidx.work:work-runtime:2.8.1] C:\Users\user\.gradle\caches\transforms-3\2ff5ec0de81aa6a3deeed85f13b63d53\transformed\work-runtime-2.8.1\AndroidManifest.xml:93:13-37
+	tools:targetApi
+		ADDED from [androidx.work:work-runtime:2.8.1] C:\Users\user\.gradle\caches\transforms-3\2ff5ec0de81aa6a3deeed85f13b63d53\transformed\work-runtime-2.8.1\AndroidManifest.xml:94:13-32
+	android:directBootAware
+		ADDED from [androidx.work:work-runtime:2.8.1] C:\Users\user\.gradle\caches\transforms-3\2ff5ec0de81aa6a3deeed85f13b63d53\transformed\work-runtime-2.8.1\AndroidManifest.xml:91:13-44
+	android:name
+		ADDED from [androidx.work:work-runtime:2.8.1] C:\Users\user\.gradle\caches\transforms-3\2ff5ec0de81aa6a3deeed85f13b63d53\transformed\work-runtime-2.8.1\AndroidManifest.xml:90:13-104
+intent-filter#action:name:android.intent.action.DEVICE_STORAGE_LOW+action:name:android.intent.action.DEVICE_STORAGE_OK
+ADDED from [androidx.work:work-runtime:2.8.1] C:\Users\user\.gradle\caches\transforms-3\2ff5ec0de81aa6a3deeed85f13b63d53\transformed\work-runtime-2.8.1\AndroidManifest.xml:95:13-98:29
+action#android.intent.action.DEVICE_STORAGE_LOW
+ADDED from [androidx.work:work-runtime:2.8.1] C:\Users\user\.gradle\caches\transforms-3\2ff5ec0de81aa6a3deeed85f13b63d53\transformed\work-runtime-2.8.1\AndroidManifest.xml:96:17-83
+	android:name
+		ADDED from [androidx.work:work-runtime:2.8.1] C:\Users\user\.gradle\caches\transforms-3\2ff5ec0de81aa6a3deeed85f13b63d53\transformed\work-runtime-2.8.1\AndroidManifest.xml:96:25-80
+action#android.intent.action.DEVICE_STORAGE_OK
+ADDED from [androidx.work:work-runtime:2.8.1] C:\Users\user\.gradle\caches\transforms-3\2ff5ec0de81aa6a3deeed85f13b63d53\transformed\work-runtime-2.8.1\AndroidManifest.xml:97:17-82
+	android:name
+		ADDED from [androidx.work:work-runtime:2.8.1] C:\Users\user\.gradle\caches\transforms-3\2ff5ec0de81aa6a3deeed85f13b63d53\transformed\work-runtime-2.8.1\AndroidManifest.xml:97:25-79
+receiver#androidx.work.impl.background.systemalarm.ConstraintProxy$NetworkStateProxy
+ADDED from [androidx.work:work-runtime:2.8.1] C:\Users\user\.gradle\caches\transforms-3\2ff5ec0de81aa6a3deeed85f13b63d53\transformed\work-runtime-2.8.1\AndroidManifest.xml:100:9-109:20
+	android:enabled
+		ADDED from [androidx.work:work-runtime:2.8.1] C:\Users\user\.gradle\caches\transforms-3\2ff5ec0de81aa6a3deeed85f13b63d53\transformed\work-runtime-2.8.1\AndroidManifest.xml:103:13-36
+	android:exported
+		ADDED from [androidx.work:work-runtime:2.8.1] C:\Users\user\.gradle\caches\transforms-3\2ff5ec0de81aa6a3deeed85f13b63d53\transformed\work-runtime-2.8.1\AndroidManifest.xml:104:13-37
+	tools:targetApi
+		ADDED from [androidx.work:work-runtime:2.8.1] C:\Users\user\.gradle\caches\transforms-3\2ff5ec0de81aa6a3deeed85f13b63d53\transformed\work-runtime-2.8.1\AndroidManifest.xml:105:13-32
+	android:directBootAware
+		ADDED from [androidx.work:work-runtime:2.8.1] C:\Users\user\.gradle\caches\transforms-3\2ff5ec0de81aa6a3deeed85f13b63d53\transformed\work-runtime-2.8.1\AndroidManifest.xml:102:13-44
+	android:name
+		ADDED from [androidx.work:work-runtime:2.8.1] C:\Users\user\.gradle\caches\transforms-3\2ff5ec0de81aa6a3deeed85f13b63d53\transformed\work-runtime-2.8.1\AndroidManifest.xml:101:13-103
+intent-filter#action:name:android.net.conn.CONNECTIVITY_CHANGE
+ADDED from [androidx.work:work-runtime:2.8.1] C:\Users\user\.gradle\caches\transforms-3\2ff5ec0de81aa6a3deeed85f13b63d53\transformed\work-runtime-2.8.1\AndroidManifest.xml:106:13-108:29
+action#android.net.conn.CONNECTIVITY_CHANGE
+ADDED from [androidx.work:work-runtime:2.8.1] C:\Users\user\.gradle\caches\transforms-3\2ff5ec0de81aa6a3deeed85f13b63d53\transformed\work-runtime-2.8.1\AndroidManifest.xml:107:17-79
+	android:name
+		ADDED from [androidx.work:work-runtime:2.8.1] C:\Users\user\.gradle\caches\transforms-3\2ff5ec0de81aa6a3deeed85f13b63d53\transformed\work-runtime-2.8.1\AndroidManifest.xml:107:25-76
+receiver#androidx.work.impl.background.systemalarm.RescheduleReceiver
+ADDED from [androidx.work:work-runtime:2.8.1] C:\Users\user\.gradle\caches\transforms-3\2ff5ec0de81aa6a3deeed85f13b63d53\transformed\work-runtime-2.8.1\AndroidManifest.xml:110:9-121:20
+	android:enabled
+		ADDED from [androidx.work:work-runtime:2.8.1] C:\Users\user\.gradle\caches\transforms-3\2ff5ec0de81aa6a3deeed85f13b63d53\transformed\work-runtime-2.8.1\AndroidManifest.xml:113:13-36
+	android:exported
+		ADDED from [androidx.work:work-runtime:2.8.1] C:\Users\user\.gradle\caches\transforms-3\2ff5ec0de81aa6a3deeed85f13b63d53\transformed\work-runtime-2.8.1\AndroidManifest.xml:114:13-37
+	tools:targetApi
+		ADDED from [androidx.work:work-runtime:2.8.1] C:\Users\user\.gradle\caches\transforms-3\2ff5ec0de81aa6a3deeed85f13b63d53\transformed\work-runtime-2.8.1\AndroidManifest.xml:115:13-32
+	android:directBootAware
+		ADDED from [androidx.work:work-runtime:2.8.1] C:\Users\user\.gradle\caches\transforms-3\2ff5ec0de81aa6a3deeed85f13b63d53\transformed\work-runtime-2.8.1\AndroidManifest.xml:112:13-44
+	android:name
+		ADDED from [androidx.work:work-runtime:2.8.1] C:\Users\user\.gradle\caches\transforms-3\2ff5ec0de81aa6a3deeed85f13b63d53\transformed\work-runtime-2.8.1\AndroidManifest.xml:111:13-88
+intent-filter#action:name:android.intent.action.BOOT_COMPLETED+action:name:android.intent.action.TIMEZONE_CHANGED+action:name:android.intent.action.TIME_SET
+ADDED from [androidx.work:work-runtime:2.8.1] C:\Users\user\.gradle\caches\transforms-3\2ff5ec0de81aa6a3deeed85f13b63d53\transformed\work-runtime-2.8.1\AndroidManifest.xml:116:13-120:29
+receiver#androidx.work.impl.background.systemalarm.ConstraintProxyUpdateReceiver
+ADDED from [androidx.work:work-runtime:2.8.1] C:\Users\user\.gradle\caches\transforms-3\2ff5ec0de81aa6a3deeed85f13b63d53\transformed\work-runtime-2.8.1\AndroidManifest.xml:122:9-131:20
+	android:enabled
+		ADDED from [androidx.work:work-runtime:2.8.1] C:\Users\user\.gradle\caches\transforms-3\2ff5ec0de81aa6a3deeed85f13b63d53\transformed\work-runtime-2.8.1\AndroidManifest.xml:125:13-72
+	android:exported
+		ADDED from [androidx.work:work-runtime:2.8.1] C:\Users\user\.gradle\caches\transforms-3\2ff5ec0de81aa6a3deeed85f13b63d53\transformed\work-runtime-2.8.1\AndroidManifest.xml:126:13-37
+	tools:targetApi
+		ADDED from [androidx.work:work-runtime:2.8.1] C:\Users\user\.gradle\caches\transforms-3\2ff5ec0de81aa6a3deeed85f13b63d53\transformed\work-runtime-2.8.1\AndroidManifest.xml:127:13-32
+	android:directBootAware
+		ADDED from [androidx.work:work-runtime:2.8.1] C:\Users\user\.gradle\caches\transforms-3\2ff5ec0de81aa6a3deeed85f13b63d53\transformed\work-runtime-2.8.1\AndroidManifest.xml:124:13-44
+	android:name
+		ADDED from [androidx.work:work-runtime:2.8.1] C:\Users\user\.gradle\caches\transforms-3\2ff5ec0de81aa6a3deeed85f13b63d53\transformed\work-runtime-2.8.1\AndroidManifest.xml:123:13-99
+intent-filter#action:name:androidx.work.impl.background.systemalarm.UpdateProxies
+ADDED from [androidx.work:work-runtime:2.8.1] C:\Users\user\.gradle\caches\transforms-3\2ff5ec0de81aa6a3deeed85f13b63d53\transformed\work-runtime-2.8.1\AndroidManifest.xml:128:13-130:29
+action#androidx.work.impl.background.systemalarm.UpdateProxies
+ADDED from [androidx.work:work-runtime:2.8.1] C:\Users\user\.gradle\caches\transforms-3\2ff5ec0de81aa6a3deeed85f13b63d53\transformed\work-runtime-2.8.1\AndroidManifest.xml:129:17-98
+	android:name
+		ADDED from [androidx.work:work-runtime:2.8.1] C:\Users\user\.gradle\caches\transforms-3\2ff5ec0de81aa6a3deeed85f13b63d53\transformed\work-runtime-2.8.1\AndroidManifest.xml:129:25-95
+receiver#androidx.work.impl.diagnostics.DiagnosticsReceiver
+ADDED from [androidx.work:work-runtime:2.8.1] C:\Users\user\.gradle\caches\transforms-3\2ff5ec0de81aa6a3deeed85f13b63d53\transformed\work-runtime-2.8.1\AndroidManifest.xml:132:9-142:20
+	android:enabled
+		ADDED from [androidx.work:work-runtime:2.8.1] C:\Users\user\.gradle\caches\transforms-3\2ff5ec0de81aa6a3deeed85f13b63d53\transformed\work-runtime-2.8.1\AndroidManifest.xml:135:13-35
+	android:exported
+		ADDED from [androidx.work:work-runtime:2.8.1] C:\Users\user\.gradle\caches\transforms-3\2ff5ec0de81aa6a3deeed85f13b63d53\transformed\work-runtime-2.8.1\AndroidManifest.xml:136:13-36
+	android:permission
+		ADDED from [androidx.work:work-runtime:2.8.1] C:\Users\user\.gradle\caches\transforms-3\2ff5ec0de81aa6a3deeed85f13b63d53\transformed\work-runtime-2.8.1\AndroidManifest.xml:137:13-57
+	tools:targetApi
+		ADDED from [androidx.work:work-runtime:2.8.1] C:\Users\user\.gradle\caches\transforms-3\2ff5ec0de81aa6a3deeed85f13b63d53\transformed\work-runtime-2.8.1\AndroidManifest.xml:138:13-32
+	android:directBootAware
+		ADDED from [androidx.work:work-runtime:2.8.1] C:\Users\user\.gradle\caches\transforms-3\2ff5ec0de81aa6a3deeed85f13b63d53\transformed\work-runtime-2.8.1\AndroidManifest.xml:134:13-44
+	android:name
+		ADDED from [androidx.work:work-runtime:2.8.1] C:\Users\user\.gradle\caches\transforms-3\2ff5ec0de81aa6a3deeed85f13b63d53\transformed\work-runtime-2.8.1\AndroidManifest.xml:133:13-78
+intent-filter#action:name:androidx.work.diagnostics.REQUEST_DIAGNOSTICS
+ADDED from [androidx.work:work-runtime:2.8.1] C:\Users\user\.gradle\caches\transforms-3\2ff5ec0de81aa6a3deeed85f13b63d53\transformed\work-runtime-2.8.1\AndroidManifest.xml:139:13-141:29
+action#androidx.work.diagnostics.REQUEST_DIAGNOSTICS
+ADDED from [androidx.work:work-runtime:2.8.1] C:\Users\user\.gradle\caches\transforms-3\2ff5ec0de81aa6a3deeed85f13b63d53\transformed\work-runtime-2.8.1\AndroidManifest.xml:140:17-88
+	android:name
+		ADDED from [androidx.work:work-runtime:2.8.1] C:\Users\user\.gradle\caches\transforms-3\2ff5ec0de81aa6a3deeed85f13b63d53\transformed\work-runtime-2.8.1\AndroidManifest.xml:140:25-85
+service#androidx.room.MultiInstanceInvalidationService
+ADDED from [androidx.room:room-runtime:2.6.0-beta01] C:\Users\user\.gradle\caches\transforms-3\19de6a03d7f617251448bcc2443d3caa\transformed\room-runtime-2.6.0-beta01\AndroidManifest.xml:24:9-28:63
+	android:exported
+		ADDED from [androidx.room:room-runtime:2.6.0-beta01] C:\Users\user\.gradle\caches\transforms-3\19de6a03d7f617251448bcc2443d3caa\transformed\room-runtime-2.6.0-beta01\AndroidManifest.xml:27:13-37
+	tools:ignore
+		ADDED from [androidx.room:room-runtime:2.6.0-beta01] C:\Users\user\.gradle\caches\transforms-3\19de6a03d7f617251448bcc2443d3caa\transformed\room-runtime-2.6.0-beta01\AndroidManifest.xml:28:13-60
+	android:directBootAware
+		ADDED from [androidx.room:room-runtime:2.6.0-beta01] C:\Users\user\.gradle\caches\transforms-3\19de6a03d7f617251448bcc2443d3caa\transformed\room-runtime-2.6.0-beta01\AndroidManifest.xml:26:13-43
+	android:name
+		ADDED from [androidx.room:room-runtime:2.6.0-beta01] C:\Users\user\.gradle\caches\transforms-3\19de6a03d7f617251448bcc2443d3caa\transformed\room-runtime-2.6.0-beta01\AndroidManifest.xml:25:13-74
+meta-data#androidx.emoji2.text.EmojiCompatInitializer
+ADDED from [androidx.emoji2:emoji2:1.3.0] C:\Users\user\.gradle\caches\transforms-3\995a6c7d2b8e2d21ee653adcb488a695\transformed\jetified-emoji2-1.3.0\AndroidManifest.xml:29:13-31:52
+	android:value
+		ADDED from [androidx.emoji2:emoji2:1.3.0] C:\Users\user\.gradle\caches\transforms-3\995a6c7d2b8e2d21ee653adcb488a695\transformed\jetified-emoji2-1.3.0\AndroidManifest.xml:31:17-49
+	android:name
+		ADDED from [androidx.emoji2:emoji2:1.3.0] C:\Users\user\.gradle\caches\transforms-3\995a6c7d2b8e2d21ee653adcb488a695\transformed\jetified-emoji2-1.3.0\AndroidManifest.xml:30:17-75
+meta-data#androidx.lifecycle.ProcessLifecycleInitializer
+ADDED from [androidx.lifecycle:lifecycle-process:2.7.0-alpha02] C:\Users\user\.gradle\caches\transforms-3\6f4542da6288a7f8eb43f2c27b8490d7\transformed\jetified-lifecycle-process-2.7.0-alpha02\AndroidManifest.xml:29:13-31:52
+	android:value
+		ADDED from [androidx.lifecycle:lifecycle-process:2.7.0-alpha02] C:\Users\user\.gradle\caches\transforms-3\6f4542da6288a7f8eb43f2c27b8490d7\transformed\jetified-lifecycle-process-2.7.0-alpha02\AndroidManifest.xml:31:17-49
+	android:name
+		ADDED from [androidx.lifecycle:lifecycle-process:2.7.0-alpha02] C:\Users\user\.gradle\caches\transforms-3\6f4542da6288a7f8eb43f2c27b8490d7\transformed\jetified-lifecycle-process-2.7.0-alpha02\AndroidManifest.xml:30:17-78
+uses-library#androidx.window.extensions
+ADDED from [androidx.window:window:1.0.0] C:\Users\user\.gradle\caches\transforms-3\c8ecd07bdd2f6f71584c5e59fbbd2e73\transformed\jetified-window-1.0.0\AndroidManifest.xml:25:9-27:40
+	android:required
+		ADDED from [androidx.window:window:1.0.0] C:\Users\user\.gradle\caches\transforms-3\c8ecd07bdd2f6f71584c5e59fbbd2e73\transformed\jetified-window-1.0.0\AndroidManifest.xml:27:13-37
+	android:name
+		ADDED from [androidx.window:window:1.0.0] C:\Users\user\.gradle\caches\transforms-3\c8ecd07bdd2f6f71584c5e59fbbd2e73\transformed\jetified-window-1.0.0\AndroidManifest.xml:26:13-54
+uses-library#androidx.window.sidecar
+ADDED from [androidx.window:window:1.0.0] C:\Users\user\.gradle\caches\transforms-3\c8ecd07bdd2f6f71584c5e59fbbd2e73\transformed\jetified-window-1.0.0\AndroidManifest.xml:28:9-30:40
+	android:required
+		ADDED from [androidx.window:window:1.0.0] C:\Users\user\.gradle\caches\transforms-3\c8ecd07bdd2f6f71584c5e59fbbd2e73\transformed\jetified-window-1.0.0\AndroidManifest.xml:30:13-37
+	android:name
+		ADDED from [androidx.window:window:1.0.0] C:\Users\user\.gradle\caches\transforms-3\c8ecd07bdd2f6f71584c5e59fbbd2e73\transformed\jetified-window-1.0.0\AndroidManifest.xml:29:13-51
+permission#${applicationId}.DYNAMIC_RECEIVER_NOT_EXPORTED_PERMISSION
+ADDED from [androidx.core:core:1.12.0] C:\Users\user\.gradle\caches\transforms-3\891dbd363961478e669147ab4b59463d\transformed\core-1.12.0\AndroidManifest.xml:22:5-24:47
+	android:protectionLevel
+		ADDED from [androidx.core:core:1.12.0] C:\Users\user\.gradle\caches\transforms-3\891dbd363961478e669147ab4b59463d\transformed\core-1.12.0\AndroidManifest.xml:24:9-44
+	android:name
+		ADDED from [androidx.core:core:1.12.0] C:\Users\user\.gradle\caches\transforms-3\891dbd363961478e669147ab4b59463d\transformed\core-1.12.0\AndroidManifest.xml:23:9-81
+permission#com.simplemobiletools.clock.debug.DYNAMIC_RECEIVER_NOT_EXPORTED_PERMISSION
+ADDED from [androidx.core:core:1.12.0] C:\Users\user\.gradle\caches\transforms-3\891dbd363961478e669147ab4b59463d\transformed\core-1.12.0\AndroidManifest.xml:22:5-24:47
+	android:protectionLevel
+		ADDED from [androidx.core:core:1.12.0] C:\Users\user\.gradle\caches\transforms-3\891dbd363961478e669147ab4b59463d\transformed\core-1.12.0\AndroidManifest.xml:24:9-44
+	android:name
+		ADDED from [androidx.core:core:1.12.0] C:\Users\user\.gradle\caches\transforms-3\891dbd363961478e669147ab4b59463d\transformed\core-1.12.0\AndroidManifest.xml:23:9-81
+meta-data#androidx.profileinstaller.ProfileInstallerInitializer
+ADDED from [androidx.profileinstaller:profileinstaller:1.3.0] C:\Users\user\.gradle\caches\transforms-3\54db9d2491e5624f74c5070bb32cbb85\transformed\jetified-profileinstaller-1.3.0\AndroidManifest.xml:29:13-31:52
+	android:value
+		ADDED from [androidx.profileinstaller:profileinstaller:1.3.0] C:\Users\user\.gradle\caches\transforms-3\54db9d2491e5624f74c5070bb32cbb85\transformed\jetified-profileinstaller-1.3.0\AndroidManifest.xml:31:17-49
+	android:name
+		ADDED from [androidx.profileinstaller:profileinstaller:1.3.0] C:\Users\user\.gradle\caches\transforms-3\54db9d2491e5624f74c5070bb32cbb85\transformed\jetified-profileinstaller-1.3.0\AndroidManifest.xml:30:17-85
+receiver#androidx.profileinstaller.ProfileInstallReceiver
+ADDED from [androidx.profileinstaller:profileinstaller:1.3.0] C:\Users\user\.gradle\caches\transforms-3\54db9d2491e5624f74c5070bb32cbb85\transformed\jetified-profileinstaller-1.3.0\AndroidManifest.xml:34:9-52:20
+	android:enabled
+		ADDED from [androidx.profileinstaller:profileinstaller:1.3.0] C:\Users\user\.gradle\caches\transforms-3\54db9d2491e5624f74c5070bb32cbb85\transformed\jetified-profileinstaller-1.3.0\AndroidManifest.xml:37:13-35
+	android:exported
+		ADDED from [androidx.profileinstaller:profileinstaller:1.3.0] C:\Users\user\.gradle\caches\transforms-3\54db9d2491e5624f74c5070bb32cbb85\transformed\jetified-profileinstaller-1.3.0\AndroidManifest.xml:38:13-36
+	android:permission
+		ADDED from [androidx.profileinstaller:profileinstaller:1.3.0] C:\Users\user\.gradle\caches\transforms-3\54db9d2491e5624f74c5070bb32cbb85\transformed\jetified-profileinstaller-1.3.0\AndroidManifest.xml:39:13-57
+	android:directBootAware
+		ADDED from [androidx.profileinstaller:profileinstaller:1.3.0] C:\Users\user\.gradle\caches\transforms-3\54db9d2491e5624f74c5070bb32cbb85\transformed\jetified-profileinstaller-1.3.0\AndroidManifest.xml:36:13-44
+	android:name
+		ADDED from [androidx.profileinstaller:profileinstaller:1.3.0] C:\Users\user\.gradle\caches\transforms-3\54db9d2491e5624f74c5070bb32cbb85\transformed\jetified-profileinstaller-1.3.0\AndroidManifest.xml:35:13-76
+intent-filter#action:name:androidx.profileinstaller.action.INSTALL_PROFILE
+ADDED from [androidx.profileinstaller:profileinstaller:1.3.0] C:\Users\user\.gradle\caches\transforms-3\54db9d2491e5624f74c5070bb32cbb85\transformed\jetified-profileinstaller-1.3.0\AndroidManifest.xml:40:13-42:29
+action#androidx.profileinstaller.action.INSTALL_PROFILE
+ADDED from [androidx.profileinstaller:profileinstaller:1.3.0] C:\Users\user\.gradle\caches\transforms-3\54db9d2491e5624f74c5070bb32cbb85\transformed\jetified-profileinstaller-1.3.0\AndroidManifest.xml:41:17-91
+	android:name
+		ADDED from [androidx.profileinstaller:profileinstaller:1.3.0] C:\Users\user\.gradle\caches\transforms-3\54db9d2491e5624f74c5070bb32cbb85\transformed\jetified-profileinstaller-1.3.0\AndroidManifest.xml:41:25-88
+intent-filter#action:name:androidx.profileinstaller.action.SKIP_FILE
+ADDED from [androidx.profileinstaller:profileinstaller:1.3.0] C:\Users\user\.gradle\caches\transforms-3\54db9d2491e5624f74c5070bb32cbb85\transformed\jetified-profileinstaller-1.3.0\AndroidManifest.xml:43:13-45:29
+action#androidx.profileinstaller.action.SKIP_FILE
+ADDED from [androidx.profileinstaller:profileinstaller:1.3.0] C:\Users\user\.gradle\caches\transforms-3\54db9d2491e5624f74c5070bb32cbb85\transformed\jetified-profileinstaller-1.3.0\AndroidManifest.xml:44:17-85
+	android:name
+		ADDED from [androidx.profileinstaller:profileinstaller:1.3.0] C:\Users\user\.gradle\caches\transforms-3\54db9d2491e5624f74c5070bb32cbb85\transformed\jetified-profileinstaller-1.3.0\AndroidManifest.xml:44:25-82
+intent-filter#action:name:androidx.profileinstaller.action.SAVE_PROFILE
+ADDED from [androidx.profileinstaller:profileinstaller:1.3.0] C:\Users\user\.gradle\caches\transforms-3\54db9d2491e5624f74c5070bb32cbb85\transformed\jetified-profileinstaller-1.3.0\AndroidManifest.xml:46:13-48:29
+action#androidx.profileinstaller.action.SAVE_PROFILE
+ADDED from [androidx.profileinstaller:profileinstaller:1.3.0] C:\Users\user\.gradle\caches\transforms-3\54db9d2491e5624f74c5070bb32cbb85\transformed\jetified-profileinstaller-1.3.0\AndroidManifest.xml:47:17-88
+	android:name
+		ADDED from [androidx.profileinstaller:profileinstaller:1.3.0] C:\Users\user\.gradle\caches\transforms-3\54db9d2491e5624f74c5070bb32cbb85\transformed\jetified-profileinstaller-1.3.0\AndroidManifest.xml:47:25-85
+intent-filter#action:name:androidx.profileinstaller.action.BENCHMARK_OPERATION
+ADDED from [androidx.profileinstaller:profileinstaller:1.3.0] C:\Users\user\.gradle\caches\transforms-3\54db9d2491e5624f74c5070bb32cbb85\transformed\jetified-profileinstaller-1.3.0\AndroidManifest.xml:49:13-51:29
+action#androidx.profileinstaller.action.BENCHMARK_OPERATION
+ADDED from [androidx.profileinstaller:profileinstaller:1.3.0] C:\Users\user\.gradle\caches\transforms-3\54db9d2491e5624f74c5070bb32cbb85\transformed\jetified-profileinstaller-1.3.0\AndroidManifest.xml:50:17-95
+	android:name
+		ADDED from [androidx.profileinstaller:profileinstaller:1.3.0] C:\Users\user\.gradle\caches\transforms-3\54db9d2491e5624f74c5070bb32cbb85\transformed\jetified-profileinstaller-1.3.0\AndroidManifest.xml:50:25-92

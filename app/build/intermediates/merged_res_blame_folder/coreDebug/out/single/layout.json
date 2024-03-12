@@ -1,0 +1,126 @@
+[
+    {
+        "merged": "C:\\Users\\user\\.gradle\\daemon\\8.2.1\\com.simplemobiletools.clock.app-mergeCoreDebugResources-78:\\layout\\dialog_edit_timer.xml",
+        "source": "C:\\Users\\user\\.gradle\\daemon\\8.2.1\\com.simplemobiletools.clock.app-main-83:\\layout\\dialog_edit_timer.xml"
+    },
+    {
+        "merged": "C:\\Users\\user\\.gradle\\daemon\\8.2.1\\com.simplemobiletools.clock.app-mergeCoreDebugResources-78:\\layout\\dialog_edit_alarm.xml",
+        "source": "C:\\Users\\user\\.gradle\\daemon\\8.2.1\\com.simplemobiletools.clock.app-main-83:\\layout\\dialog_edit_alarm.xml"
+    },
+    {
+        "merged": "C:\\Users\\user\\.gradle\\daemon\\8.2.1\\com.simplemobiletools.clock.app-mergeCoreDebugResources-78:\\layout\\item_radio_button.xml",
+        "source": "C:\\Users\\user\\.gradle\\daemon\\8.2.1\\com.simplemobiletools.clock.app-main-83:\\layout\\item_radio_button.xml"
+    },
+    {
+        "merged": "com.simplemobiletools.clock.app-mergeCoreDebugResources-78:/layout/fragment_clock.xml",
+        "source": "com.simplemobiletools.clock.app-main-83:/layout/fragment_clock.xml"
+    },
+    {
+        "merged": "C:\\Users\\user\\.gradle\\daemon\\8.2.1\\com.simplemobiletools.clock.app-mergeCoreDebugResources-78:\\layout\\activity_web.xml",
+        "source": "C:\\Users\\user\\.gradle\\daemon\\8.2.1\\com.simplemobiletools.clock.app-main-83:\\layout\\activity_web.xml"
+    },
+    {
+        "merged": "C:\\Users\\user\\.gradle\\daemon\\8.2.1\\com.simplemobiletools.clock.app-mergeCoreDebugResources-78:\\layout\\fragment_clock.xml",
+        "source": "C:\\Users\\user\\.gradle\\daemon\\8.2.1\\com.simplemobiletools.clock.app-main-83:\\layout\\fragment_clock.xml"
+    },
+    {
+        "merged": "C:\\Users\\user\\.gradle\\daemon\\8.2.1\\com.simplemobiletools.clock.app-mergeCoreDebugResources-78:\\layout\\activity_settings.xml",
+        "source": "C:\\Users\\user\\.gradle\\daemon\\8.2.1\\com.simplemobiletools.clock.app-main-83:\\layout\\activity_settings.xml"
+    },
+    {
+        "merged": "C:\\Users\\user\\.gradle\\daemon\\8.2.1\\com.simplemobiletools.clock.app-mergeCoreDebugResources-78:\\layout\\dialog_select_time_zones.xml",
+        "source": "C:\\Users\\user\\.gradle\\daemon\\8.2.1\\com.simplemobiletools.clock.app-main-83:\\layout\\dialog_select_time_zones.xml"
+    },
+    {
+        "merged": "C:\\Users\\user\\.gradle\\daemon\\8.2.1\\com.simplemobiletools.clock.app-mergeCoreDebugResources-78:\\layout\\widget_config_analogue.xml",
+        "source": "C:\\Users\\user\\.gradle\\daemon\\8.2.1\\com.simplemobiletools.clock.app-main-83:\\layout\\widget_config_analogue.xml"
+    },
+    {
+        "merged": "C:\\Users\\user\\.gradle\\daemon\\8.2.1\\com.simplemobiletools.clock.app-mergeCoreDebugResources-78:\\layout\\dialog_select_alarm.xml",
+        "source": "C:\\Users\\user\\.gradle\\daemon\\8.2.1\\com.simplemobiletools.clock.app-main-83:\\layout\\dialog_select_alarm.xml"
+    },
+    {
+        "merged": "C:\\Users\\user\\.gradle\\daemon\\8.2.1\\com.simplemobiletools.clock.app-mergeCoreDebugResources-78:\\layout\\dialog_my_time_picker.xml",
+        "source": "C:\\Users\\user\\.gradle\\daemon\\8.2.1\\com.simplemobiletools.clock.app-main-83:\\layout\\dialog_my_time_picker.xml"
+    },
+    {
+        "merged": "C:\\Users\\user\\.gradle\\daemon\\8.2.1\\com.simplemobiletools.clock.app-mergeCoreDebugResources-78:\\layout\\alarm_day.xml",
+        "source": "C:\\Users\\user\\.gradle\\daemon\\8.2.1\\com.simplemobiletools.clock.app-main-83:\\layout\\alarm_day.xml"
+    },
+    {
+        "merged": "C:\\Users\\user\\.gradle\\daemon\\8.2.1\\com.simplemobiletools.clock.app-mergeCoreDebugResources-78:\\layout\\widget_config_digital.xml",
+        "source": "C:\\Users\\user\\.gradle\\daemon\\8.2.1\\com.simplemobiletools.clock.app-main-83:\\layout\\widget_config_digital.xml"
+    },
+    {
+        "merged": "C:\\Users\\user\\.gradle\\daemon\\8.2.1\\com.simplemobiletools.clock.app-mergeCoreDebugResources-78:\\layout\\lab23.xml",
+        "source": "C:\\Users\\user\\.gradle\\daemon\\8.2.1\\com.simplemobiletools.clock.app-main-83:\\layout\\lab23.xml"
+    },
+    {
+        "merged": "C:\\Users\\user\\.gradle\\daemon\\8.2.1\\com.simplemobiletools.clock.app-mergeCoreDebugResources-78:\\layout\\item_alarm.xml",
+        "source": "C:\\Users\\user\\.gradle\\daemon\\8.2.1\\com.simplemobiletools.clock.app-main-83:\\layout\\item_alarm.xml"
+    },
+    {
+        "merged": "C:\\Users\\user\\.gradle\\daemon\\8.2.1\\com.simplemobiletools.clock.app-mergeCoreDebugResources-78:\\layout\\dialog_edit_time_zone.xml",
+        "source": "C:\\Users\\user\\.gradle\\daemon\\8.2.1\\com.simplemobiletools.clock.app-main-83:\\layout\\dialog_edit_time_zone.xml"
+    },
+    {
+        "merged": "C:\\Users\\user\\.gradle\\daemon\\8.2.1\\com.simplemobiletools.clock.app-mergeCoreDebugResources-78:\\layout\\activity_reminder.xml",
+        "source": "C:\\Users\\user\\.gradle\\daemon\\8.2.1\\com.simplemobiletools.clock.app-main-83:\\layout\\activity_reminder.xml"
+    },
+    {
+        "merged": "C:\\Users\\user\\.gradle\\daemon\\8.2.1\\com.simplemobiletools.clock.app-mergeCoreDebugResources-78:\\layout\\activity_main.xml",
+        "source": "C:\\Users\\user\\.gradle\\daemon\\8.2.1\\com.simplemobiletools.clock.app-main-83:\\layout\\activity_main.xml"
+    },
+    {
+        "merged": "C:\\Users\\user\\.gradle\\daemon\\8.2.1\\com.simplemobiletools.clock.app-mergeCoreDebugResources-78:\\layout\\item_time_zone.xml",
+        "source": "C:\\Users\\user\\.gradle\\daemon\\8.2.1\\com.simplemobiletools.clock.app-main-83:\\layout\\item_time_zone.xml"
+    },
+    {
+        "merged": "com.simplemobiletools.clock.app-mergeCoreDebugResources-78:/layout/fragment_alarm.xml",
+        "source": "com.simplemobiletools.clock.app-main-83:/layout/fragment_alarm.xml"
+    },
+    {
+        "merged": "com.simplemobiletools.clock.app-mergeCoreDebugResources-78:/layout/fragment_stopwatch.xml",
+        "source": "com.simplemobiletools.clock.app-main-83:/layout/fragment_stopwatch.xml"
+    },
+    {
+        "merged": "C:\\Users\\user\\.gradle\\daemon\\8.2.1\\com.simplemobiletools.clock.app-mergeCoreDebugResources-78:\\layout\\item_lap.xml",
+        "source": "C:\\Users\\user\\.gradle\\daemon\\8.2.1\\com.simplemobiletools.clock.app-main-83:\\layout\\item_lap.xml"
+    },
+    {
+        "merged": "C:\\Users\\user\\.gradle\\daemon\\8.2.1\\com.simplemobiletools.clock.app-mergeCoreDebugResources-78:\\layout\\item_add_time_zone.xml",
+        "source": "C:\\Users\\user\\.gradle\\daemon\\8.2.1\\com.simplemobiletools.clock.app-main-83:\\layout\\item_add_time_zone.xml"
+    },
+    {
+        "merged": "C:\\Users\\user\\.gradle\\daemon\\8.2.1\\com.simplemobiletools.clock.app-mergeCoreDebugResources-78:\\layout\\widget_digital.xml",
+        "source": "C:\\Users\\user\\.gradle\\daemon\\8.2.1\\com.simplemobiletools.clock.app-main-83:\\layout\\widget_digital.xml"
+    },
+    {
+        "merged": "com.simplemobiletools.clock.app-mergeCoreDebugResources-78:/layout/fragment_timer.xml",
+        "source": "com.simplemobiletools.clock.app-main-83:/layout/fragment_timer.xml"
+    },
+    {
+        "merged": "C:\\Users\\user\\.gradle\\daemon\\8.2.1\\com.simplemobiletools.clock.app-mergeCoreDebugResources-78:\\layout\\fragment_alarm.xml",
+        "source": "C:\\Users\\user\\.gradle\\daemon\\8.2.1\\com.simplemobiletools.clock.app-main-83:\\layout\\fragment_alarm.xml"
+    },
+    {
+        "merged": "C:\\Users\\user\\.gradle\\daemon\\8.2.1\\com.simplemobiletools.clock.app-mergeCoreDebugResources-78:\\layout\\fragment_timer.xml",
+        "source": "C:\\Users\\user\\.gradle\\daemon\\8.2.1\\com.simplemobiletools.clock.app-main-83:\\layout\\fragment_timer.xml"
+    },
+    {
+        "merged": "C:\\Users\\user\\.gradle\\daemon\\8.2.1\\com.simplemobiletools.clock.app-mergeCoreDebugResources-78:\\layout\\widget_analogue.xml",
+        "source": "C:\\Users\\user\\.gradle\\daemon\\8.2.1\\com.simplemobiletools.clock.app-main-83:\\layout\\widget_analogue.xml"
+    },
+    {
+        "merged": "C:\\Users\\user\\.gradle\\daemon\\8.2.1\\com.simplemobiletools.clock.app-mergeCoreDebugResources-78:\\layout\\fragment_stopwatch.xml",
+        "source": "C:\\Users\\user\\.gradle\\daemon\\8.2.1\\com.simplemobiletools.clock.app-main-83:\\layout\\fragment_stopwatch.xml"
+    },
+    {
+        "merged": "C:\\Users\\user\\.gradle\\daemon\\8.2.1\\com.simplemobiletools.clock.app-mergeCoreDebugResources-78:\\layout\\dialog_change_alarm_sort.xml",
+        "source": "C:\\Users\\user\\.gradle\\daemon\\8.2.1\\com.simplemobiletools.clock.app-main-83:\\layout\\dialog_change_alarm_sort.xml"
+    },
+    {
+        "merged": "C:\\Users\\user\\.gradle\\daemon\\8.2.1\\com.simplemobiletools.clock.app-mergeCoreDebugResources-78:\\layout\\item_timer.xml",
+        "source": "C:\\Users\\user\\.gradle\\daemon\\8.2.1\\com.simplemobiletools.clock.app-main-83:\\layout\\item_timer.xml"
+    }
+]

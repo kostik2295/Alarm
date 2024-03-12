@@ -1,0 +1,4 @@
+com.simplemobiletools.clock.test.app-core-0 C:\Users\user\Desktop\Simple-Clock-master\app\build\generated\res\resValues\androidTest\core\debug
+com.simplemobiletools.clock.test.app-mergeCoreDebugAndroidTestResources-1 C:\Users\user\Desktop\Simple-Clock-master\app\build\intermediates\incremental\coreDebugAndroidTest\mergeCoreDebugAndroidTestResources\merged.dir
+com.simplemobiletools.clock.test.app-mergeCoreDebugAndroidTestResources-2 C:\Users\user\Desktop\Simple-Clock-master\app\build\intermediates\incremental\coreDebugAndroidTest\mergeCoreDebugAndroidTestResources\stripped.dir
+com.simplemobiletools.clock.test.app-merged_res-3 C:\Users\user\Desktop\Simple-Clock-master\app\build\intermediates\merged_res\coreDebugAndroidTest

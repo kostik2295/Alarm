@@ -1,0 +1,20 @@
+{
+  "version": 3,
+  "artifactType": {
+    "type": "PROCESSED_RES",
+    "kind": "Directory"
+  },
+  "applicationId": "com.simplemobiletools.clock.debug",
+  "variantName": "coreDebug",
+  "elements": [
+    {
+      "type": "SINGLE",
+      "filters": [],
+      "attributes": [],
+      "versionCode": 42,
+      "versionName": "5.11.2",
+      "outputFile": "resources-coreDebug.ap_"
+    }
+  ],
+  "elementType": "File"
+}

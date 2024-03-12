@@ -1,0 +1,1259 @@
+1<?xml version="1.0" encoding="utf-8"?>
+2<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+3    package="com.simplemobiletools.clock.debug"
+4    android:versionCode="42"
+5    android:versionName="5.11.2" >
+6
+7    <uses-sdk
+8        android:minSdkVersion="23"
+9        android:targetSdkVersion="34" />
+10
+11    <uses-permission android:name="com.android.alarm.permission.SET_ALARM" />
+11-->C:\Users\user\Desktop\Simple-Clock-master\app\src\main\AndroidManifest.xml:5:5-78
+11-->C:\Users\user\Desktop\Simple-Clock-master\app\src\main\AndroidManifest.xml:5:22-75
+12    <uses-permission android:name="android.permission.VIBRATE" />
+12-->C:\Users\user\Desktop\Simple-Clock-master\app\src\main\AndroidManifest.xml:6:5-66
+12-->C:\Users\user\Desktop\Simple-Clock-master\app\src\main\AndroidManifest.xml:6:22-63
+13    <uses-permission android:name="android.permission.RECEIVE_BOOT_COMPLETED" />
+13-->C:\Users\user\Desktop\Simple-Clock-master\app\src\main\AndroidManifest.xml:7:5-81
+13-->C:\Users\user\Desktop\Simple-Clock-master\app\src\main\AndroidManifest.xml:7:22-78
+14    <uses-permission android:name="android.permission.USE_FULL_SCREEN_INTENT" />
+14-->C:\Users\user\Desktop\Simple-Clock-master\app\src\main\AndroidManifest.xml:8:5-81
+14-->C:\Users\user\Desktop\Simple-Clock-master\app\src\main\AndroidManifest.xml:8:22-78
+15    <uses-permission
+15-->C:\Users\user\Desktop\Simple-Clock-master\app\src\main\AndroidManifest.xml:9:5-11:38
+16        android:name="android.permission.SCHEDULE_EXACT_ALARM"
+16-->C:\Users\user\Desktop\Simple-Clock-master\app\src\main\AndroidManifest.xml:10:9-63
+17        android:maxSdkVersion="32" />
+17-->C:\Users\user\Desktop\Simple-Clock-master\app\src\main\AndroidManifest.xml:11:9-35
+18    <uses-permission android:name="android.permission.USE_EXACT_ALARM" />
+18-->C:\Users\user\Desktop\Simple-Clock-master\app\src\main\AndroidManifest.xml:12:5-74
+18-->C:\Users\user\Desktop\Simple-Clock-master\app\src\main\AndroidManifest.xml:12:22-71
+19    <uses-permission android:name="android.permission.FOREGROUND_SERVICE" />
+19-->C:\Users\user\Desktop\Simple-Clock-master\app\src\main\AndroidManifest.xml:13:5-77
+19-->C:\Users\user\Desktop\Simple-Clock-master\app\src\main\AndroidManifest.xml:13:22-74
+20    <uses-permission android:name="android.permission.FOREGROUND_SERVICE_SPECIAL_USE" />
+20-->C:\Users\user\Desktop\Simple-Clock-master\app\src\main\AndroidManifest.xml:14:5-89
+20-->C:\Users\user\Desktop\Simple-Clock-master\app\src\main\AndroidManifest.xml:14:22-86
+21    <uses-permission android:name="android.permission.SYSTEM_ALERT_WINDOW" />
+21-->C:\Users\user\Desktop\Simple-Clock-master\app\src\main\AndroidManifest.xml:15:5-78
+21-->C:\Users\user\Desktop\Simple-Clock-master\app\src\main\AndroidManifest.xml:15:22-75
+22    <uses-permission android:name="android.permission.WAKE_LOCK" />
+22-->C:\Users\user\Desktop\Simple-Clock-master\app\src\main\AndroidManifest.xml:16:5-68
+22-->C:\Users\user\Desktop\Simple-Clock-master\app\src\main\AndroidManifest.xml:16:22-65
+23    <uses-permission android:name="android.permission.POST_NOTIFICATIONS" />
+23-->C:\Users\user\Desktop\Simple-Clock-master\app\src\main\AndroidManifest.xml:17:5-77
+23-->C:\Users\user\Desktop\Simple-Clock-master\app\src\main\AndroidManifest.xml:17:22-74
+24    <uses-permission android:name="android.permission.INTERNET" />
+24-->C:\Users\user\Desktop\Simple-Clock-master\app\src\main\AndroidManifest.xml:24:5-67
+24-->C:\Users\user\Desktop\Simple-Clock-master\app\src\main\AndroidManifest.xml:24:22-64
+25
+26    <queries>
+26-->[com.github.SimpleMobileTools:Simple-Commons:c573613da9] C:\Users\user\.gradle\caches\transforms-3\9594abdccf5c9c8a9d59603384a22d0e\transformed\jetified-Simple-Commons-c573613da9\AndroidManifest.xml:8:5-11:15
+27        <package android:name="com.simplemobiletools.thankyou.debug" />
+27-->[com.github.SimpleMobileTools:Simple-Commons:c573613da9] C:\Users\user\.gradle\caches\transforms-3\9594abdccf5c9c8a9d59603384a22d0e\transformed\jetified-Simple-Commons-c573613da9\AndroidManifest.xml:9:9-72
+27-->[com.github.SimpleMobileTools:Simple-Commons:c573613da9] C:\Users\user\.gradle\caches\transforms-3\9594abdccf5c9c8a9d59603384a22d0e\transformed\jetified-Simple-Commons-c573613da9\AndroidManifest.xml:9:18-69
+28        <package android:name="com.simplemobiletools.thankyou" />
+28-->[com.github.SimpleMobileTools:Simple-Commons:c573613da9] C:\Users\user\.gradle\caches\transforms-3\9594abdccf5c9c8a9d59603384a22d0e\transformed\jetified-Simple-Commons-c573613da9\AndroidManifest.xml:10:9-66
+28-->[com.github.SimpleMobileTools:Simple-Commons:c573613da9] C:\Users\user\.gradle\caches\transforms-3\9594abdccf5c9c8a9d59603384a22d0e\transformed\jetified-Simple-Commons-c573613da9\AndroidManifest.xml:10:18-63
+29    </queries>
+30
+31    <uses-feature
+31-->[com.github.SimpleMobileTools:Simple-Commons:c573613da9] C:\Users\user\.gradle\caches\transforms-3\9594abdccf5c9c8a9d59603384a22d0e\transformed\jetified-Simple-Commons-c573613da9\AndroidManifest.xml:13:5-15:36
+32        android:name="android.hardware.faketouch"
+32-->[com.github.SimpleMobileTools:Simple-Commons:c573613da9] C:\Users\user\.gradle\caches\transforms-3\9594abdccf5c9c8a9d59603384a22d0e\transformed\jetified-Simple-Commons-c573613da9\AndroidManifest.xml:14:9-50
+33        android:required="false" />
+33-->[com.github.SimpleMobileTools:Simple-Commons:c573613da9] C:\Users\user\.gradle\caches\transforms-3\9594abdccf5c9c8a9d59603384a22d0e\transformed\jetified-Simple-Commons-c573613da9\AndroidManifest.xml:15:9-33
+34    <uses-feature
+34-->[com.github.SimpleMobileTools:Simple-Commons:c573613da9] C:\Users\user\.gradle\caches\transforms-3\9594abdccf5c9c8a9d59603384a22d0e\transformed\jetified-Simple-Commons-c573613da9\AndroidManifest.xml:16:5-18:36
+35        android:name="android.hardware.screen.portrait"
+35-->[com.github.SimpleMobileTools:Simple-Commons:c573613da9] C:\Users\user\.gradle\caches\transforms-3\9594abdccf5c9c8a9d59603384a22d0e\transformed\jetified-Simple-Commons-c573613da9\AndroidManifest.xml:17:9-56
+36        android:required="false" />
+36-->[com.github.SimpleMobileTools:Simple-Commons:c573613da9] C:\Users\user\.gradle\caches\transforms-3\9594abdccf5c9c8a9d59603384a22d0e\transformed\jetified-Simple-Commons-c573613da9\AndroidManifest.xml:18:9-33
+37
+38    <permission
+38-->[androidx.core:core:1.12.0] C:\Users\user\.gradle\caches\transforms-3\891dbd363961478e669147ab4b59463d\transformed\core-1.12.0\AndroidManifest.xml:22:5-24:47
+39        android:name="com.simplemobiletools.clock.debug.DYNAMIC_RECEIVER_NOT_EXPORTED_PERMISSION"
+39-->[androidx.core:core:1.12.0] C:\Users\user\.gradle\caches\transforms-3\891dbd363961478e669147ab4b59463d\transformed\core-1.12.0\AndroidManifest.xml:23:9-81
+40        android:protectionLevel="signature" />
+40-->[androidx.core:core:1.12.0] C:\Users\user\.gradle\caches\transforms-3\891dbd363961478e669147ab4b59463d\transformed\core-1.12.0\AndroidManifest.xml:24:9-44
+41
+42    <application
+42-->C:\Users\user\Desktop\Simple-Clock-master\app\src\main\AndroidManifest.xml:26:5-449:19
+43        android:name="com.simplemobiletools.clock.App"
+43-->C:\Users\user\Desktop\Simple-Clock-master\app\src\main\AndroidManifest.xml:27:9-28
+44        android:allowBackup="true"
+44-->C:\Users\user\Desktop\Simple-Clock-master\app\src\main\AndroidManifest.xml:28:9-35
+45        android:appCategory="productivity"
+45-->C:\Users\user\Desktop\Simple-Clock-master\app\src\main\AndroidManifest.xml:29:9-43
+46        android:appComponentFactory="androidx.core.app.CoreComponentFactory"
+46-->[androidx.core:core:1.12.0] C:\Users\user\.gradle\caches\transforms-3\891dbd363961478e669147ab4b59463d\transformed\core-1.12.0\AndroidManifest.xml:28:18-86
+47        android:debuggable="true"
+48        android:extractNativeLibs="false"
+49        android:icon="@mipmap/ic_launcher"
+49-->C:\Users\user\Desktop\Simple-Clock-master\app\src\main\AndroidManifest.xml:30:9-43
+50        android:label="@string/app_launcher_name"
+50-->C:\Users\user\Desktop\Simple-Clock-master\app\src\main\AndroidManifest.xml:31:9-50
+51        android:localeConfig="@xml/locale_config"
+51-->C:\Users\user\Desktop\Simple-Clock-master\app\src\main\AndroidManifest.xml:32:9-50
+52        android:roundIcon="@mipmap/ic_launcher"
+52-->C:\Users\user\Desktop\Simple-Clock-master\app\src\main\AndroidManifest.xml:33:9-48
+53        android:supportsRtl="true"
+53-->[com.github.SimpleMobileTools:Simple-Commons:c573613da9] C:\Users\user\.gradle\caches\transforms-3\9594abdccf5c9c8a9d59603384a22d0e\transformed\jetified-Simple-Commons-c573613da9\AndroidManifest.xml:32:18-44
+54        android:testOnly="true"
+55        android:theme="@style/AppTheme" >
+55-->C:\Users\user\Desktop\Simple-Clock-master\app\src\main\AndroidManifest.xml:34:9-40
+56        <activity
+56-->C:\Users\user\Desktop\Simple-Clock-master\app\src\main\AndroidManifest.xml:35:9-37:40
+57            android:name="com.simplemobiletools.clock.activities.WebActivity"
+57-->C:\Users\user\Desktop\Simple-Clock-master\app\src\main\AndroidManifest.xml:36:13-51
+58            android:exported="false" />
+58-->C:\Users\user\Desktop\Simple-Clock-master\app\src\main\AndroidManifest.xml:37:13-37
+59        <activity
+59-->C:\Users\user\Desktop\Simple-Clock-master\app\src\main\AndroidManifest.xml:38:9-60:20
+60            android:name="com.simplemobiletools.clock.activities.SplashActivity"
+60-->C:\Users\user\Desktop\Simple-Clock-master\app\src\main\AndroidManifest.xml:39:13-54
+61            android:exported="true"
+61-->C:\Users\user\Desktop\Simple-Clock-master\app\src\main\AndroidManifest.xml:40:13-36
+62            android:launchMode="singleTask"
+62-->C:\Users\user\Desktop\Simple-Clock-master\app\src\main\AndroidManifest.xml:41:13-44
+63            android:theme="@style/SplashTheme" >
+63-->C:\Users\user\Desktop\Simple-Clock-master\app\src\main\AndroidManifest.xml:42:13-47
+64            <intent-filter>
+64-->C:\Users\user\Desktop\Simple-Clock-master\app\src\main\AndroidManifest.xml:43:13-51:29
+65                <action android:name="com.simplemobiletools.clock.TOGGLE_STOPWATCH" />
+65-->C:\Users\user\Desktop\Simple-Clock-master\app\src\main\AndroidManifest.xml:44:17-87
+65-->C:\Users\user\Desktop\Simple-Clock-master\app\src\main\AndroidManifest.xml:44:25-84
+66                <action android:name="android.intent.action.SHOW_ALARMS" />
+66-->C:\Users\user\Desktop\Simple-Clock-master\app\src\main\AndroidManifest.xml:45:17-76
+66-->C:\Users\user\Desktop\Simple-Clock-master\app\src\main\AndroidManifest.xml:45:25-73
+67                <action android:name="android.intent.action.SHOW_TIMERS" />
+67-->C:\Users\user\Desktop\Simple-Clock-master\app\src\main\AndroidManifest.xml:46:17-76
+67-->C:\Users\user\Desktop\Simple-Clock-master\app\src\main\AndroidManifest.xml:46:25-73
+68                <action android:name="android.intent.action.SET_ALARM" />
+68-->C:\Users\user\Desktop\Simple-Clock-master\app\src\main\AndroidManifest.xml:47:17-74
+68-->C:\Users\user\Desktop\Simple-Clock-master\app\src\main\AndroidManifest.xml:47:25-71
+69                <action android:name="android.intent.action.SET_TIMER" />
+69-->C:\Users\user\Desktop\Simple-Clock-master\app\src\main\AndroidManifest.xml:48:17-74
+69-->C:\Users\user\Desktop\Simple-Clock-master\app\src\main\AndroidManifest.xml:48:25-71
+70
+71                <category android:name="android.intent.category.DEFAULT" />
+71-->C:\Users\user\Desktop\Simple-Clock-master\app\src\main\AndroidManifest.xml:50:17-76
+71-->C:\Users\user\Desktop\Simple-Clock-master\app\src\main\AndroidManifest.xml:50:27-73
+72            </intent-filter>
+73            <intent-filter>
+73-->C:\Users\user\Desktop\Simple-Clock-master\app\src\main\AndroidManifest.xml:52:13-59:29
+74                <action android:name="android.intent.action.DISMISS_ALARM" />
+74-->C:\Users\user\Desktop\Simple-Clock-master\app\src\main\AndroidManifest.xml:53:17-78
+74-->C:\Users\user\Desktop\Simple-Clock-master\app\src\main\AndroidManifest.xml:53:25-75
+75                <action android:name="android.intent.action.DISMISS_TIMER" />
+75-->C:\Users\user\Desktop\Simple-Clock-master\app\src\main\AndroidManifest.xml:54:17-78
+75-->C:\Users\user\Desktop\Simple-Clock-master\app\src\main\AndroidManifest.xml:54:25-75
+76
+77                <data android:scheme="id" />
+77-->C:\Users\user\Desktop\Simple-Clock-master\app\src\main\AndroidManifest.xml:56:17-45
+77-->C:\Users\user\Desktop\Simple-Clock-master\app\src\main\AndroidManifest.xml:56:23-42
+78
+79                <category android:name="android.intent.category.DEFAULT" />
+79-->C:\Users\user\Desktop\Simple-Clock-master\app\src\main\AndroidManifest.xml:50:17-76
+79-->C:\Users\user\Desktop\Simple-Clock-master\app\src\main\AndroidManifest.xml:50:27-73
+80            </intent-filter>
+81        </activity>
+82
+83        <activity-alias
+83-->C:\Users\user\Desktop\Simple-Clock-master\app\src\main\AndroidManifest.xml:296:9-308:26
+84            android:name="com.simplemobiletools.clock.activities.SplashActivity.Red"
+84-->C:\Users\user\Desktop\Simple-Clock-master\app\src\main\AndroidManifest.xml:297:13-58
+85            android:enabled="false"
+85-->C:\Users\user\Desktop\Simple-Clock-master\app\src\main\AndroidManifest.xml:298:13-36
+86            android:exported="true"
+86-->C:\Users\user\Desktop\Simple-Clock-master\app\src\main\AndroidManifest.xml:299:13-36
+87            android:icon="@mipmap/ic_launcher_red"
+87-->C:\Users\user\Desktop\Simple-Clock-master\app\src\main\AndroidManifest.xml:300:13-51
+88            android:roundIcon="@mipmap/ic_launcher_red"
+88-->C:\Users\user\Desktop\Simple-Clock-master\app\src\main\AndroidManifest.xml:301:13-56
+89            android:targetActivity="com.simplemobiletools.clock.activities.SplashActivity" >
+89-->C:\Users\user\Desktop\Simple-Clock-master\app\src\main\AndroidManifest.xml:302:13-64
+90            <intent-filter>
+90-->C:\Users\user\Desktop\Simple-Clock-master\app\src\main\AndroidManifest.xml:69:13-73:29
+91                <action android:name="android.intent.action.MAIN" />
+91-->C:\Users\user\Desktop\Simple-Clock-master\app\src\main\AndroidManifest.xml:70:17-69
+91-->C:\Users\user\Desktop\Simple-Clock-master\app\src\main\AndroidManifest.xml:70:25-66
+92
+93                <category android:name="android.intent.category.LAUNCHER" />
+93-->C:\Users\user\Desktop\Simple-Clock-master\app\src\main\AndroidManifest.xml:72:17-77
+93-->C:\Users\user\Desktop\Simple-Clock-master\app\src\main\AndroidManifest.xml:72:27-74
+94            </intent-filter>
+95        </activity-alias>
+96        <activity-alias
+96-->C:\Users\user\Desktop\Simple-Clock-master\app\src\main\AndroidManifest.xml:283:9-295:26
+97            android:name="com.simplemobiletools.clock.activities.SplashActivity.Pink"
+97-->C:\Users\user\Desktop\Simple-Clock-master\app\src\main\AndroidManifest.xml:284:13-59
+98            android:enabled="false"
+98-->C:\Users\user\Desktop\Simple-Clock-master\app\src\main\AndroidManifest.xml:285:13-36
+99            android:exported="true"
+99-->C:\Users\user\Desktop\Simple-Clock-master\app\src\main\AndroidManifest.xml:286:13-36
+100            android:icon="@mipmap/ic_launcher_pink"
+100-->C:\Users\user\Desktop\Simple-Clock-master\app\src\main\AndroidManifest.xml:287:13-52
+101            android:roundIcon="@mipmap/ic_launcher_pink"
+101-->C:\Users\user\Desktop\Simple-Clock-master\app\src\main\AndroidManifest.xml:288:13-57
+102            android:targetActivity="com.simplemobiletools.clock.activities.SplashActivity" >
+102-->C:\Users\user\Desktop\Simple-Clock-master\app\src\main\AndroidManifest.xml:289:13-64
+103            <intent-filter>
+103-->C:\Users\user\Desktop\Simple-Clock-master\app\src\main\AndroidManifest.xml:69:13-73:29
+104                <action android:name="android.intent.action.MAIN" />
+104-->C:\Users\user\Desktop\Simple-Clock-master\app\src\main\AndroidManifest.xml:70:17-69
+104-->C:\Users\user\Desktop\Simple-Clock-master\app\src\main\AndroidManifest.xml:70:25-66
+105
+106                <category android:name="android.intent.category.LAUNCHER" />
+106-->C:\Users\user\Desktop\Simple-Clock-master\app\src\main\AndroidManifest.xml:72:17-77
+106-->C:\Users\user\Desktop\Simple-Clock-master\app\src\main\AndroidManifest.xml:72:27-74
+107            </intent-filter>
+108        </activity-alias>
+109        <activity-alias
+109-->C:\Users\user\Desktop\Simple-Clock-master\app\src\main\AndroidManifest.xml:270:9-282:26
+110            android:name="com.simplemobiletools.clock.activities.SplashActivity.Purple"
+110-->C:\Users\user\Desktop\Simple-Clock-master\app\src\main\AndroidManifest.xml:271:13-61
+111            android:enabled="false"
+111-->C:\Users\user\Desktop\Simple-Clock-master\app\src\main\AndroidManifest.xml:272:13-36
+112            android:exported="true"
+112-->C:\Users\user\Desktop\Simple-Clock-master\app\src\main\AndroidManifest.xml:273:13-36
+113            android:icon="@mipmap/ic_launcher_purple"
+113-->C:\Users\user\Desktop\Simple-Clock-master\app\src\main\AndroidManifest.xml:274:13-54
+114            android:roundIcon="@mipmap/ic_launcher_purple"
+114-->C:\Users\user\Desktop\Simple-Clock-master\app\src\main\AndroidManifest.xml:275:13-59
+115            android:targetActivity="com.simplemobiletools.clock.activities.SplashActivity" >
+115-->C:\Users\user\Desktop\Simple-Clock-master\app\src\main\AndroidManifest.xml:276:13-64
+116            <intent-filter>
+116-->C:\Users\user\Desktop\Simple-Clock-master\app\src\main\AndroidManifest.xml:69:13-73:29
+117                <action android:name="android.intent.action.MAIN" />
+117-->C:\Users\user\Desktop\Simple-Clock-master\app\src\main\AndroidManifest.xml:70:17-69
+117-->C:\Users\user\Desktop\Simple-Clock-master\app\src\main\AndroidManifest.xml:70:25-66
+118
+119                <category android:name="android.intent.category.LAUNCHER" />
+119-->C:\Users\user\Desktop\Simple-Clock-master\app\src\main\AndroidManifest.xml:72:17-77
+119-->C:\Users\user\Desktop\Simple-Clock-master\app\src\main\AndroidManifest.xml:72:27-74
+120            </intent-filter>
+121        </activity-alias>
+122        <activity-alias
+122-->C:\Users\user\Desktop\Simple-Clock-master\app\src\main\AndroidManifest.xml:257:9-269:26
+123            android:name="com.simplemobiletools.clock.activities.SplashActivity.Deep_purple"
+123-->C:\Users\user\Desktop\Simple-Clock-master\app\src\main\AndroidManifest.xml:258:13-66
+124            android:enabled="false"
+124-->C:\Users\user\Desktop\Simple-Clock-master\app\src\main\AndroidManifest.xml:259:13-36
+125            android:exported="true"
+125-->C:\Users\user\Desktop\Simple-Clock-master\app\src\main\AndroidManifest.xml:260:13-36
+126            android:icon="@mipmap/ic_launcher_deep_purple"
+126-->C:\Users\user\Desktop\Simple-Clock-master\app\src\main\AndroidManifest.xml:261:13-59
+127            android:roundIcon="@mipmap/ic_launcher_deep_purple"
+127-->C:\Users\user\Desktop\Simple-Clock-master\app\src\main\AndroidManifest.xml:262:13-64
+128            android:targetActivity="com.simplemobiletools.clock.activities.SplashActivity" >
+128-->C:\Users\user\Desktop\Simple-Clock-master\app\src\main\AndroidManifest.xml:263:13-64
+129            <intent-filter>
+129-->C:\Users\user\Desktop\Simple-Clock-master\app\src\main\AndroidManifest.xml:69:13-73:29
+130                <action android:name="android.intent.action.MAIN" />
+130-->C:\Users\user\Desktop\Simple-Clock-master\app\src\main\AndroidManifest.xml:70:17-69
+130-->C:\Users\user\Desktop\Simple-Clock-master\app\src\main\AndroidManifest.xml:70:25-66
+131
+132                <category android:name="android.intent.category.LAUNCHER" />
+132-->C:\Users\user\Desktop\Simple-Clock-master\app\src\main\AndroidManifest.xml:72:17-77
+132-->C:\Users\user\Desktop\Simple-Clock-master\app\src\main\AndroidManifest.xml:72:27-74
+133            </intent-filter>
+134        </activity-alias>
+135        <activity-alias
+135-->C:\Users\user\Desktop\Simple-Clock-master\app\src\main\AndroidManifest.xml:244:9-256:26
+136            android:name="com.simplemobiletools.clock.activities.SplashActivity.Indigo"
+136-->C:\Users\user\Desktop\Simple-Clock-master\app\src\main\AndroidManifest.xml:245:13-61
+137            android:enabled="false"
+137-->C:\Users\user\Desktop\Simple-Clock-master\app\src\main\AndroidManifest.xml:246:13-36
+138            android:exported="true"
+138-->C:\Users\user\Desktop\Simple-Clock-master\app\src\main\AndroidManifest.xml:247:13-36
+139            android:icon="@mipmap/ic_launcher_indigo"
+139-->C:\Users\user\Desktop\Simple-Clock-master\app\src\main\AndroidManifest.xml:248:13-54
+140            android:roundIcon="@mipmap/ic_launcher_indigo"
+140-->C:\Users\user\Desktop\Simple-Clock-master\app\src\main\AndroidManifest.xml:249:13-59
+141            android:targetActivity="com.simplemobiletools.clock.activities.SplashActivity" >
+141-->C:\Users\user\Desktop\Simple-Clock-master\app\src\main\AndroidManifest.xml:250:13-64
+142            <intent-filter>
+142-->C:\Users\user\Desktop\Simple-Clock-master\app\src\main\AndroidManifest.xml:69:13-73:29
+143                <action android:name="android.intent.action.MAIN" />
+143-->C:\Users\user\Desktop\Simple-Clock-master\app\src\main\AndroidManifest.xml:70:17-69
+143-->C:\Users\user\Desktop\Simple-Clock-master\app\src\main\AndroidManifest.xml:70:25-66
+144
+145                <category android:name="android.intent.category.LAUNCHER" />
+145-->C:\Users\user\Desktop\Simple-Clock-master\app\src\main\AndroidManifest.xml:72:17-77
+145-->C:\Users\user\Desktop\Simple-Clock-master\app\src\main\AndroidManifest.xml:72:27-74
+146            </intent-filter>
+147        </activity-alias>
+148        <activity-alias
+148-->C:\Users\user\Desktop\Simple-Clock-master\app\src\main\AndroidManifest.xml:231:9-243:26
+149            android:name="com.simplemobiletools.clock.activities.SplashActivity.Blue"
+149-->C:\Users\user\Desktop\Simple-Clock-master\app\src\main\AndroidManifest.xml:232:13-59
+150            android:enabled="false"
+150-->C:\Users\user\Desktop\Simple-Clock-master\app\src\main\AndroidManifest.xml:233:13-36
+151            android:exported="true"
+151-->C:\Users\user\Desktop\Simple-Clock-master\app\src\main\AndroidManifest.xml:234:13-36
+152            android:icon="@mipmap/ic_launcher_blue"
+152-->C:\Users\user\Desktop\Simple-Clock-master\app\src\main\AndroidManifest.xml:235:13-52
+153            android:roundIcon="@mipmap/ic_launcher_blue"
+153-->C:\Users\user\Desktop\Simple-Clock-master\app\src\main\AndroidManifest.xml:236:13-57
+154            android:targetActivity="com.simplemobiletools.clock.activities.SplashActivity" >
+154-->C:\Users\user\Desktop\Simple-Clock-master\app\src\main\AndroidManifest.xml:237:13-64
+155            <intent-filter>
+155-->C:\Users\user\Desktop\Simple-Clock-master\app\src\main\AndroidManifest.xml:69:13-73:29
+156                <action android:name="android.intent.action.MAIN" />
+156-->C:\Users\user\Desktop\Simple-Clock-master\app\src\main\AndroidManifest.xml:70:17-69
+156-->C:\Users\user\Desktop\Simple-Clock-master\app\src\main\AndroidManifest.xml:70:25-66
+157
+158                <category android:name="android.intent.category.LAUNCHER" />
+158-->C:\Users\user\Desktop\Simple-Clock-master\app\src\main\AndroidManifest.xml:72:17-77
+158-->C:\Users\user\Desktop\Simple-Clock-master\app\src\main\AndroidManifest.xml:72:27-74
+159            </intent-filter>
+160        </activity-alias>
+161        <activity-alias
+161-->C:\Users\user\Desktop\Simple-Clock-master\app\src\main\AndroidManifest.xml:218:9-230:26
+162            android:name="com.simplemobiletools.clock.activities.SplashActivity.Light_blue"
+162-->C:\Users\user\Desktop\Simple-Clock-master\app\src\main\AndroidManifest.xml:219:13-65
+163            android:enabled="false"
+163-->C:\Users\user\Desktop\Simple-Clock-master\app\src\main\AndroidManifest.xml:220:13-36
+164            android:exported="true"
+164-->C:\Users\user\Desktop\Simple-Clock-master\app\src\main\AndroidManifest.xml:221:13-36
+165            android:icon="@mipmap/ic_launcher_light_blue"
+165-->C:\Users\user\Desktop\Simple-Clock-master\app\src\main\AndroidManifest.xml:222:13-58
+166            android:roundIcon="@mipmap/ic_launcher_light_blue"
+166-->C:\Users\user\Desktop\Simple-Clock-master\app\src\main\AndroidManifest.xml:223:13-63
+167            android:targetActivity="com.simplemobiletools.clock.activities.SplashActivity" >
+167-->C:\Users\user\Desktop\Simple-Clock-master\app\src\main\AndroidManifest.xml:224:13-64
+168            <intent-filter>
+168-->C:\Users\user\Desktop\Simple-Clock-master\app\src\main\AndroidManifest.xml:69:13-73:29
+169                <action android:name="android.intent.action.MAIN" />
+169-->C:\Users\user\Desktop\Simple-Clock-master\app\src\main\AndroidManifest.xml:70:17-69
+169-->C:\Users\user\Desktop\Simple-Clock-master\app\src\main\AndroidManifest.xml:70:25-66
+170
+171                <category android:name="android.intent.category.LAUNCHER" />
+171-->C:\Users\user\Desktop\Simple-Clock-master\app\src\main\AndroidManifest.xml:72:17-77
+171-->C:\Users\user\Desktop\Simple-Clock-master\app\src\main\AndroidManifest.xml:72:27-74
+172            </intent-filter>
+173        </activity-alias>
+174        <activity-alias
+174-->C:\Users\user\Desktop\Simple-Clock-master\app\src\main\AndroidManifest.xml:205:9-217:26
+175            android:name="com.simplemobiletools.clock.activities.SplashActivity.Cyan"
+175-->C:\Users\user\Desktop\Simple-Clock-master\app\src\main\AndroidManifest.xml:206:13-59
+176            android:enabled="false"
+176-->C:\Users\user\Desktop\Simple-Clock-master\app\src\main\AndroidManifest.xml:207:13-36
+177            android:exported="true"
+177-->C:\Users\user\Desktop\Simple-Clock-master\app\src\main\AndroidManifest.xml:208:13-36
+178            android:icon="@mipmap/ic_launcher_cyan"
+178-->C:\Users\user\Desktop\Simple-Clock-master\app\src\main\AndroidManifest.xml:209:13-52
+179            android:roundIcon="@mipmap/ic_launcher_cyan"
+179-->C:\Users\user\Desktop\Simple-Clock-master\app\src\main\AndroidManifest.xml:210:13-57
+180            android:targetActivity="com.simplemobiletools.clock.activities.SplashActivity" >
+180-->C:\Users\user\Desktop\Simple-Clock-master\app\src\main\AndroidManifest.xml:211:13-64
+181            <intent-filter>
+181-->C:\Users\user\Desktop\Simple-Clock-master\app\src\main\AndroidManifest.xml:69:13-73:29
+182                <action android:name="android.intent.action.MAIN" />
+182-->C:\Users\user\Desktop\Simple-Clock-master\app\src\main\AndroidManifest.xml:70:17-69
+182-->C:\Users\user\Desktop\Simple-Clock-master\app\src\main\AndroidManifest.xml:70:25-66
+183
+184                <category android:name="android.intent.category.LAUNCHER" />
+184-->C:\Users\user\Desktop\Simple-Clock-master\app\src\main\AndroidManifest.xml:72:17-77
+184-->C:\Users\user\Desktop\Simple-Clock-master\app\src\main\AndroidManifest.xml:72:27-74
+185            </intent-filter>
+186        </activity-alias>
+187        <activity-alias
+187-->C:\Users\user\Desktop\Simple-Clock-master\app\src\main\AndroidManifest.xml:192:9-204:26
+188            android:name="com.simplemobiletools.clock.activities.SplashActivity.Teal"
+188-->C:\Users\user\Desktop\Simple-Clock-master\app\src\main\AndroidManifest.xml:193:13-59
+189            android:enabled="false"
+189-->C:\Users\user\Desktop\Simple-Clock-master\app\src\main\AndroidManifest.xml:194:13-36
+190            android:exported="true"
+190-->C:\Users\user\Desktop\Simple-Clock-master\app\src\main\AndroidManifest.xml:195:13-36
+191            android:icon="@mipmap/ic_launcher_teal"
+191-->C:\Users\user\Desktop\Simple-Clock-master\app\src\main\AndroidManifest.xml:196:13-52
+192            android:roundIcon="@mipmap/ic_launcher_teal"
+192-->C:\Users\user\Desktop\Simple-Clock-master\app\src\main\AndroidManifest.xml:197:13-57
+193            android:targetActivity="com.simplemobiletools.clock.activities.SplashActivity" >
+193-->C:\Users\user\Desktop\Simple-Clock-master\app\src\main\AndroidManifest.xml:198:13-64
+194            <intent-filter>
+194-->C:\Users\user\Desktop\Simple-Clock-master\app\src\main\AndroidManifest.xml:69:13-73:29
+195                <action android:name="android.intent.action.MAIN" />
+195-->C:\Users\user\Desktop\Simple-Clock-master\app\src\main\AndroidManifest.xml:70:17-69
+195-->C:\Users\user\Desktop\Simple-Clock-master\app\src\main\AndroidManifest.xml:70:25-66
+196
+197                <category android:name="android.intent.category.LAUNCHER" />
+197-->C:\Users\user\Desktop\Simple-Clock-master\app\src\main\AndroidManifest.xml:72:17-77
+197-->C:\Users\user\Desktop\Simple-Clock-master\app\src\main\AndroidManifest.xml:72:27-74
+198            </intent-filter>
+199        </activity-alias>
+200        <activity-alias
+200-->C:\Users\user\Desktop\Simple-Clock-master\app\src\main\AndroidManifest.xml:179:9-191:26
+201            android:name="com.simplemobiletools.clock.activities.SplashActivity.Green"
+201-->C:\Users\user\Desktop\Simple-Clock-master\app\src\main\AndroidManifest.xml:180:13-60
+202            android:enabled="false"
+202-->C:\Users\user\Desktop\Simple-Clock-master\app\src\main\AndroidManifest.xml:181:13-36
+203            android:exported="true"
+203-->C:\Users\user\Desktop\Simple-Clock-master\app\src\main\AndroidManifest.xml:182:13-36
+204            android:icon="@mipmap/ic_launcher_green"
+204-->C:\Users\user\Desktop\Simple-Clock-master\app\src\main\AndroidManifest.xml:183:13-53
+205            android:roundIcon="@mipmap/ic_launcher_green"
+205-->C:\Users\user\Desktop\Simple-Clock-master\app\src\main\AndroidManifest.xml:184:13-58
+206            android:targetActivity="com.simplemobiletools.clock.activities.SplashActivity" >
+206-->C:\Users\user\Desktop\Simple-Clock-master\app\src\main\AndroidManifest.xml:185:13-64
+207            <intent-filter>
+207-->C:\Users\user\Desktop\Simple-Clock-master\app\src\main\AndroidManifest.xml:69:13-73:29
+208                <action android:name="android.intent.action.MAIN" />
+208-->C:\Users\user\Desktop\Simple-Clock-master\app\src\main\AndroidManifest.xml:70:17-69
+208-->C:\Users\user\Desktop\Simple-Clock-master\app\src\main\AndroidManifest.xml:70:25-66
+209
+210                <category android:name="android.intent.category.LAUNCHER" />
+210-->C:\Users\user\Desktop\Simple-Clock-master\app\src\main\AndroidManifest.xml:72:17-77
+210-->C:\Users\user\Desktop\Simple-Clock-master\app\src\main\AndroidManifest.xml:72:27-74
+211            </intent-filter>
+212        </activity-alias>
+213        <activity-alias
+213-->C:\Users\user\Desktop\Simple-Clock-master\app\src\main\AndroidManifest.xml:166:9-178:26
+214            android:name="com.simplemobiletools.clock.activities.SplashActivity.Light_green"
+214-->C:\Users\user\Desktop\Simple-Clock-master\app\src\main\AndroidManifest.xml:167:13-66
+215            android:enabled="false"
+215-->C:\Users\user\Desktop\Simple-Clock-master\app\src\main\AndroidManifest.xml:168:13-36
+216            android:exported="true"
+216-->C:\Users\user\Desktop\Simple-Clock-master\app\src\main\AndroidManifest.xml:169:13-36
+217            android:icon="@mipmap/ic_launcher_light_green"
+217-->C:\Users\user\Desktop\Simple-Clock-master\app\src\main\AndroidManifest.xml:170:13-59
+218            android:roundIcon="@mipmap/ic_launcher_light_green"
+218-->C:\Users\user\Desktop\Simple-Clock-master\app\src\main\AndroidManifest.xml:171:13-64
+219            android:targetActivity="com.simplemobiletools.clock.activities.SplashActivity" >
+219-->C:\Users\user\Desktop\Simple-Clock-master\app\src\main\AndroidManifest.xml:172:13-64
+220            <intent-filter>
+220-->C:\Users\user\Desktop\Simple-Clock-master\app\src\main\AndroidManifest.xml:69:13-73:29
+221                <action android:name="android.intent.action.MAIN" />
+221-->C:\Users\user\Desktop\Simple-Clock-master\app\src\main\AndroidManifest.xml:70:17-69
+221-->C:\Users\user\Desktop\Simple-Clock-master\app\src\main\AndroidManifest.xml:70:25-66
+222
+223                <category android:name="android.intent.category.LAUNCHER" />
+223-->C:\Users\user\Desktop\Simple-Clock-master\app\src\main\AndroidManifest.xml:72:17-77
+223-->C:\Users\user\Desktop\Simple-Clock-master\app\src\main\AndroidManifest.xml:72:27-74
+224            </intent-filter>
+225        </activity-alias>
+226        <activity-alias
+226-->C:\Users\user\Desktop\Simple-Clock-master\app\src\main\AndroidManifest.xml:153:9-165:26
+227            android:name="com.simplemobiletools.clock.activities.SplashActivity.Lime"
+227-->C:\Users\user\Desktop\Simple-Clock-master\app\src\main\AndroidManifest.xml:154:13-59
+228            android:enabled="false"
+228-->C:\Users\user\Desktop\Simple-Clock-master\app\src\main\AndroidManifest.xml:155:13-36
+229            android:exported="true"
+229-->C:\Users\user\Desktop\Simple-Clock-master\app\src\main\AndroidManifest.xml:156:13-36
+230            android:icon="@mipmap/ic_launcher_lime"
+230-->C:\Users\user\Desktop\Simple-Clock-master\app\src\main\AndroidManifest.xml:157:13-52
+231            android:roundIcon="@mipmap/ic_launcher_lime"
+231-->C:\Users\user\Desktop\Simple-Clock-master\app\src\main\AndroidManifest.xml:158:13-57
+232            android:targetActivity="com.simplemobiletools.clock.activities.SplashActivity" >
+232-->C:\Users\user\Desktop\Simple-Clock-master\app\src\main\AndroidManifest.xml:159:13-64
+233            <intent-filter>
+233-->C:\Users\user\Desktop\Simple-Clock-master\app\src\main\AndroidManifest.xml:69:13-73:29
+234                <action android:name="android.intent.action.MAIN" />
+234-->C:\Users\user\Desktop\Simple-Clock-master\app\src\main\AndroidManifest.xml:70:17-69
+234-->C:\Users\user\Desktop\Simple-Clock-master\app\src\main\AndroidManifest.xml:70:25-66
+235
+236                <category android:name="android.intent.category.LAUNCHER" />
+236-->C:\Users\user\Desktop\Simple-Clock-master\app\src\main\AndroidManifest.xml:72:17-77
+236-->C:\Users\user\Desktop\Simple-Clock-master\app\src\main\AndroidManifest.xml:72:27-74
+237            </intent-filter>
+238        </activity-alias>
+239        <activity-alias
+239-->C:\Users\user\Desktop\Simple-Clock-master\app\src\main\AndroidManifest.xml:140:9-152:26
+240            android:name="com.simplemobiletools.clock.activities.SplashActivity.Yellow"
+240-->C:\Users\user\Desktop\Simple-Clock-master\app\src\main\AndroidManifest.xml:141:13-61
+241            android:enabled="false"
+241-->C:\Users\user\Desktop\Simple-Clock-master\app\src\main\AndroidManifest.xml:142:13-36
+242            android:exported="true"
+242-->C:\Users\user\Desktop\Simple-Clock-master\app\src\main\AndroidManifest.xml:143:13-36
+243            android:icon="@mipmap/ic_launcher_yellow"
+243-->C:\Users\user\Desktop\Simple-Clock-master\app\src\main\AndroidManifest.xml:144:13-54
+244            android:roundIcon="@mipmap/ic_launcher_yellow"
+244-->C:\Users\user\Desktop\Simple-Clock-master\app\src\main\AndroidManifest.xml:145:13-59
+245            android:targetActivity="com.simplemobiletools.clock.activities.SplashActivity" >
+245-->C:\Users\user\Desktop\Simple-Clock-master\app\src\main\AndroidManifest.xml:146:13-64
+246            <intent-filter>
+246-->C:\Users\user\Desktop\Simple-Clock-master\app\src\main\AndroidManifest.xml:69:13-73:29
+247                <action android:name="android.intent.action.MAIN" />
+247-->C:\Users\user\Desktop\Simple-Clock-master\app\src\main\AndroidManifest.xml:70:17-69
+247-->C:\Users\user\Desktop\Simple-Clock-master\app\src\main\AndroidManifest.xml:70:25-66
+248
+249                <category android:name="android.intent.category.LAUNCHER" />
+249-->C:\Users\user\Desktop\Simple-Clock-master\app\src\main\AndroidManifest.xml:72:17-77
+249-->C:\Users\user\Desktop\Simple-Clock-master\app\src\main\AndroidManifest.xml:72:27-74
+250            </intent-filter>
+251        </activity-alias>
+252        <activity-alias
+252-->C:\Users\user\Desktop\Simple-Clock-master\app\src\main\AndroidManifest.xml:127:9-139:26
+253            android:name="com.simplemobiletools.clock.activities.SplashActivity.Amber"
+253-->C:\Users\user\Desktop\Simple-Clock-master\app\src\main\AndroidManifest.xml:128:13-60
+254            android:enabled="false"
+254-->C:\Users\user\Desktop\Simple-Clock-master\app\src\main\AndroidManifest.xml:129:13-36
+255            android:exported="true"
+255-->C:\Users\user\Desktop\Simple-Clock-master\app\src\main\AndroidManifest.xml:130:13-36
+256            android:icon="@mipmap/ic_launcher_amber"
+256-->C:\Users\user\Desktop\Simple-Clock-master\app\src\main\AndroidManifest.xml:131:13-53
+257            android:roundIcon="@mipmap/ic_launcher_amber"
+257-->C:\Users\user\Desktop\Simple-Clock-master\app\src\main\AndroidManifest.xml:132:13-58
+258            android:targetActivity="com.simplemobiletools.clock.activities.SplashActivity" >
+258-->C:\Users\user\Desktop\Simple-Clock-master\app\src\main\AndroidManifest.xml:133:13-64
+259            <intent-filter>
+259-->C:\Users\user\Desktop\Simple-Clock-master\app\src\main\AndroidManifest.xml:69:13-73:29
+260                <action android:name="android.intent.action.MAIN" />
+260-->C:\Users\user\Desktop\Simple-Clock-master\app\src\main\AndroidManifest.xml:70:17-69
+260-->C:\Users\user\Desktop\Simple-Clock-master\app\src\main\AndroidManifest.xml:70:25-66
+261
+262                <category android:name="android.intent.category.LAUNCHER" />
+262-->C:\Users\user\Desktop\Simple-Clock-master\app\src\main\AndroidManifest.xml:72:17-77
+262-->C:\Users\user\Desktop\Simple-Clock-master\app\src\main\AndroidManifest.xml:72:27-74
+263            </intent-filter>
+264        </activity-alias>
+265        <activity-alias
+265-->C:\Users\user\Desktop\Simple-Clock-master\app\src\main\AndroidManifest.xml:114:9-126:26
+266            android:name="com.simplemobiletools.clock.activities.SplashActivity.Orange"
+266-->C:\Users\user\Desktop\Simple-Clock-master\app\src\main\AndroidManifest.xml:115:13-61
+267            android:enabled="true"
+267-->C:\Users\user\Desktop\Simple-Clock-master\app\src\main\AndroidManifest.xml:116:13-35
+268            android:exported="true"
+268-->C:\Users\user\Desktop\Simple-Clock-master\app\src\main\AndroidManifest.xml:117:13-36
+269            android:icon="@mipmap/ic_launcher"
+269-->C:\Users\user\Desktop\Simple-Clock-master\app\src\main\AndroidManifest.xml:118:13-47
+270            android:roundIcon="@mipmap/ic_launcher"
+270-->C:\Users\user\Desktop\Simple-Clock-master\app\src\main\AndroidManifest.xml:119:13-52
+271            android:targetActivity="com.simplemobiletools.clock.activities.SplashActivity" >
+271-->C:\Users\user\Desktop\Simple-Clock-master\app\src\main\AndroidManifest.xml:120:13-64
+272            <intent-filter>
+272-->C:\Users\user\Desktop\Simple-Clock-master\app\src\main\AndroidManifest.xml:69:13-73:29
+273                <action android:name="android.intent.action.MAIN" />
+273-->C:\Users\user\Desktop\Simple-Clock-master\app\src\main\AndroidManifest.xml:70:17-69
+273-->C:\Users\user\Desktop\Simple-Clock-master\app\src\main\AndroidManifest.xml:70:25-66
+274
+275                <category android:name="android.intent.category.LAUNCHER" />
+275-->C:\Users\user\Desktop\Simple-Clock-master\app\src\main\AndroidManifest.xml:72:17-77
+275-->C:\Users\user\Desktop\Simple-Clock-master\app\src\main\AndroidManifest.xml:72:27-74
+276            </intent-filter>
+277        </activity-alias>
+278        <activity-alias
+278-->C:\Users\user\Desktop\Simple-Clock-master\app\src\main\AndroidManifest.xml:101:9-113:26
+279            android:name="com.simplemobiletools.clock.activities.SplashActivity.Deep_orange"
+279-->C:\Users\user\Desktop\Simple-Clock-master\app\src\main\AndroidManifest.xml:102:13-66
+280            android:enabled="false"
+280-->C:\Users\user\Desktop\Simple-Clock-master\app\src\main\AndroidManifest.xml:103:13-36
+281            android:exported="true"
+281-->C:\Users\user\Desktop\Simple-Clock-master\app\src\main\AndroidManifest.xml:104:13-36
+282            android:icon="@mipmap/ic_launcher_deep_orange"
+282-->C:\Users\user\Desktop\Simple-Clock-master\app\src\main\AndroidManifest.xml:105:13-59
+283            android:roundIcon="@mipmap/ic_launcher_deep_orange"
+283-->C:\Users\user\Desktop\Simple-Clock-master\app\src\main\AndroidManifest.xml:106:13-64
+284            android:targetActivity="com.simplemobiletools.clock.activities.SplashActivity" >
+284-->C:\Users\user\Desktop\Simple-Clock-master\app\src\main\AndroidManifest.xml:107:13-64
+285            <intent-filter>
+285-->C:\Users\user\Desktop\Simple-Clock-master\app\src\main\AndroidManifest.xml:69:13-73:29
+286                <action android:name="android.intent.action.MAIN" />
+286-->C:\Users\user\Desktop\Simple-Clock-master\app\src\main\AndroidManifest.xml:70:17-69
+286-->C:\Users\user\Desktop\Simple-Clock-master\app\src\main\AndroidManifest.xml:70:25-66
+287
+288                <category android:name="android.intent.category.LAUNCHER" />
+288-->C:\Users\user\Desktop\Simple-Clock-master\app\src\main\AndroidManifest.xml:72:17-77
+288-->C:\Users\user\Desktop\Simple-Clock-master\app\src\main\AndroidManifest.xml:72:27-74
+289            </intent-filter>
+290        </activity-alias>
+291        <activity-alias
+291-->C:\Users\user\Desktop\Simple-Clock-master\app\src\main\AndroidManifest.xml:88:9-100:26
+292            android:name="com.simplemobiletools.clock.activities.SplashActivity.Brown"
+292-->C:\Users\user\Desktop\Simple-Clock-master\app\src\main\AndroidManifest.xml:89:13-60
+293            android:enabled="false"
+293-->C:\Users\user\Desktop\Simple-Clock-master\app\src\main\AndroidManifest.xml:90:13-36
+294            android:exported="true"
+294-->C:\Users\user\Desktop\Simple-Clock-master\app\src\main\AndroidManifest.xml:91:13-36
+295            android:icon="@mipmap/ic_launcher_brown"
+295-->C:\Users\user\Desktop\Simple-Clock-master\app\src\main\AndroidManifest.xml:92:13-53
+296            android:roundIcon="@mipmap/ic_launcher_brown"
+296-->C:\Users\user\Desktop\Simple-Clock-master\app\src\main\AndroidManifest.xml:93:13-58
+297            android:targetActivity="com.simplemobiletools.clock.activities.SplashActivity" >
+297-->C:\Users\user\Desktop\Simple-Clock-master\app\src\main\AndroidManifest.xml:94:13-64
+298            <intent-filter>
+298-->C:\Users\user\Desktop\Simple-Clock-master\app\src\main\AndroidManifest.xml:69:13-73:29
+299                <action android:name="android.intent.action.MAIN" />
+299-->C:\Users\user\Desktop\Simple-Clock-master\app\src\main\AndroidManifest.xml:70:17-69
+299-->C:\Users\user\Desktop\Simple-Clock-master\app\src\main\AndroidManifest.xml:70:25-66
+300
+301                <category android:name="android.intent.category.LAUNCHER" />
+301-->C:\Users\user\Desktop\Simple-Clock-master\app\src\main\AndroidManifest.xml:72:17-77
+301-->C:\Users\user\Desktop\Simple-Clock-master\app\src\main\AndroidManifest.xml:72:27-74
+302            </intent-filter>
+303        </activity-alias>
+304        <activity-alias
+304-->C:\Users\user\Desktop\Simple-Clock-master\app\src\main\AndroidManifest.xml:75:9-87:26
+305            android:name="com.simplemobiletools.clock.activities.SplashActivity.Blue_grey"
+305-->C:\Users\user\Desktop\Simple-Clock-master\app\src\main\AndroidManifest.xml:76:13-64
+306            android:enabled="false"
+306-->C:\Users\user\Desktop\Simple-Clock-master\app\src\main\AndroidManifest.xml:77:13-36
+307            android:exported="true"
+307-->C:\Users\user\Desktop\Simple-Clock-master\app\src\main\AndroidManifest.xml:78:13-36
+308            android:icon="@mipmap/ic_launcher_blue_grey"
+308-->C:\Users\user\Desktop\Simple-Clock-master\app\src\main\AndroidManifest.xml:79:13-57
+309            android:roundIcon="@mipmap/ic_launcher_blue_grey"
+309-->C:\Users\user\Desktop\Simple-Clock-master\app\src\main\AndroidManifest.xml:80:13-62
+310            android:targetActivity="com.simplemobiletools.clock.activities.SplashActivity" >
+310-->C:\Users\user\Desktop\Simple-Clock-master\app\src\main\AndroidManifest.xml:81:13-64
+311            <intent-filter>
+311-->C:\Users\user\Desktop\Simple-Clock-master\app\src\main\AndroidManifest.xml:69:13-73:29
+312                <action android:name="android.intent.action.MAIN" />
+312-->C:\Users\user\Desktop\Simple-Clock-master\app\src\main\AndroidManifest.xml:70:17-69
+312-->C:\Users\user\Desktop\Simple-Clock-master\app\src\main\AndroidManifest.xml:70:25-66
+313
+314                <category android:name="android.intent.category.LAUNCHER" />
+314-->C:\Users\user\Desktop\Simple-Clock-master\app\src\main\AndroidManifest.xml:72:17-77
+314-->C:\Users\user\Desktop\Simple-Clock-master\app\src\main\AndroidManifest.xml:72:27-74
+315            </intent-filter>
+316        </activity-alias>
+317        <activity-alias
+317-->C:\Users\user\Desktop\Simple-Clock-master\app\src\main\AndroidManifest.xml:62:9-74:26
+318            android:name="com.simplemobiletools.clock.activities.SplashActivity.Grey_black"
+318-->C:\Users\user\Desktop\Simple-Clock-master\app\src\main\AndroidManifest.xml:63:13-65
+319            android:enabled="false"
+319-->C:\Users\user\Desktop\Simple-Clock-master\app\src\main\AndroidManifest.xml:64:13-36
+320            android:exported="true"
+320-->C:\Users\user\Desktop\Simple-Clock-master\app\src\main\AndroidManifest.xml:65:13-36
+321            android:icon="@mipmap/ic_launcher_grey_black"
+321-->C:\Users\user\Desktop\Simple-Clock-master\app\src\main\AndroidManifest.xml:66:13-58
+322            android:roundIcon="@mipmap/ic_launcher_grey_black"
+322-->C:\Users\user\Desktop\Simple-Clock-master\app\src\main\AndroidManifest.xml:67:13-63
+323            android:targetActivity="com.simplemobiletools.clock.activities.SplashActivity" >
+323-->C:\Users\user\Desktop\Simple-Clock-master\app\src\main\AndroidManifest.xml:68:13-64
+324            <intent-filter>
+324-->C:\Users\user\Desktop\Simple-Clock-master\app\src\main\AndroidManifest.xml:69:13-73:29
+325                <action android:name="android.intent.action.MAIN" />
+325-->C:\Users\user\Desktop\Simple-Clock-master\app\src\main\AndroidManifest.xml:70:17-69
+325-->C:\Users\user\Desktop\Simple-Clock-master\app\src\main\AndroidManifest.xml:70:25-66
+326
+327                <category android:name="android.intent.category.LAUNCHER" />
+327-->C:\Users\user\Desktop\Simple-Clock-master\app\src\main\AndroidManifest.xml:72:17-77
+327-->C:\Users\user\Desktop\Simple-Clock-master\app\src\main\AndroidManifest.xml:72:27-74
+328            </intent-filter>
+329        </activity-alias>
+330
+331        <activity
+331-->C:\Users\user\Desktop\Simple-Clock-master\app\src\main\AndroidManifest.xml:310:9-315:55
+332            android:name="com.simplemobiletools.clock.activities.IntentHandlerActivity"
+332-->C:\Users\user\Desktop\Simple-Clock-master\app\src\main\AndroidManifest.xml:311:13-61
+333            android:configChanges="orientation"
+333-->C:\Users\user\Desktop\Simple-Clock-master\app\src\main\AndroidManifest.xml:312:13-48
+334            android:exported="false"
+334-->C:\Users\user\Desktop\Simple-Clock-master\app\src\main\AndroidManifest.xml:313:13-37
+335            android:launchMode="singleTask"
+335-->C:\Users\user\Desktop\Simple-Clock-master\app\src\main\AndroidManifest.xml:314:13-44
+336            android:windowSoftInputMode="adjustPan" />
+336-->C:\Users\user\Desktop\Simple-Clock-master\app\src\main\AndroidManifest.xml:315:13-52
+337        <activity
+337-->C:\Users\user\Desktop\Simple-Clock-master\app\src\main\AndroidManifest.xml:316:9-321:55
+338            android:name="com.simplemobiletools.clock.activities.MainActivity"
+338-->C:\Users\user\Desktop\Simple-Clock-master\app\src\main\AndroidManifest.xml:317:13-52
+339            android:configChanges="orientation"
+339-->C:\Users\user\Desktop\Simple-Clock-master\app\src\main\AndroidManifest.xml:318:13-48
+340            android:exported="false"
+340-->C:\Users\user\Desktop\Simple-Clock-master\app\src\main\AndroidManifest.xml:319:13-37
+341            android:launchMode="singleTask"
+341-->C:\Users\user\Desktop\Simple-Clock-master\app\src\main\AndroidManifest.xml:320:13-44
+342            android:windowSoftInputMode="adjustPan" />
+342-->C:\Users\user\Desktop\Simple-Clock-master\app\src\main\AndroidManifest.xml:321:13-52
+343        <activity
+343-->C:\Users\user\Desktop\Simple-Clock-master\app\src\main\AndroidManifest.xml:322:9-335:20
+344            android:name="com.simplemobiletools.clock.activities.ReminderActivity"
+344-->C:\Users\user\Desktop\Simple-Clock-master\app\src\main\AndroidManifest.xml:323:13-56
+345            android:configChanges="orientation|screenSize|screenLayout"
+345-->C:\Users\user\Desktop\Simple-Clock-master\app\src\main\AndroidManifest.xml:324:13-72
+346            android:excludeFromRecents="true"
+346-->C:\Users\user\Desktop\Simple-Clock-master\app\src\main\AndroidManifest.xml:325:13-46
+347            android:exported="false"
+347-->C:\Users\user\Desktop\Simple-Clock-master\app\src\main\AndroidManifest.xml:326:13-37
+348            android:launchMode="singleTask"
+348-->C:\Users\user\Desktop\Simple-Clock-master\app\src\main\AndroidManifest.xml:327:13-44
+349            android:showOnLockScreen="true"
+349-->C:\Users\user\Desktop\Simple-Clock-master\app\src\main\AndroidManifest.xml:328:13-44
+350            android:taskAffinity=".ReminderActivity" >
+350-->C:\Users\user\Desktop\Simple-Clock-master\app\src\main\AndroidManifest.xml:329:13-53
+351            <intent-filter>
+351-->C:\Users\user\Desktop\Simple-Clock-master\app\src\main\AndroidManifest.xml:330:13-334:29
+352                <action android:name="android.intent.action.SNOOZE_ALARM" />
+352-->C:\Users\user\Desktop\Simple-Clock-master\app\src\main\AndroidManifest.xml:331:17-77
+352-->C:\Users\user\Desktop\Simple-Clock-master\app\src\main\AndroidManifest.xml:331:25-74
+353
+354                <category android:name="android.intent.category.DEFAULT" />
+354-->C:\Users\user\Desktop\Simple-Clock-master\app\src\main\AndroidManifest.xml:50:17-76
+354-->C:\Users\user\Desktop\Simple-Clock-master\app\src\main\AndroidManifest.xml:50:27-73
+355            </intent-filter>
+356        </activity>
+357        <activity
+357-->C:\Users\user\Desktop\Simple-Clock-master\app\src\main\AndroidManifest.xml:336:9-347:20
+358            android:name="com.simplemobiletools.clock.activities.SettingsActivity"
+358-->C:\Users\user\Desktop\Simple-Clock-master\app\src\main\AndroidManifest.xml:337:13-56
+359            android:configChanges="orientation"
+359-->C:\Users\user\Desktop\Simple-Clock-master\app\src\main\AndroidManifest.xml:338:13-48
+360            android:exported="true"
+360-->C:\Users\user\Desktop\Simple-Clock-master\app\src\main\AndroidManifest.xml:339:13-36
+361            android:label="@string/settings"
+361-->C:\Users\user\Desktop\Simple-Clock-master\app\src\main\AndroidManifest.xml:340:13-45
+362            android:parentActivityName="com.simplemobiletools.clock.activities.MainActivity" >
+362-->C:\Users\user\Desktop\Simple-Clock-master\app\src\main\AndroidManifest.xml:341:13-66
+363            <intent-filter>
+363-->C:\Users\user\Desktop\Simple-Clock-master\app\src\main\AndroidManifest.xml:342:13-346:29
+364                <action android:name="android.intent.action.APPLICATION_PREFERENCES" />
+364-->C:\Users\user\Desktop\Simple-Clock-master\app\src\main\AndroidManifest.xml:343:17-88
+364-->C:\Users\user\Desktop\Simple-Clock-master\app\src\main\AndroidManifest.xml:343:25-85
+365
+366                <category android:name="android.intent.category.DEFAULT" />
+366-->C:\Users\user\Desktop\Simple-Clock-master\app\src\main\AndroidManifest.xml:50:17-76
+366-->C:\Users\user\Desktop\Simple-Clock-master\app\src\main\AndroidManifest.xml:50:27-73
+367            </intent-filter>
+368        </activity>
+369        <activity
+369-->C:\Users\user\Desktop\Simple-Clock-master\app\src\main\AndroidManifest.xml:348:9-353:69
+370            android:name="com.simplemobiletools.commons.activities.AboutActivity"
+370-->C:\Users\user\Desktop\Simple-Clock-master\app\src\main\AndroidManifest.xml:349:13-82
+371            android:configChanges="orientation"
+371-->C:\Users\user\Desktop\Simple-Clock-master\app\src\main\AndroidManifest.xml:350:13-48
+372            android:exported="false"
+372-->C:\Users\user\Desktop\Simple-Clock-master\app\src\main\AndroidManifest.xml:351:13-37
+373            android:label="@string/about"
+373-->C:\Users\user\Desktop\Simple-Clock-master\app\src\main\AndroidManifest.xml:352:13-42
+374            android:parentActivityName="com.simplemobiletools.clock.activities.MainActivity" />
+374-->C:\Users\user\Desktop\Simple-Clock-master\app\src\main\AndroidManifest.xml:353:13-66
+375        <activity
+375-->C:\Users\user\Desktop\Simple-Clock-master\app\src\main\AndroidManifest.xml:354:9-359:73
+376            android:name="com.simplemobiletools.commons.activities.CustomizationActivity"
+376-->C:\Users\user\Desktop\Simple-Clock-master\app\src\main\AndroidManifest.xml:355:13-90
+377            android:configChanges="orientation"
+377-->C:\Users\user\Desktop\Simple-Clock-master\app\src\main\AndroidManifest.xml:356:13-48
+378            android:exported="false"
+378-->C:\Users\user\Desktop\Simple-Clock-master\app\src\main\AndroidManifest.xml:357:13-37
+379            android:label="@string/customize_colors"
+379-->C:\Users\user\Desktop\Simple-Clock-master\app\src\main\AndroidManifest.xml:358:13-53
+380            android:parentActivityName="com.simplemobiletools.clock.activities.SettingsActivity" />
+380-->C:\Users\user\Desktop\Simple-Clock-master\app\src\main\AndroidManifest.xml:359:13-70
+381        <activity
+381-->C:\Users\user\Desktop\Simple-Clock-master\app\src\main\AndroidManifest.xml:360:9-364:56
+382            android:name="com.simplemobiletools.clock.activities.SnoozeReminderActivity"
+382-->C:\Users\user\Desktop\Simple-Clock-master\app\src\main\AndroidManifest.xml:361:13-62
+383            android:configChanges="orientation"
+383-->C:\Users\user\Desktop\Simple-Clock-master\app\src\main\AndroidManifest.xml:362:13-48
+384            android:exported="false"
+384-->C:\Users\user\Desktop\Simple-Clock-master\app\src\main\AndroidManifest.xml:363:13-37
+385            android:theme="@style/Theme.Transparent" />
+385-->C:\Users\user\Desktop\Simple-Clock-master\app\src\main\AndroidManifest.xml:364:13-53
+386        <activity
+386-->C:\Users\user\Desktop\Simple-Clock-master\app\src\main\AndroidManifest.xml:365:9-373:20
+387            android:name="com.simplemobiletools.clock.activities.WidgetDigitalConfigureActivity"
+387-->C:\Users\user\Desktop\Simple-Clock-master\app\src\main\AndroidManifest.xml:366:13-70
+388            android:exported="true"
+388-->C:\Users\user\Desktop\Simple-Clock-master\app\src\main\AndroidManifest.xml:367:13-36
+389            android:screenOrientation="portrait"
+389-->C:\Users\user\Desktop\Simple-Clock-master\app\src\main\AndroidManifest.xml:368:13-49
+390            android:theme="@style/MyWidgetConfigTheme" >
+390-->C:\Users\user\Desktop\Simple-Clock-master\app\src\main\AndroidManifest.xml:369:13-55
+391            <intent-filter>
+391-->C:\Users\user\Desktop\Simple-Clock-master\app\src\main\AndroidManifest.xml:370:13-372:29
+392                <action android:name="android.appwidget.action.APPWIDGET_CONFIGURE" />
+392-->C:\Users\user\Desktop\Simple-Clock-master\app\src\main\AndroidManifest.xml:371:17-87
+392-->C:\Users\user\Desktop\Simple-Clock-master\app\src\main\AndroidManifest.xml:371:25-84
+393            </intent-filter>
+394        </activity>
+395        <activity
+395-->C:\Users\user\Desktop\Simple-Clock-master\app\src\main\AndroidManifest.xml:374:9-382:20
+396            android:name="com.simplemobiletools.clock.activities.WidgetAnalogueConfigureActivity"
+396-->C:\Users\user\Desktop\Simple-Clock-master\app\src\main\AndroidManifest.xml:375:13-71
+397            android:exported="true"
+397-->C:\Users\user\Desktop\Simple-Clock-master\app\src\main\AndroidManifest.xml:376:13-36
+398            android:screenOrientation="portrait"
+398-->C:\Users\user\Desktop\Simple-Clock-master\app\src\main\AndroidManifest.xml:377:13-49
+399            android:theme="@style/MyWidgetConfigTheme" >
+399-->C:\Users\user\Desktop\Simple-Clock-master\app\src\main\AndroidManifest.xml:378:13-55
+400            <intent-filter>
+400-->C:\Users\user\Desktop\Simple-Clock-master\app\src\main\AndroidManifest.xml:370:13-372:29
+401                <action android:name="android.appwidget.action.APPWIDGET_CONFIGURE" />
+401-->C:\Users\user\Desktop\Simple-Clock-master\app\src\main\AndroidManifest.xml:371:17-87
+401-->C:\Users\user\Desktop\Simple-Clock-master\app\src\main\AndroidManifest.xml:371:25-84
+402            </intent-filter>
+403        </activity>
+404
+405        <service android:name="com.simplemobiletools.clock.services.SnoozeService" />
+405-->C:\Users\user\Desktop\Simple-Clock-master\app\src\main\AndroidManifest.xml:384:9-59
+405-->C:\Users\user\Desktop\Simple-Clock-master\app\src\main\AndroidManifest.xml:384:18-56
+406        <service
+406-->C:\Users\user\Desktop\Simple-Clock-master\app\src\main\AndroidManifest.xml:385:9-391:19
+407            android:name="com.simplemobiletools.clock.services.TimerService"
+407-->C:\Users\user\Desktop\Simple-Clock-master\app\src\main\AndroidManifest.xml:386:13-50
+408            android:foregroundServiceType="specialUse" >
+408-->C:\Users\user\Desktop\Simple-Clock-master\app\src\main\AndroidManifest.xml:387:13-55
+409            <property
+409-->C:\Users\user\Desktop\Simple-Clock-master\app\src\main\AndroidManifest.xml:388:13-390:83
+410                android:name="android.app.PROPERTY_SPECIAL_USE_FGS_SUBTYPE"
+410-->C:\Users\user\Desktop\Simple-Clock-master\app\src\main\AndroidManifest.xml:389:17-76
+411                android:value="Used to notify the user that timers are running" />
+411-->C:\Users\user\Desktop\Simple-Clock-master\app\src\main\AndroidManifest.xml:390:17-80
+412        </service>
+413        <service
+413-->C:\Users\user\Desktop\Simple-Clock-master\app\src\main\AndroidManifest.xml:392:9-398:19
+414            android:name="com.simplemobiletools.clock.services.StopwatchService"
+414-->C:\Users\user\Desktop\Simple-Clock-master\app\src\main\AndroidManifest.xml:393:13-54
+415            android:foregroundServiceType="specialUse" >
+415-->C:\Users\user\Desktop\Simple-Clock-master\app\src\main\AndroidManifest.xml:394:13-55
+416            <property
+416-->C:\Users\user\Desktop\Simple-Clock-master\app\src\main\AndroidManifest.xml:388:13-390:83
+417                android:name="android.app.PROPERTY_SPECIAL_USE_FGS_SUBTYPE"
+417-->C:\Users\user\Desktop\Simple-Clock-master\app\src\main\AndroidManifest.xml:389:17-76
+418                android:value="Used to notify the user that stopwatch is running" />
+418-->C:\Users\user\Desktop\Simple-Clock-master\app\src\main\AndroidManifest.xml:390:17-80
+419        </service>
+420
+421        <receiver android:name="com.simplemobiletools.clock.receivers.AlarmReceiver" />
+421-->C:\Users\user\Desktop\Simple-Clock-master\app\src\main\AndroidManifest.xml:400:9-61
+421-->C:\Users\user\Desktop\Simple-Clock-master\app\src\main\AndroidManifest.xml:400:19-58
+422        <receiver android:name="com.simplemobiletools.clock.receivers.HideTimerReceiver" />
+422-->C:\Users\user\Desktop\Simple-Clock-master\app\src\main\AndroidManifest.xml:401:9-65
+422-->C:\Users\user\Desktop\Simple-Clock-master\app\src\main\AndroidManifest.xml:401:19-62
+423        <receiver android:name="com.simplemobiletools.clock.receivers.HideAlarmReceiver" />
+423-->C:\Users\user\Desktop\Simple-Clock-master\app\src\main\AndroidManifest.xml:402:9-65
+423-->C:\Users\user\Desktop\Simple-Clock-master\app\src\main\AndroidManifest.xml:402:19-62
+424        <receiver android:name="com.simplemobiletools.clock.receivers.DismissAlarmReceiver" />
+424-->C:\Users\user\Desktop\Simple-Clock-master\app\src\main\AndroidManifest.xml:403:9-68
+424-->C:\Users\user\Desktop\Simple-Clock-master\app\src\main\AndroidManifest.xml:403:19-65
+425        <receiver android:name="com.simplemobiletools.clock.receivers.EarlyAlarmDismissalReceiver" />
+425-->C:\Users\user\Desktop\Simple-Clock-master\app\src\main\AndroidManifest.xml:404:9-75
+425-->C:\Users\user\Desktop\Simple-Clock-master\app\src\main\AndroidManifest.xml:404:19-72
+426        <receiver
+426-->C:\Users\user\Desktop\Simple-Clock-master\app\src\main\AndroidManifest.xml:405:9-413:20
+427            android:name="com.simplemobiletools.clock.receivers.BootCompletedReceiver"
+427-->C:\Users\user\Desktop\Simple-Clock-master\app\src\main\AndroidManifest.xml:406:13-60
+428            android:exported="true" >
+428-->C:\Users\user\Desktop\Simple-Clock-master\app\src\main\AndroidManifest.xml:407:13-36
+429            <intent-filter>
+429-->C:\Users\user\Desktop\Simple-Clock-master\app\src\main\AndroidManifest.xml:408:13-412:29
+430                <action android:name="android.intent.action.BOOT_COMPLETED" />
+430-->C:\Users\user\Desktop\Simple-Clock-master\app\src\main\AndroidManifest.xml:409:17-79
+430-->C:\Users\user\Desktop\Simple-Clock-master\app\src\main\AndroidManifest.xml:409:25-76
+431                <action android:name="android.intent.action.QUICKBOOT_POWERON" />
+431-->C:\Users\user\Desktop\Simple-Clock-master\app\src\main\AndroidManifest.xml:410:17-82
+431-->C:\Users\user\Desktop\Simple-Clock-master\app\src\main\AndroidManifest.xml:410:25-79
+432                <action android:name="com.htc.intent.action.QUICKBOOT_POWERON" />
+432-->C:\Users\user\Desktop\Simple-Clock-master\app\src\main\AndroidManifest.xml:411:17-82
+432-->C:\Users\user\Desktop\Simple-Clock-master\app\src\main\AndroidManifest.xml:411:25-79
+433            </intent-filter>
+434        </receiver>
+435        <receiver
+435-->C:\Users\user\Desktop\Simple-Clock-master\app\src\main\AndroidManifest.xml:414:9-426:20
+436            android:name="com.simplemobiletools.clock.helpers.MyDigitalTimeWidgetProvider"
+436-->C:\Users\user\Desktop\Simple-Clock-master\app\src\main\AndroidManifest.xml:415:13-64
+437            android:exported="true"
+437-->C:\Users\user\Desktop\Simple-Clock-master\app\src\main\AndroidManifest.xml:416:13-36
+438            android:label="@string/digital_clock" >
+438-->C:\Users\user\Desktop\Simple-Clock-master\app\src\main\AndroidManifest.xml:417:13-50
+439            <intent-filter>
+439-->C:\Users\user\Desktop\Simple-Clock-master\app\src\main\AndroidManifest.xml:418:13-421:29
+440                <action android:name="android.appwidget.action.APPWIDGET_UPDATE" />
+440-->C:\Users\user\Desktop\Simple-Clock-master\app\src\main\AndroidManifest.xml:419:17-84
+440-->C:\Users\user\Desktop\Simple-Clock-master\app\src\main\AndroidManifest.xml:419:25-81
+441                <action android:name="android.appwidget.action.APPWIDGET_ENABLED" />
+441-->C:\Users\user\Desktop\Simple-Clock-master\app\src\main\AndroidManifest.xml:420:17-85
+441-->C:\Users\user\Desktop\Simple-Clock-master\app\src\main\AndroidManifest.xml:420:25-82
+442            </intent-filter>
+443
+444            <meta-data
+444-->C:\Users\user\Desktop\Simple-Clock-master\app\src\main\AndroidManifest.xml:423:13-425:69
+445                android:name="android.appwidget.provider"
+445-->C:\Users\user\Desktop\Simple-Clock-master\app\src\main\AndroidManifest.xml:424:17-58
+446                android:resource="@xml/widget_digital_clock_info" />
+446-->C:\Users\user\Desktop\Simple-Clock-master\app\src\main\AndroidManifest.xml:425:17-66
+447        </receiver>
+448        <receiver
+448-->C:\Users\user\Desktop\Simple-Clock-master\app\src\main\AndroidManifest.xml:427:9-439:20
+449            android:name="com.simplemobiletools.clock.helpers.MyAnalogueTimeWidgetProvider"
+449-->C:\Users\user\Desktop\Simple-Clock-master\app\src\main\AndroidManifest.xml:428:13-65
+450            android:exported="true"
+450-->C:\Users\user\Desktop\Simple-Clock-master\app\src\main\AndroidManifest.xml:429:13-36
+451            android:label="@string/analogue_clock" >
+451-->C:\Users\user\Desktop\Simple-Clock-master\app\src\main\AndroidManifest.xml:430:13-51
+452            <intent-filter>
+452-->C:\Users\user\Desktop\Simple-Clock-master\app\src\main\AndroidManifest.xml:418:13-421:29
+453                <action android:name="android.appwidget.action.APPWIDGET_UPDATE" />
+453-->C:\Users\user\Desktop\Simple-Clock-master\app\src\main\AndroidManifest.xml:419:17-84
+453-->C:\Users\user\Desktop\Simple-Clock-master\app\src\main\AndroidManifest.xml:419:25-81
+454                <action android:name="android.appwidget.action.APPWIDGET_ENABLED" />
+454-->C:\Users\user\Desktop\Simple-Clock-master\app\src\main\AndroidManifest.xml:420:17-85
+454-->C:\Users\user\Desktop\Simple-Clock-master\app\src\main\AndroidManifest.xml:420:25-82
+455            </intent-filter>
+456
+457            <meta-data
+457-->C:\Users\user\Desktop\Simple-Clock-master\app\src\main\AndroidManifest.xml:423:13-425:69
+458                android:name="android.appwidget.provider"
+458-->C:\Users\user\Desktop\Simple-Clock-master\app\src\main\AndroidManifest.xml:424:17-58
+459                android:resource="@xml/widget_analogue_clock_info" />
+459-->C:\Users\user\Desktop\Simple-Clock-master\app\src\main\AndroidManifest.xml:425:17-66
+460        </receiver>
+461        <receiver
+461-->C:\Users\user\Desktop\Simple-Clock-master\app\src\main\AndroidManifest.xml:440:9-448:20
+462            android:name="com.simplemobiletools.clock.receivers.UpdateWidgetReceiver"
+462-->C:\Users\user\Desktop\Simple-Clock-master\app\src\main\AndroidManifest.xml:441:13-59
+463            android:exported="true" >
+463-->C:\Users\user\Desktop\Simple-Clock-master\app\src\main\AndroidManifest.xml:442:13-36
+464            <intent-filter>
+464-->C:\Users\user\Desktop\Simple-Clock-master\app\src\main\AndroidManifest.xml:443:13-447:29
+465                <action android:name="android.intent.action.TIME_SET" />
+465-->C:\Users\user\Desktop\Simple-Clock-master\app\src\main\AndroidManifest.xml:444:17-73
+465-->C:\Users\user\Desktop\Simple-Clock-master\app\src\main\AndroidManifest.xml:444:25-70
+466                <action android:name="android.intent.action.TIMEZONE_CHANGED" />
+466-->C:\Users\user\Desktop\Simple-Clock-master\app\src\main\AndroidManifest.xml:445:17-81
+466-->C:\Users\user\Desktop\Simple-Clock-master\app\src\main\AndroidManifest.xml:445:25-78
+467                <action android:name="android.app.action.NEXT_ALARM_CLOCK_CHANGED" />
+467-->C:\Users\user\Desktop\Simple-Clock-master\app\src\main\AndroidManifest.xml:446:17-86
+467-->C:\Users\user\Desktop\Simple-Clock-master\app\src\main\AndroidManifest.xml:446:25-83
+468            </intent-filter>
+469        </receiver>
+470
+471        <activity
+471-->[com.github.SimpleMobileTools:Simple-Commons:c573613da9] C:\Users\user\.gradle\caches\transforms-3\9594abdccf5c9c8a9d59603384a22d0e\transformed\jetified-Simple-Commons-c573613da9\AndroidManifest.xml:33:9-38:99
+472            android:name="com.simplemobiletools.commons.activities.ContributorsActivity"
+472-->[com.github.SimpleMobileTools:Simple-Commons:c573613da9] C:\Users\user\.gradle\caches\transforms-3\9594abdccf5c9c8a9d59603384a22d0e\transformed\jetified-Simple-Commons-c573613da9\AndroidManifest.xml:34:13-89
+473            android:configChanges="orientation"
+473-->[com.github.SimpleMobileTools:Simple-Commons:c573613da9] C:\Users\user\.gradle\caches\transforms-3\9594abdccf5c9c8a9d59603384a22d0e\transformed\jetified-Simple-Commons-c573613da9\AndroidManifest.xml:35:13-48
+474            android:exported="false"
+474-->[com.github.SimpleMobileTools:Simple-Commons:c573613da9] C:\Users\user\.gradle\caches\transforms-3\9594abdccf5c9c8a9d59603384a22d0e\transformed\jetified-Simple-Commons-c573613da9\AndroidManifest.xml:36:13-37
+475            android:label="@string/contributors"
+475-->[com.github.SimpleMobileTools:Simple-Commons:c573613da9] C:\Users\user\.gradle\caches\transforms-3\9594abdccf5c9c8a9d59603384a22d0e\transformed\jetified-Simple-Commons-c573613da9\AndroidManifest.xml:37:13-49
+476            android:parentActivityName="com.simplemobiletools.commons.activities.AboutActivity" />
+476-->[com.github.SimpleMobileTools:Simple-Commons:c573613da9] C:\Users\user\.gradle\caches\transforms-3\9594abdccf5c9c8a9d59603384a22d0e\transformed\jetified-Simple-Commons-c573613da9\AndroidManifest.xml:38:13-96
+477        <activity
+477-->[com.github.SimpleMobileTools:Simple-Commons:c573613da9] C:\Users\user\.gradle\caches\transforms-3\9594abdccf5c9c8a9d59603384a22d0e\transformed\jetified-Simple-Commons-c573613da9\AndroidManifest.xml:39:9-44:99
+478            android:name="com.simplemobiletools.commons.activities.FAQActivity"
+478-->[com.github.SimpleMobileTools:Simple-Commons:c573613da9] C:\Users\user\.gradle\caches\transforms-3\9594abdccf5c9c8a9d59603384a22d0e\transformed\jetified-Simple-Commons-c573613da9\AndroidManifest.xml:40:13-80
+479            android:configChanges="orientation"
+479-->[com.github.SimpleMobileTools:Simple-Commons:c573613da9] C:\Users\user\.gradle\caches\transforms-3\9594abdccf5c9c8a9d59603384a22d0e\transformed\jetified-Simple-Commons-c573613da9\AndroidManifest.xml:41:13-48
+480            android:exported="false"
+480-->[com.github.SimpleMobileTools:Simple-Commons:c573613da9] C:\Users\user\.gradle\caches\transforms-3\9594abdccf5c9c8a9d59603384a22d0e\transformed\jetified-Simple-Commons-c573613da9\AndroidManifest.xml:42:13-37
+481            android:label="@string/frequently_asked_questions"
+481-->[com.github.SimpleMobileTools:Simple-Commons:c573613da9] C:\Users\user\.gradle\caches\transforms-3\9594abdccf5c9c8a9d59603384a22d0e\transformed\jetified-Simple-Commons-c573613da9\AndroidManifest.xml:43:13-63
+482            android:parentActivityName="com.simplemobiletools.commons.activities.AboutActivity" />
+482-->[com.github.SimpleMobileTools:Simple-Commons:c573613da9] C:\Users\user\.gradle\caches\transforms-3\9594abdccf5c9c8a9d59603384a22d0e\transformed\jetified-Simple-Commons-c573613da9\AndroidManifest.xml:44:13-96
+483        <activity
+483-->[com.github.SimpleMobileTools:Simple-Commons:c573613da9] C:\Users\user\.gradle\caches\transforms-3\9594abdccf5c9c8a9d59603384a22d0e\transformed\jetified-Simple-Commons-c573613da9\AndroidManifest.xml:45:9-50:99
+484            android:name="com.simplemobiletools.commons.activities.LicenseActivity"
+484-->[com.github.SimpleMobileTools:Simple-Commons:c573613da9] C:\Users\user\.gradle\caches\transforms-3\9594abdccf5c9c8a9d59603384a22d0e\transformed\jetified-Simple-Commons-c573613da9\AndroidManifest.xml:46:13-84
+485            android:configChanges="orientation"
+485-->[com.github.SimpleMobileTools:Simple-Commons:c573613da9] C:\Users\user\.gradle\caches\transforms-3\9594abdccf5c9c8a9d59603384a22d0e\transformed\jetified-Simple-Commons-c573613da9\AndroidManifest.xml:47:13-48
+486            android:exported="false"
+486-->[com.github.SimpleMobileTools:Simple-Commons:c573613da9] C:\Users\user\.gradle\caches\transforms-3\9594abdccf5c9c8a9d59603384a22d0e\transformed\jetified-Simple-Commons-c573613da9\AndroidManifest.xml:48:13-37
+487            android:label="@string/third_party_licences"
+487-->[com.github.SimpleMobileTools:Simple-Commons:c573613da9] C:\Users\user\.gradle\caches\transforms-3\9594abdccf5c9c8a9d59603384a22d0e\transformed\jetified-Simple-Commons-c573613da9\AndroidManifest.xml:49:13-57
+488            android:parentActivityName="com.simplemobiletools.commons.activities.AboutActivity" />
+488-->[com.github.SimpleMobileTools:Simple-Commons:c573613da9] C:\Users\user\.gradle\caches\transforms-3\9594abdccf5c9c8a9d59603384a22d0e\transformed\jetified-Simple-Commons-c573613da9\AndroidManifest.xml:50:13-96
+489        <activity
+489-->[com.github.SimpleMobileTools:Simple-Commons:c573613da9] C:\Users\user\.gradle\caches\transforms-3\9594abdccf5c9c8a9d59603384a22d0e\transformed\jetified-Simple-Commons-c573613da9\AndroidManifest.xml:51:9-56:62
+490            android:name="com.simplemobiletools.commons.activities.ManageBlockedNumbersActivity"
+490-->[com.github.SimpleMobileTools:Simple-Commons:c573613da9] C:\Users\user\.gradle\caches\transforms-3\9594abdccf5c9c8a9d59603384a22d0e\transformed\jetified-Simple-Commons-c573613da9\AndroidManifest.xml:52:13-97
+491            android:configChanges="orientation"
+491-->[com.github.SimpleMobileTools:Simple-Commons:c573613da9] C:\Users\user\.gradle\caches\transforms-3\9594abdccf5c9c8a9d59603384a22d0e\transformed\jetified-Simple-Commons-c573613da9\AndroidManifest.xml:53:13-48
+492            android:enableOnBackInvokedCallback="true"
+492-->[com.github.SimpleMobileTools:Simple-Commons:c573613da9] C:\Users\user\.gradle\caches\transforms-3\9594abdccf5c9c8a9d59603384a22d0e\transformed\jetified-Simple-Commons-c573613da9\AndroidManifest.xml:54:13-55
+493            android:exported="false"
+493-->[com.github.SimpleMobileTools:Simple-Commons:c573613da9] C:\Users\user\.gradle\caches\transforms-3\9594abdccf5c9c8a9d59603384a22d0e\transformed\jetified-Simple-Commons-c573613da9\AndroidManifest.xml:55:13-37
+494            android:label="@string/manage_blocked_numbers" />
+494-->[com.github.SimpleMobileTools:Simple-Commons:c573613da9] C:\Users\user\.gradle\caches\transforms-3\9594abdccf5c9c8a9d59603384a22d0e\transformed\jetified-Simple-Commons-c573613da9\AndroidManifest.xml:56:13-59
+495
+496        <receiver
+496-->[com.github.SimpleMobileTools:Simple-Commons:c573613da9] C:\Users\user\.gradle\caches\transforms-3\9594abdccf5c9c8a9d59603384a22d0e\transformed\jetified-Simple-Commons-c573613da9\AndroidManifest.xml:58:9-66:20
+497            android:name="com.simplemobiletools.commons.receivers.SharedThemeReceiver"
+497-->[com.github.SimpleMobileTools:Simple-Commons:c573613da9] C:\Users\user\.gradle\caches\transforms-3\9594abdccf5c9c8a9d59603384a22d0e\transformed\jetified-Simple-Commons-c573613da9\AndroidManifest.xml:59:13-87
+498            android:enabled="true"
+498-->[com.github.SimpleMobileTools:Simple-Commons:c573613da9] C:\Users\user\.gradle\caches\transforms-3\9594abdccf5c9c8a9d59603384a22d0e\transformed\jetified-Simple-Commons-c573613da9\AndroidManifest.xml:60:13-35
+499            android:exported="true" >
+499-->[com.github.SimpleMobileTools:Simple-Commons:c573613da9] C:\Users\user\.gradle\caches\transforms-3\9594abdccf5c9c8a9d59603384a22d0e\transformed\jetified-Simple-Commons-c573613da9\AndroidManifest.xml:61:13-36
+500            <intent-filter>
+500-->[com.github.SimpleMobileTools:Simple-Commons:c573613da9] C:\Users\user\.gradle\caches\transforms-3\9594abdccf5c9c8a9d59603384a22d0e\transformed\jetified-Simple-Commons-c573613da9\AndroidManifest.xml:62:13-65:29
+501                <action android:name="com.simplemobiletools.commons.SHARED_THEME_ACTIVATED" />
+501-->[com.github.SimpleMobileTools:Simple-Commons:c573613da9] C:\Users\user\.gradle\caches\transforms-3\9594abdccf5c9c8a9d59603384a22d0e\transformed\jetified-Simple-Commons-c573613da9\AndroidManifest.xml:63:17-95
+501-->[com.github.SimpleMobileTools:Simple-Commons:c573613da9] C:\Users\user\.gradle\caches\transforms-3\9594abdccf5c9c8a9d59603384a22d0e\transformed\jetified-Simple-Commons-c573613da9\AndroidManifest.xml:63:25-92
+502                <action android:name="com.simplemobiletools.commons.SHARED_THEME_UPDATED" />
+502-->[com.github.SimpleMobileTools:Simple-Commons:c573613da9] C:\Users\user\.gradle\caches\transforms-3\9594abdccf5c9c8a9d59603384a22d0e\transformed\jetified-Simple-Commons-c573613da9\AndroidManifest.xml:64:17-93
+502-->[com.github.SimpleMobileTools:Simple-Commons:c573613da9] C:\Users\user\.gradle\caches\transforms-3\9594abdccf5c9c8a9d59603384a22d0e\transformed\jetified-Simple-Commons-c573613da9\AndroidManifest.xml:64:25-90
+503            </intent-filter>
+504        </receiver>
+505
+506        <provider
+506-->[androidx.work:work-runtime:2.8.1] C:\Users\user\.gradle\caches\transforms-3\2ff5ec0de81aa6a3deeed85f13b63d53\transformed\work-runtime-2.8.1\AndroidManifest.xml:29:9-37:20
+507            android:name="androidx.startup.InitializationProvider"
+507-->[androidx.work:work-runtime:2.8.1] C:\Users\user\.gradle\caches\transforms-3\2ff5ec0de81aa6a3deeed85f13b63d53\transformed\work-runtime-2.8.1\AndroidManifest.xml:30:13-67
+508            android:authorities="com.simplemobiletools.clock.debug.androidx-startup"
+508-->[androidx.work:work-runtime:2.8.1] C:\Users\user\.gradle\caches\transforms-3\2ff5ec0de81aa6a3deeed85f13b63d53\transformed\work-runtime-2.8.1\AndroidManifest.xml:31:13-68
+509            android:exported="false" >
+509-->[androidx.work:work-runtime:2.8.1] C:\Users\user\.gradle\caches\transforms-3\2ff5ec0de81aa6a3deeed85f13b63d53\transformed\work-runtime-2.8.1\AndroidManifest.xml:32:13-37
+510            <meta-data
+510-->[androidx.work:work-runtime:2.8.1] C:\Users\user\.gradle\caches\transforms-3\2ff5ec0de81aa6a3deeed85f13b63d53\transformed\work-runtime-2.8.1\AndroidManifest.xml:34:13-36:52
+511                android:name="androidx.work.WorkManagerInitializer"
+511-->[androidx.work:work-runtime:2.8.1] C:\Users\user\.gradle\caches\transforms-3\2ff5ec0de81aa6a3deeed85f13b63d53\transformed\work-runtime-2.8.1\AndroidManifest.xml:35:17-68
+512                android:value="androidx.startup" />
+512-->[androidx.work:work-runtime:2.8.1] C:\Users\user\.gradle\caches\transforms-3\2ff5ec0de81aa6a3deeed85f13b63d53\transformed\work-runtime-2.8.1\AndroidManifest.xml:36:17-49
+513            <meta-data
+513-->[androidx.emoji2:emoji2:1.3.0] C:\Users\user\.gradle\caches\transforms-3\995a6c7d2b8e2d21ee653adcb488a695\transformed\jetified-emoji2-1.3.0\AndroidManifest.xml:29:13-31:52
+514                android:name="androidx.emoji2.text.EmojiCompatInitializer"
+514-->[androidx.emoji2:emoji2:1.3.0] C:\Users\user\.gradle\caches\transforms-3\995a6c7d2b8e2d21ee653adcb488a695\transformed\jetified-emoji2-1.3.0\AndroidManifest.xml:30:17-75
+515                android:value="androidx.startup" />
+515-->[androidx.emoji2:emoji2:1.3.0] C:\Users\user\.gradle\caches\transforms-3\995a6c7d2b8e2d21ee653adcb488a695\transformed\jetified-emoji2-1.3.0\AndroidManifest.xml:31:17-49
+516            <meta-data
+516-->[androidx.lifecycle:lifecycle-process:2.7.0-alpha02] C:\Users\user\.gradle\caches\transforms-3\6f4542da6288a7f8eb43f2c27b8490d7\transformed\jetified-lifecycle-process-2.7.0-alpha02\AndroidManifest.xml:29:13-31:52
+517                android:name="androidx.lifecycle.ProcessLifecycleInitializer"
+517-->[androidx.lifecycle:lifecycle-process:2.7.0-alpha02] C:\Users\user\.gradle\caches\transforms-3\6f4542da6288a7f8eb43f2c27b8490d7\transformed\jetified-lifecycle-process-2.7.0-alpha02\AndroidManifest.xml:30:17-78
+518                android:value="androidx.startup" />
+518-->[androidx.lifecycle:lifecycle-process:2.7.0-alpha02] C:\Users\user\.gradle\caches\transforms-3\6f4542da6288a7f8eb43f2c27b8490d7\transformed\jetified-lifecycle-process-2.7.0-alpha02\AndroidManifest.xml:31:17-49
+519            <meta-data
+519-->[androidx.profileinstaller:profileinstaller:1.3.0] C:\Users\user\.gradle\caches\transforms-3\54db9d2491e5624f74c5070bb32cbb85\transformed\jetified-profileinstaller-1.3.0\AndroidManifest.xml:29:13-31:52
+520                android:name="androidx.profileinstaller.ProfileInstallerInitializer"
+520-->[androidx.profileinstaller:profileinstaller:1.3.0] C:\Users\user\.gradle\caches\transforms-3\54db9d2491e5624f74c5070bb32cbb85\transformed\jetified-profileinstaller-1.3.0\AndroidManifest.xml:30:17-85
+521                android:value="androidx.startup" />
+521-->[androidx.profileinstaller:profileinstaller:1.3.0] C:\Users\user\.gradle\caches\transforms-3\54db9d2491e5624f74c5070bb32cbb85\transformed\jetified-profileinstaller-1.3.0\AndroidManifest.xml:31:17-49
+522        </provider>
+523
+524        <service
+524-->[androidx.work:work-runtime:2.8.1] C:\Users\user\.gradle\caches\transforms-3\2ff5ec0de81aa6a3deeed85f13b63d53\transformed\work-runtime-2.8.1\AndroidManifest.xml:39:9-45:35
+525            android:name="androidx.work.impl.background.systemalarm.SystemAlarmService"
+525-->[androidx.work:work-runtime:2.8.1] C:\Users\user\.gradle\caches\transforms-3\2ff5ec0de81aa6a3deeed85f13b63d53\transformed\work-runtime-2.8.1\AndroidManifest.xml:40:13-88
+526            android:directBootAware="false"
+526-->[androidx.work:work-runtime:2.8.1] C:\Users\user\.gradle\caches\transforms-3\2ff5ec0de81aa6a3deeed85f13b63d53\transformed\work-runtime-2.8.1\AndroidManifest.xml:41:13-44
+527            android:enabled="@bool/enable_system_alarm_service_default"
+527-->[androidx.work:work-runtime:2.8.1] C:\Users\user\.gradle\caches\transforms-3\2ff5ec0de81aa6a3deeed85f13b63d53\transformed\work-runtime-2.8.1\AndroidManifest.xml:42:13-72
+528            android:exported="false" />
+528-->[androidx.work:work-runtime:2.8.1] C:\Users\user\.gradle\caches\transforms-3\2ff5ec0de81aa6a3deeed85f13b63d53\transformed\work-runtime-2.8.1\AndroidManifest.xml:43:13-37
+529        <service
+529-->[androidx.work:work-runtime:2.8.1] C:\Users\user\.gradle\caches\transforms-3\2ff5ec0de81aa6a3deeed85f13b63d53\transformed\work-runtime-2.8.1\AndroidManifest.xml:46:9-52:35
+530            android:name="androidx.work.impl.background.systemjob.SystemJobService"
+530-->[androidx.work:work-runtime:2.8.1] C:\Users\user\.gradle\caches\transforms-3\2ff5ec0de81aa6a3deeed85f13b63d53\transformed\work-runtime-2.8.1\AndroidManifest.xml:47:13-84
+531            android:directBootAware="false"
+531-->[androidx.work:work-runtime:2.8.1] C:\Users\user\.gradle\caches\transforms-3\2ff5ec0de81aa6a3deeed85f13b63d53\transformed\work-runtime-2.8.1\AndroidManifest.xml:48:13-44
+532            android:enabled="@bool/enable_system_job_service_default"
+532-->[androidx.work:work-runtime:2.8.1] C:\Users\user\.gradle\caches\transforms-3\2ff5ec0de81aa6a3deeed85f13b63d53\transformed\work-runtime-2.8.1\AndroidManifest.xml:49:13-70
+533            android:exported="true"
+533-->[androidx.work:work-runtime:2.8.1] C:\Users\user\.gradle\caches\transforms-3\2ff5ec0de81aa6a3deeed85f13b63d53\transformed\work-runtime-2.8.1\AndroidManifest.xml:50:13-36
+534            android:permission="android.permission.BIND_JOB_SERVICE" />
+534-->[androidx.work:work-runtime:2.8.1] C:\Users\user\.gradle\caches\transforms-3\2ff5ec0de81aa6a3deeed85f13b63d53\transformed\work-runtime-2.8.1\AndroidManifest.xml:51:13-69
+535        <service
+535-->[androidx.work:work-runtime:2.8.1] C:\Users\user\.gradle\caches\transforms-3\2ff5ec0de81aa6a3deeed85f13b63d53\transformed\work-runtime-2.8.1\AndroidManifest.xml:53:9-59:35
+536            android:name="androidx.work.impl.foreground.SystemForegroundService"
+536-->[androidx.work:work-runtime:2.8.1] C:\Users\user\.gradle\caches\transforms-3\2ff5ec0de81aa6a3deeed85f13b63d53\transformed\work-runtime-2.8.1\AndroidManifest.xml:54:13-81
+537            android:directBootAware="false"
+537-->[androidx.work:work-runtime:2.8.1] C:\Users\user\.gradle\caches\transforms-3\2ff5ec0de81aa6a3deeed85f13b63d53\transformed\work-runtime-2.8.1\AndroidManifest.xml:55:13-44
+538            android:enabled="@bool/enable_system_foreground_service_default"
+538-->[androidx.work:work-runtime:2.8.1] C:\Users\user\.gradle\caches\transforms-3\2ff5ec0de81aa6a3deeed85f13b63d53\transformed\work-runtime-2.8.1\AndroidManifest.xml:56:13-77
+539            android:exported="false" />
+539-->[androidx.work:work-runtime:2.8.1] C:\Users\user\.gradle\caches\transforms-3\2ff5ec0de81aa6a3deeed85f13b63d53\transformed\work-runtime-2.8.1\AndroidManifest.xml:57:13-37
+540
+541        <receiver
+541-->[androidx.work:work-runtime:2.8.1] C:\Users\user\.gradle\caches\transforms-3\2ff5ec0de81aa6a3deeed85f13b63d53\transformed\work-runtime-2.8.1\AndroidManifest.xml:61:9-66:35
+542            android:name="androidx.work.impl.utils.ForceStopRunnable$BroadcastReceiver"
+542-->[androidx.work:work-runtime:2.8.1] C:\Users\user\.gradle\caches\transforms-3\2ff5ec0de81aa6a3deeed85f13b63d53\transformed\work-runtime-2.8.1\AndroidManifest.xml:62:13-88
+543            android:directBootAware="false"
+543-->[androidx.work:work-runtime:2.8.1] C:\Users\user\.gradle\caches\transforms-3\2ff5ec0de81aa6a3deeed85f13b63d53\transformed\work-runtime-2.8.1\AndroidManifest.xml:63:13-44
+544            android:enabled="true"
+544-->[androidx.work:work-runtime:2.8.1] C:\Users\user\.gradle\caches\transforms-3\2ff5ec0de81aa6a3deeed85f13b63d53\transformed\work-runtime-2.8.1\AndroidManifest.xml:64:13-35
+545            android:exported="false" />
+545-->[androidx.work:work-runtime:2.8.1] C:\Users\user\.gradle\caches\transforms-3\2ff5ec0de81aa6a3deeed85f13b63d53\transformed\work-runtime-2.8.1\AndroidManifest.xml:65:13-37
+546        <receiver
+546-->[androidx.work:work-runtime:2.8.1] C:\Users\user\.gradle\caches\transforms-3\2ff5ec0de81aa6a3deeed85f13b63d53\transformed\work-runtime-2.8.1\AndroidManifest.xml:67:9-77:20
+547            android:name="androidx.work.impl.background.systemalarm.ConstraintProxy$BatteryChargingProxy"
+547-->[androidx.work:work-runtime:2.8.1] C:\Users\user\.gradle\caches\transforms-3\2ff5ec0de81aa6a3deeed85f13b63d53\transformed\work-runtime-2.8.1\AndroidManifest.xml:68:13-106
+548            android:directBootAware="false"
+548-->[androidx.work:work-runtime:2.8.1] C:\Users\user\.gradle\caches\transforms-3\2ff5ec0de81aa6a3deeed85f13b63d53\transformed\work-runtime-2.8.1\AndroidManifest.xml:69:13-44
+549            android:enabled="false"
+549-->[androidx.work:work-runtime:2.8.1] C:\Users\user\.gradle\caches\transforms-3\2ff5ec0de81aa6a3deeed85f13b63d53\transformed\work-runtime-2.8.1\AndroidManifest.xml:70:13-36
+550            android:exported="false" >
+550-->[androidx.work:work-runtime:2.8.1] C:\Users\user\.gradle\caches\transforms-3\2ff5ec0de81aa6a3deeed85f13b63d53\transformed\work-runtime-2.8.1\AndroidManifest.xml:71:13-37
+551            <intent-filter>
+551-->[androidx.work:work-runtime:2.8.1] C:\Users\user\.gradle\caches\transforms-3\2ff5ec0de81aa6a3deeed85f13b63d53\transformed\work-runtime-2.8.1\AndroidManifest.xml:73:13-76:29
+552                <action android:name="android.intent.action.ACTION_POWER_CONNECTED" />
+552-->[androidx.work:work-runtime:2.8.1] C:\Users\user\.gradle\caches\transforms-3\2ff5ec0de81aa6a3deeed85f13b63d53\transformed\work-runtime-2.8.1\AndroidManifest.xml:74:17-87
+552-->[androidx.work:work-runtime:2.8.1] C:\Users\user\.gradle\caches\transforms-3\2ff5ec0de81aa6a3deeed85f13b63d53\transformed\work-runtime-2.8.1\AndroidManifest.xml:74:25-84
+553                <action android:name="android.intent.action.ACTION_POWER_DISCONNECTED" />
+553-->[androidx.work:work-runtime:2.8.1] C:\Users\user\.gradle\caches\transforms-3\2ff5ec0de81aa6a3deeed85f13b63d53\transformed\work-runtime-2.8.1\AndroidManifest.xml:75:17-90
+553-->[androidx.work:work-runtime:2.8.1] C:\Users\user\.gradle\caches\transforms-3\2ff5ec0de81aa6a3deeed85f13b63d53\transformed\work-runtime-2.8.1\AndroidManifest.xml:75:25-87
+554            </intent-filter>
+555        </receiver>
+556        <receiver
+556-->[androidx.work:work-runtime:2.8.1] C:\Users\user\.gradle\caches\transforms-3\2ff5ec0de81aa6a3deeed85f13b63d53\transformed\work-runtime-2.8.1\AndroidManifest.xml:78:9-88:20
+557            android:name="androidx.work.impl.background.systemalarm.ConstraintProxy$BatteryNotLowProxy"
+557-->[androidx.work:work-runtime:2.8.1] C:\Users\user\.gradle\caches\transforms-3\2ff5ec0de81aa6a3deeed85f13b63d53\transformed\work-runtime-2.8.1\AndroidManifest.xml:79:13-104
+558            android:directBootAware="false"
+558-->[androidx.work:work-runtime:2.8.1] C:\Users\user\.gradle\caches\transforms-3\2ff5ec0de81aa6a3deeed85f13b63d53\transformed\work-runtime-2.8.1\AndroidManifest.xml:80:13-44
+559            android:enabled="false"
+559-->[androidx.work:work-runtime:2.8.1] C:\Users\user\.gradle\caches\transforms-3\2ff5ec0de81aa6a3deeed85f13b63d53\transformed\work-runtime-2.8.1\AndroidManifest.xml:81:13-36
+560            android:exported="false" >
+560-->[androidx.work:work-runtime:2.8.1] C:\Users\user\.gradle\caches\transforms-3\2ff5ec0de81aa6a3deeed85f13b63d53\transformed\work-runtime-2.8.1\AndroidManifest.xml:82:13-37
+561            <intent-filter>
+561-->[androidx.work:work-runtime:2.8.1] C:\Users\user\.gradle\caches\transforms-3\2ff5ec0de81aa6a3deeed85f13b63d53\transformed\work-runtime-2.8.1\AndroidManifest.xml:84:13-87:29
+562                <action android:name="android.intent.action.BATTERY_OKAY" />
+562-->[androidx.work:work-runtime:2.8.1] C:\Users\user\.gradle\caches\transforms-3\2ff5ec0de81aa6a3deeed85f13b63d53\transformed\work-runtime-2.8.1\AndroidManifest.xml:85:17-77
+562-->[androidx.work:work-runtime:2.8.1] C:\Users\user\.gradle\caches\transforms-3\2ff5ec0de81aa6a3deeed85f13b63d53\transformed\work-runtime-2.8.1\AndroidManifest.xml:85:25-74
+563                <action android:name="android.intent.action.BATTERY_LOW" />
+563-->[androidx.work:work-runtime:2.8.1] C:\Users\user\.gradle\caches\transforms-3\2ff5ec0de81aa6a3deeed85f13b63d53\transformed\work-runtime-2.8.1\AndroidManifest.xml:86:17-76
+563-->[androidx.work:work-runtime:2.8.1] C:\Users\user\.gradle\caches\transforms-3\2ff5ec0de81aa6a3deeed85f13b63d53\transformed\work-runtime-2.8.1\AndroidManifest.xml:86:25-73
+564            </intent-filter>
+565        </receiver>
+566        <receiver
+566-->[androidx.work:work-runtime:2.8.1] C:\Users\user\.gradle\caches\transforms-3\2ff5ec0de81aa6a3deeed85f13b63d53\transformed\work-runtime-2.8.1\AndroidManifest.xml:89:9-99:20
+567            android:name="androidx.work.impl.background.systemalarm.ConstraintProxy$StorageNotLowProxy"
+567-->[androidx.work:work-runtime:2.8.1] C:\Users\user\.gradle\caches\transforms-3\2ff5ec0de81aa6a3deeed85f13b63d53\transformed\work-runtime-2.8.1\AndroidManifest.xml:90:13-104
+568            android:directBootAware="false"
+568-->[androidx.work:work-runtime:2.8.1] C:\Users\user\.gradle\caches\transforms-3\2ff5ec0de81aa6a3deeed85f13b63d53\transformed\work-runtime-2.8.1\AndroidManifest.xml:91:13-44
+569            android:enabled="false"
+569-->[androidx.work:work-runtime:2.8.1] C:\Users\user\.gradle\caches\transforms-3\2ff5ec0de81aa6a3deeed85f13b63d53\transformed\work-runtime-2.8.1\AndroidManifest.xml:92:13-36
+570            android:exported="false" >
+570-->[androidx.work:work-runtime:2.8.1] C:\Users\user\.gradle\caches\transforms-3\2ff5ec0de81aa6a3deeed85f13b63d53\transformed\work-runtime-2.8.1\AndroidManifest.xml:93:13-37
+571            <intent-filter>
+571-->[androidx.work:work-runtime:2.8.1] C:\Users\user\.gradle\caches\transforms-3\2ff5ec0de81aa6a3deeed85f13b63d53\transformed\work-runtime-2.8.1\AndroidManifest.xml:95:13-98:29
+572                <action android:name="android.intent.action.DEVICE_STORAGE_LOW" />
+572-->[androidx.work:work-runtime:2.8.1] C:\Users\user\.gradle\caches\transforms-3\2ff5ec0de81aa6a3deeed85f13b63d53\transformed\work-runtime-2.8.1\AndroidManifest.xml:96:17-83
+572-->[androidx.work:work-runtime:2.8.1] C:\Users\user\.gradle\caches\transforms-3\2ff5ec0de81aa6a3deeed85f13b63d53\transformed\work-runtime-2.8.1\AndroidManifest.xml:96:25-80
+573                <action android:name="android.intent.action.DEVICE_STORAGE_OK" />
+573-->[androidx.work:work-runtime:2.8.1] C:\Users\user\.gradle\caches\transforms-3\2ff5ec0de81aa6a3deeed85f13b63d53\transformed\work-runtime-2.8.1\AndroidManifest.xml:97:17-82
+573-->[androidx.work:work-runtime:2.8.1] C:\Users\user\.gradle\caches\transforms-3\2ff5ec0de81aa6a3deeed85f13b63d53\transformed\work-runtime-2.8.1\AndroidManifest.xml:97:25-79
+574            </intent-filter>
+575        </receiver>
+576        <receiver
+576-->[androidx.work:work-runtime:2.8.1] C:\Users\user\.gradle\caches\transforms-3\2ff5ec0de81aa6a3deeed85f13b63d53\transformed\work-runtime-2.8.1\AndroidManifest.xml:100:9-109:20
+577            android:name="androidx.work.impl.background.systemalarm.ConstraintProxy$NetworkStateProxy"
+577-->[androidx.work:work-runtime:2.8.1] C:\Users\user\.gradle\caches\transforms-3\2ff5ec0de81aa6a3deeed85f13b63d53\transformed\work-runtime-2.8.1\AndroidManifest.xml:101:13-103
+578            android:directBootAware="false"
+578-->[androidx.work:work-runtime:2.8.1] C:\Users\user\.gradle\caches\transforms-3\2ff5ec0de81aa6a3deeed85f13b63d53\transformed\work-runtime-2.8.1\AndroidManifest.xml:102:13-44
+579            android:enabled="false"
+579-->[androidx.work:work-runtime:2.8.1] C:\Users\user\.gradle\caches\transforms-3\2ff5ec0de81aa6a3deeed85f13b63d53\transformed\work-runtime-2.8.1\AndroidManifest.xml:103:13-36
+580            android:exported="false" >
+580-->[androidx.work:work-runtime:2.8.1] C:\Users\user\.gradle\caches\transforms-3\2ff5ec0de81aa6a3deeed85f13b63d53\transformed\work-runtime-2.8.1\AndroidManifest.xml:104:13-37
+581            <intent-filter>
+581-->[androidx.work:work-runtime:2.8.1] C:\Users\user\.gradle\caches\transforms-3\2ff5ec0de81aa6a3deeed85f13b63d53\transformed\work-runtime-2.8.1\AndroidManifest.xml:106:13-108:29
+582                <action android:name="android.net.conn.CONNECTIVITY_CHANGE" />
+582-->[androidx.work:work-runtime:2.8.1] C:\Users\user\.gradle\caches\transforms-3\2ff5ec0de81aa6a3deeed85f13b63d53\transformed\work-runtime-2.8.1\AndroidManifest.xml:107:17-79
+582-->[androidx.work:work-runtime:2.8.1] C:\Users\user\.gradle\caches\transforms-3\2ff5ec0de81aa6a3deeed85f13b63d53\transformed\work-runtime-2.8.1\AndroidManifest.xml:107:25-76
+583            </intent-filter>
+584        </receiver>
+585        <receiver
+585-->[androidx.work:work-runtime:2.8.1] C:\Users\user\.gradle\caches\transforms-3\2ff5ec0de81aa6a3deeed85f13b63d53\transformed\work-runtime-2.8.1\AndroidManifest.xml:110:9-121:20
+586            android:name="androidx.work.impl.background.systemalarm.RescheduleReceiver"
+586-->[androidx.work:work-runtime:2.8.1] C:\Users\user\.gradle\caches\transforms-3\2ff5ec0de81aa6a3deeed85f13b63d53\transformed\work-runtime-2.8.1\AndroidManifest.xml:111:13-88
+587            android:directBootAware="false"
+587-->[androidx.work:work-runtime:2.8.1] C:\Users\user\.gradle\caches\transforms-3\2ff5ec0de81aa6a3deeed85f13b63d53\transformed\work-runtime-2.8.1\AndroidManifest.xml:112:13-44
+588            android:enabled="false"
+588-->[androidx.work:work-runtime:2.8.1] C:\Users\user\.gradle\caches\transforms-3\2ff5ec0de81aa6a3deeed85f13b63d53\transformed\work-runtime-2.8.1\AndroidManifest.xml:113:13-36
+589            android:exported="false" >
+589-->[androidx.work:work-runtime:2.8.1] C:\Users\user\.gradle\caches\transforms-3\2ff5ec0de81aa6a3deeed85f13b63d53\transformed\work-runtime-2.8.1\AndroidManifest.xml:114:13-37
+590            <intent-filter>
+590-->[androidx.work:work-runtime:2.8.1] C:\Users\user\.gradle\caches\transforms-3\2ff5ec0de81aa6a3deeed85f13b63d53\transformed\work-runtime-2.8.1\AndroidManifest.xml:116:13-120:29
+591                <action android:name="android.intent.action.BOOT_COMPLETED" />
+591-->C:\Users\user\Desktop\Simple-Clock-master\app\src\main\AndroidManifest.xml:409:17-79
+591-->C:\Users\user\Desktop\Simple-Clock-master\app\src\main\AndroidManifest.xml:409:25-76
+592                <action android:name="android.intent.action.TIME_SET" />
+592-->C:\Users\user\Desktop\Simple-Clock-master\app\src\main\AndroidManifest.xml:444:17-73
+592-->C:\Users\user\Desktop\Simple-Clock-master\app\src\main\AndroidManifest.xml:444:25-70
+593                <action android:name="android.intent.action.TIMEZONE_CHANGED" />
+593-->C:\Users\user\Desktop\Simple-Clock-master\app\src\main\AndroidManifest.xml:445:17-81
+593-->C:\Users\user\Desktop\Simple-Clock-master\app\src\main\AndroidManifest.xml:445:25-78
+594            </intent-filter>
+595        </receiver>
+596        <receiver
+596-->[androidx.work:work-runtime:2.8.1] C:\Users\user\.gradle\caches\transforms-3\2ff5ec0de81aa6a3deeed85f13b63d53\transformed\work-runtime-2.8.1\AndroidManifest.xml:122:9-131:20
+597            android:name="androidx.work.impl.background.systemalarm.ConstraintProxyUpdateReceiver"
+597-->[androidx.work:work-runtime:2.8.1] C:\Users\user\.gradle\caches\transforms-3\2ff5ec0de81aa6a3deeed85f13b63d53\transformed\work-runtime-2.8.1\AndroidManifest.xml:123:13-99
+598            android:directBootAware="false"
+598-->[androidx.work:work-runtime:2.8.1] C:\Users\user\.gradle\caches\transforms-3\2ff5ec0de81aa6a3deeed85f13b63d53\transformed\work-runtime-2.8.1\AndroidManifest.xml:124:13-44
+599            android:enabled="@bool/enable_system_alarm_service_default"
+599-->[androidx.work:work-runtime:2.8.1] C:\Users\user\.gradle\caches\transforms-3\2ff5ec0de81aa6a3deeed85f13b63d53\transformed\work-runtime-2.8.1\AndroidManifest.xml:125:13-72
+600            android:exported="false" >
+600-->[androidx.work:work-runtime:2.8.1] C:\Users\user\.gradle\caches\transforms-3\2ff5ec0de81aa6a3deeed85f13b63d53\transformed\work-runtime-2.8.1\AndroidManifest.xml:126:13-37
+601            <intent-filter>
+601-->[androidx.work:work-runtime:2.8.1] C:\Users\user\.gradle\caches\transforms-3\2ff5ec0de81aa6a3deeed85f13b63d53\transformed\work-runtime-2.8.1\AndroidManifest.xml:128:13-130:29
+602                <action android:name="androidx.work.impl.background.systemalarm.UpdateProxies" />
+602-->[androidx.work:work-runtime:2.8.1] C:\Users\user\.gradle\caches\transforms-3\2ff5ec0de81aa6a3deeed85f13b63d53\transformed\work-runtime-2.8.1\AndroidManifest.xml:129:17-98
+602-->[androidx.work:work-runtime:2.8.1] C:\Users\user\.gradle\caches\transforms-3\2ff5ec0de81aa6a3deeed85f13b63d53\transformed\work-runtime-2.8.1\AndroidManifest.xml:129:25-95
+603            </intent-filter>
+604        </receiver>
+605        <receiver
+605-->[androidx.work:work-runtime:2.8.1] C:\Users\user\.gradle\caches\transforms-3\2ff5ec0de81aa6a3deeed85f13b63d53\transformed\work-runtime-2.8.1\AndroidManifest.xml:132:9-142:20
+606            android:name="androidx.work.impl.diagnostics.DiagnosticsReceiver"
+606-->[androidx.work:work-runtime:2.8.1] C:\Users\user\.gradle\caches\transforms-3\2ff5ec0de81aa6a3deeed85f13b63d53\transformed\work-runtime-2.8.1\AndroidManifest.xml:133:13-78
+607            android:directBootAware="false"
+607-->[androidx.work:work-runtime:2.8.1] C:\Users\user\.gradle\caches\transforms-3\2ff5ec0de81aa6a3deeed85f13b63d53\transformed\work-runtime-2.8.1\AndroidManifest.xml:134:13-44
+608            android:enabled="true"
+608-->[androidx.work:work-runtime:2.8.1] C:\Users\user\.gradle\caches\transforms-3\2ff5ec0de81aa6a3deeed85f13b63d53\transformed\work-runtime-2.8.1\AndroidManifest.xml:135:13-35
+609            android:exported="true"
+609-->[androidx.work:work-runtime:2.8.1] C:\Users\user\.gradle\caches\transforms-3\2ff5ec0de81aa6a3deeed85f13b63d53\transformed\work-runtime-2.8.1\AndroidManifest.xml:136:13-36
+610            android:permission="android.permission.DUMP" >
+610-->[androidx.work:work-runtime:2.8.1] C:\Users\user\.gradle\caches\transforms-3\2ff5ec0de81aa6a3deeed85f13b63d53\transformed\work-runtime-2.8.1\AndroidManifest.xml:137:13-57
+611            <intent-filter>
+611-->[androidx.work:work-runtime:2.8.1] C:\Users\user\.gradle\caches\transforms-3\2ff5ec0de81aa6a3deeed85f13b63d53\transformed\work-runtime-2.8.1\AndroidManifest.xml:139:13-141:29
+612                <action android:name="androidx.work.diagnostics.REQUEST_DIAGNOSTICS" />
+612-->[androidx.work:work-runtime:2.8.1] C:\Users\user\.gradle\caches\transforms-3\2ff5ec0de81aa6a3deeed85f13b63d53\transformed\work-runtime-2.8.1\AndroidManifest.xml:140:17-88
+612-->[androidx.work:work-runtime:2.8.1] C:\Users\user\.gradle\caches\transforms-3\2ff5ec0de81aa6a3deeed85f13b63d53\transformed\work-runtime-2.8.1\AndroidManifest.xml:140:25-85
+613            </intent-filter>
+614        </receiver>
+615
+616        <service
+616-->[androidx.room:room-runtime:2.6.0-beta01] C:\Users\user\.gradle\caches\transforms-3\19de6a03d7f617251448bcc2443d3caa\transformed\room-runtime-2.6.0-beta01\AndroidManifest.xml:24:9-28:63
+617            android:name="androidx.room.MultiInstanceInvalidationService"
+617-->[androidx.room:room-runtime:2.6.0-beta01] C:\Users\user\.gradle\caches\transforms-3\19de6a03d7f617251448bcc2443d3caa\transformed\room-runtime-2.6.0-beta01\AndroidManifest.xml:25:13-74
+618            android:directBootAware="true"
+618-->[androidx.room:room-runtime:2.6.0-beta01] C:\Users\user\.gradle\caches\transforms-3\19de6a03d7f617251448bcc2443d3caa\transformed\room-runtime-2.6.0-beta01\AndroidManifest.xml:26:13-43
+619            android:exported="false" />
+619-->[androidx.room:room-runtime:2.6.0-beta01] C:\Users\user\.gradle\caches\transforms-3\19de6a03d7f617251448bcc2443d3caa\transformed\room-runtime-2.6.0-beta01\AndroidManifest.xml:27:13-37
+620
+621        <uses-library
+621-->[androidx.window:window:1.0.0] C:\Users\user\.gradle\caches\transforms-3\c8ecd07bdd2f6f71584c5e59fbbd2e73\transformed\jetified-window-1.0.0\AndroidManifest.xml:25:9-27:40
+622            android:name="androidx.window.extensions"
+622-->[androidx.window:window:1.0.0] C:\Users\user\.gradle\caches\transforms-3\c8ecd07bdd2f6f71584c5e59fbbd2e73\transformed\jetified-window-1.0.0\AndroidManifest.xml:26:13-54
+623            android:required="false" />
+623-->[androidx.window:window:1.0.0] C:\Users\user\.gradle\caches\transforms-3\c8ecd07bdd2f6f71584c5e59fbbd2e73\transformed\jetified-window-1.0.0\AndroidManifest.xml:27:13-37
+624        <uses-library
+624-->[androidx.window:window:1.0.0] C:\Users\user\.gradle\caches\transforms-3\c8ecd07bdd2f6f71584c5e59fbbd2e73\transformed\jetified-window-1.0.0\AndroidManifest.xml:28:9-30:40
+625            android:name="androidx.window.sidecar"
+625-->[androidx.window:window:1.0.0] C:\Users\user\.gradle\caches\transforms-3\c8ecd07bdd2f6f71584c5e59fbbd2e73\transformed\jetified-window-1.0.0\AndroidManifest.xml:29:13-51
+626            android:required="false" />
+626-->[androidx.window:window:1.0.0] C:\Users\user\.gradle\caches\transforms-3\c8ecd07bdd2f6f71584c5e59fbbd2e73\transformed\jetified-window-1.0.0\AndroidManifest.xml:30:13-37
+627
+628        <receiver
+628-->[androidx.profileinstaller:profileinstaller:1.3.0] C:\Users\user\.gradle\caches\transforms-3\54db9d2491e5624f74c5070bb32cbb85\transformed\jetified-profileinstaller-1.3.0\AndroidManifest.xml:34:9-52:20
+629            android:name="androidx.profileinstaller.ProfileInstallReceiver"
+629-->[androidx.profileinstaller:profileinstaller:1.3.0] C:\Users\user\.gradle\caches\transforms-3\54db9d2491e5624f74c5070bb32cbb85\transformed\jetified-profileinstaller-1.3.0\AndroidManifest.xml:35:13-76
+630            android:directBootAware="false"
+630-->[androidx.profileinstaller:profileinstaller:1.3.0] C:\Users\user\.gradle\caches\transforms-3\54db9d2491e5624f74c5070bb32cbb85\transformed\jetified-profileinstaller-1.3.0\AndroidManifest.xml:36:13-44
+631            android:enabled="true"
+631-->[androidx.profileinstaller:profileinstaller:1.3.0] C:\Users\user\.gradle\caches\transforms-3\54db9d2491e5624f74c5070bb32cbb85\transformed\jetified-profileinstaller-1.3.0\AndroidManifest.xml:37:13-35
+632            android:exported="true"
+632-->[androidx.profileinstaller:profileinstaller:1.3.0] C:\Users\user\.gradle\caches\transforms-3\54db9d2491e5624f74c5070bb32cbb85\transformed\jetified-profileinstaller-1.3.0\AndroidManifest.xml:38:13-36
+633            android:permission="android.permission.DUMP" >
+633-->[androidx.profileinstaller:profileinstaller:1.3.0] C:\Users\user\.gradle\caches\transforms-3\54db9d2491e5624f74c5070bb32cbb85\transformed\jetified-profileinstaller-1.3.0\AndroidManifest.xml:39:13-57
+634            <intent-filter>
+634-->[androidx.profileinstaller:profileinstaller:1.3.0] C:\Users\user\.gradle\caches\transforms-3\54db9d2491e5624f74c5070bb32cbb85\transformed\jetified-profileinstaller-1.3.0\AndroidManifest.xml:40:13-42:29
+635                <action android:name="androidx.profileinstaller.action.INSTALL_PROFILE" />
+635-->[androidx.profileinstaller:profileinstaller:1.3.0] C:\Users\user\.gradle\caches\transforms-3\54db9d2491e5624f74c5070bb32cbb85\transformed\jetified-profileinstaller-1.3.0\AndroidManifest.xml:41:17-91
+635-->[androidx.profileinstaller:profileinstaller:1.3.0] C:\Users\user\.gradle\caches\transforms-3\54db9d2491e5624f74c5070bb32cbb85\transformed\jetified-profileinstaller-1.3.0\AndroidManifest.xml:41:25-88
+636            </intent-filter>
+637            <intent-filter>
+637-->[androidx.profileinstaller:profileinstaller:1.3.0] C:\Users\user\.gradle\caches\transforms-3\54db9d2491e5624f74c5070bb32cbb85\transformed\jetified-profileinstaller-1.3.0\AndroidManifest.xml:43:13-45:29
+638                <action android:name="androidx.profileinstaller.action.SKIP_FILE" />
+638-->[androidx.profileinstaller:profileinstaller:1.3.0] C:\Users\user\.gradle\caches\transforms-3\54db9d2491e5624f74c5070bb32cbb85\transformed\jetified-profileinstaller-1.3.0\AndroidManifest.xml:44:17-85
+638-->[androidx.profileinstaller:profileinstaller:1.3.0] C:\Users\user\.gradle\caches\transforms-3\54db9d2491e5624f74c5070bb32cbb85\transformed\jetified-profileinstaller-1.3.0\AndroidManifest.xml:44:25-82
+639            </intent-filter>
+640            <intent-filter>
+640-->[androidx.profileinstaller:profileinstaller:1.3.0] C:\Users\user\.gradle\caches\transforms-3\54db9d2491e5624f74c5070bb32cbb85\transformed\jetified-profileinstaller-1.3.0\AndroidManifest.xml:46:13-48:29
+641                <action android:name="androidx.profileinstaller.action.SAVE_PROFILE" />
+641-->[androidx.profileinstaller:profileinstaller:1.3.0] C:\Users\user\.gradle\caches\transforms-3\54db9d2491e5624f74c5070bb32cbb85\transformed\jetified-profileinstaller-1.3.0\AndroidManifest.xml:47:17-88
+641-->[androidx.profileinstaller:profileinstaller:1.3.0] C:\Users\user\.gradle\caches\transforms-3\54db9d2491e5624f74c5070bb32cbb85\transformed\jetified-profileinstaller-1.3.0\AndroidManifest.xml:47:25-85
+642            </intent-filter>
+643            <intent-filter>
+643-->[androidx.profileinstaller:profileinstaller:1.3.0] C:\Users\user\.gradle\caches\transforms-3\54db9d2491e5624f74c5070bb32cbb85\transformed\jetified-profileinstaller-1.3.0\AndroidManifest.xml:49:13-51:29
+644                <action android:name="androidx.profileinstaller.action.BENCHMARK_OPERATION" />
+644-->[androidx.profileinstaller:profileinstaller:1.3.0] C:\Users\user\.gradle\caches\transforms-3\54db9d2491e5624f74c5070bb32cbb85\transformed\jetified-profileinstaller-1.3.0\AndroidManifest.xml:50:17-95
+644-->[androidx.profileinstaller:profileinstaller:1.3.0] C:\Users\user\.gradle\caches\transforms-3\54db9d2491e5624f74c5070bb32cbb85\transformed\jetified-profileinstaller-1.3.0\AndroidManifest.xml:50:25-92
+645            </intent-filter>
+646        </receiver>
+647    </application>
+648
+649</manifest>

@@ -1,0 +1,7 @@
+#Tue Mar 12 08:37:40 MSK 2024
+base.0=C\:\\Users\\user\\Desktop\\Simple-Clock-master\\app\\build\\intermediates\\dex\\coreDebugAndroidTest\\mergeProjectDexCoreDebugAndroidTest\\0\\classes.dex
+base.1=C\:\\Users\\user\\Desktop\\Simple-Clock-master\\app\\build\\intermediates\\dex\\coreDebugAndroidTest\\mergeProjectDexCoreDebugAndroidTest\\14\\classes.dex
+path.0=0/classes.dex
+path.1=14/classes.dex
+renamed.0=classes.dex
+renamed.1=classes2.dex
